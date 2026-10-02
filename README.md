@@ -3,16 +3,18 @@
 ```
 Air_Quality_Dashboard/
 ├── Home.py
-├── csv_manager.py
 ├── requirements.txt
 ├── README.md
-│
 ├── data/
-│   ├── pollutant_readings.csv
-│   ├── weather_conditions.csv
-│   ├── pollution_sources.csv
-│   └── health_impact.csv
-│
+|
+├── managers/
+│   ├── __init__.py                    
+│   ├── csv_manager.py                 
+│   ├── pollutant_manager.py           
+│   ├── weather_manager.py             
+│   ├── pollution_source_manager.py    
+│   └── health_impact_manager.py
+|       
 └── pages/
     ├── 1_Pollutant_Readings.py
     ├── 2_Weather_Conditions.py
