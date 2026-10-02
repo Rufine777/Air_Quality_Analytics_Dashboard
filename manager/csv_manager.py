@@ -6,177 +6,158 @@ import pandas as pd
 
 
 class CSVManager:
-#    Shared base class for managing CSV-backed datasets.
 
-    def __init__(self, file_path, required_columns=None):
+    def __init__(self, file_path, cols=None):
         self.file_path = Path(file_path)
-        self.required_columns = list(required_columns or [])
+        self.cols = list(cols or [])
         self._data = pd.DataFrame()
 
     @property
     def data(self):
-        return self._data
+        return self._data.copy()
 
     def load_data(self):
-        if not self.file_path.exists():
-            raise FileNotFoundError(
-                f"CSV file not found: {self.file_path}"
-            )
-
+        df = None
         try:
-            data = pd.read_csv(self.file_path)
-        except pd.errors.EmptyDataError as exc:
-            raise ValueError(
-                f"CSV file is empty: {self.file_path}"
-            ) from exc
-        except pd.errors.ParserError as exc:
-            raise ValueError(
-                f"Could not parse CSV file: {self.file_path}"
-            ) from exc
-
-        if data.empty:
-            raise ValueError(
-                f"CSV file contains no records: {self.file_path}"
-            )
-
-        self._validate_columns(data)
-
-        self._data = data
-        return self._data
+            if not self.file_path.exists():
+                raise FileNotFoundError(f"CSV file not found: {self.file_path}")
+            df = pd.read_csv(self.file_path)
+        except pd.errors.EmptyDataError as e:
+            raise ValueError(f"CSV file is empty (no header row): {self.file_path}") from e
+        except pd.errors.ParserError as e:
+            raise ValueError(f"Could not parse CSV file: {self.file_path}") from e
+        else:
+            self._validate_columns(df)
+            self._data = df
+        finally:
+            pass
+        return self.data
 
     def save_data(self):
-#        The data is first written to a temporary file in the same directory and then atomically replaces the original file.
         self.file_path.parent.mkdir(parents=True, exist_ok=True)
-
-        temp_path = None
-
+        tp = None
         try:
             with tempfile.NamedTemporaryFile(
                 mode="w",
                 suffix=".csv",
-                prefix=f".{self.file_path.stem}_",
+                prefix="." + self.file_path.stem + "_",
                 dir=self.file_path.parent,
                 delete=False,
                 encoding="utf-8",
                 newline="",
-            ) as temp_file:
-                temp_path = Path(temp_file.name)
-                self._data.to_csv(temp_file, index=False)
-
-            os.replace(temp_path, self.file_path)
-
-        except (OSError, IOError) as exc:
-            raise OSError(
-                f"Could not safely save CSV file: {self.file_path}"
-            ) from exc
-
+            ) as tf:
+                tp = Path(tf.name)
+                self._data.to_csv(tf, index=False)
+            os.replace(tp, self.file_path)
+        except (OSError, IOError) as e:
+            raise OSError(f"Could not safely save CSV file: {self.file_path}") from e
+        else:
+            ok = True
         finally:
-            if temp_path is not None and temp_path.exists():
+            if tp is not None and tp.exists():
                 try:
-                    temp_path.unlink()
+                    tp.unlink()
                 except OSError:
                     pass
+        return ok
 
-        return True
-
-    def create(self, record):
-#        Add one record to the DataFrame and save it.
-        if not isinstance(record, dict):
+    def create(self, rec):
+        if not isinstance(rec, dict):
             raise TypeError("Record must be provided as a dictionary.")
 
-        self._validate_record_id(record)
+        self._validate_record_id(rec)
 
-        new_row = pd.DataFrame([record])
+        if len(self._data.columns) > 0:
+            self._validate_record_columns(rec)
 
-        if self._data.empty:
-            self._data = new_row
+        row = pd.DataFrame([rec])
+
+        if len(self._data) == 0:
+            if len(self._data.columns) > 0:
+                row = row[list(self._data.columns)]
+            self._data = row
         else:
-            self._data = pd.concat(
-                [self._data, new_row],
-                ignore_index=True
-            )
+            self._data = pd.concat([self._data, row], ignore_index=True)
 
         self.save_data()
-        return new_row.iloc[0]
+        return row.iloc[0].copy()
 
     def read(self):
-        #Return the current dataset
         return self._data.copy()
 
-    def update(self, record_id, updates):
-#        Update a record using its record_id.
-        index = self.validate_id(record_id)
+    def update(self, rid, upd):
+        i = self.validate_id(rid)
 
-        if not isinstance(updates, dict):
+        if not isinstance(upd, dict):
             raise TypeError("Updates must be provided as a dictionary.")
 
-        if not updates:
+        if len(upd) == 0:
             raise ValueError("No values were provided for update.")
 
-        for column, value in updates.items():
-            if column == "record_id":
+        for c in upd:
+            if c == "record_id":
                 raise ValueError("record_id cannot be changed.")
+            if c not in self._data.columns:
+                raise ValueError(f"Unknown column: {c}")
 
-            if column not in self._data.columns:
-                raise ValueError(f"Unknown column: {column}")
-
-            self._data.at[index, column] = value
-
-        self.save_data()
-        return self._data.loc[index].copy()
-
-    def delete(self, record_id):
-
-#        Delete a record using its record_id.
-
-        index = self.validate_id(record_id)
-
-        deleted_record = self._data.loc[index].copy()
-        self._data = self._data.drop(index).reset_index(drop=True)
+        for c, v in upd.items():
+            self._data.at[i, c] = v
 
         self.save_data()
-        return deleted_record
+        return self._data.loc[i].copy()
 
-    def validate_id(self, record_id):
-#        Validate and locate a record by record_id.
+    def delete(self, rid):
+        i = self.validate_id(rid)
+
+        old = self._data.loc[i].copy()
+        self._data = self._data.drop(i).reset_index(drop=True)
+
+        self.save_data()
+        return old
+
+    def validate_id(self, rid):
         if "record_id" not in self._data.columns:
             raise ValueError("CSV must contain a 'record_id' column.")
 
-        matches = self._data[
-            self._data["record_id"] == record_id
-        ].index
+        m = self._data[self._data["record_id"] == rid].index
 
-        if len(matches) == 0:
-            raise ValueError(
-                f"No record found with record_id: {record_id}"
-            )
+        if len(m) == 0:
+            raise ValueError(f"No record found with record_id: {rid}")
 
-        return matches[0]
+        return m[0]
 
-    def _validate_columns(self, data):
-#       Check whether all required columns exist.
-        if not self.required_columns:
+    def _validate_columns(self, df):
+        if len(self.cols) == 0:
             return
 
-        missing_columns = [
-            column
-            for column in self.required_columns
-            if column not in data.columns
-        ]
+        miss = []
+        for c in self.cols:
+            if c not in df.columns:
+                miss.append(c)
 
-        if missing_columns:
-            raise ValueError(
-                "CSV is missing required columns: "
-                + ", ".join(missing_columns)
-            )
+        if len(miss) > 0:
+            raise ValueError("CSV is missing required columns: " + ", ".join(miss))
 
-    def _validate_record_id(self, record):
-#       Check that record_id exists and is not duplicated.
-        if "record_id" not in record:
+    def _validate_record_columns(self, rec):
+        miss = []
+        for c in self._data.columns:
+            if c not in rec:
+                miss.append(c)
+
+        extra = []
+        for c in rec:
+            if c not in self._data.columns:
+                extra.append(c)
+
+        if len(miss) > 0:
+            raise ValueError("Record is missing columns: " + ", ".join(miss))
+        if len(extra) > 0:
+            raise ValueError("Record has unknown columns: " + ", ".join(extra))
+
+    def _validate_record_id(self, rec):
+        if "record_id" not in rec:
             raise ValueError("record_id is required.")
 
         if "record_id" in self._data.columns:
-            if record["record_id"] in self._data["record_id"].values:
-                raise ValueError(
-                    f"Duplicate record_id: {record['record_id']}"
-                )
+            if rec["record_id"] in self._data["record_id"].values:
+                raise ValueError(f"Duplicate record_id: {rec['record_id']}")
