@@ -11,8 +11,11 @@ import plotly.express as px
 import streamlit as st
 
 from manager.page4_manager import AQI_CATEGORIES, FIELDS, HealthImpactManager
+from ui import apply_theme, chart_layout
 
 st.set_page_config(page_title="Health Impact", layout="wide")
+
+apply_theme()
 
 
 def safe(action, *args):
@@ -126,7 +129,7 @@ with t_charts:
         else:
             fig = px.bar(d, x="area", y="respiratory_cases", title="Average respiratory cases per area",
                          labels={"area": "Area", "respiratory_cases": "Average respiratory cases"})
-            left.plotly_chart(fig)
+            left.plotly_chart(chart_layout(fig), use_container_width=True)
 
         d = m.total_cases_by_date(f)
         if d.empty:
@@ -134,7 +137,7 @@ with t_charts:
         else:
             fig = px.line(d, x="date", y="respiratory_cases", title="Total respiratory cases over time",
                           labels={"date": "Date", "respiratory_cases": "Total respiratory cases"})
-            right.plotly_chart(fig)
+            right.plotly_chart(chart_layout(fig), use_container_width=True)
 
         left2, right2 = st.columns(2)
 
@@ -144,7 +147,7 @@ with t_charts:
         else:
             fig = px.bar(d, x="area", y="hospital_visits", title="Average hospital visits per area",
                          labels={"area": "Area", "hospital_visits": "Average hospital visits"})
-            left2.plotly_chart(fig)
+            left2.plotly_chart(chart_layout(fig), use_container_width=True)
 
         d = m.average_cases_by_category(f)
         if d.empty:
@@ -152,7 +155,7 @@ with t_charts:
         else:
             fig = px.bar(d, x="aqi_category", y="respiratory_cases", title="Average respiratory cases by AQI category",
                          labels={"aqi_category": "AQI category", "respiratory_cases": "Average respiratory cases"})
-            right2.plotly_chart(fig)
+            right2.plotly_chart(chart_layout(fig), use_container_width=True)
 
         st.caption("Bar charts use averages so areas and categories with different numbers of rows compare fairly; "
                    "the line chart adds up all cases on each date.")

@@ -2,8 +2,11 @@ import plotly.express as px
 import streamlit as st
 
 from manager.page3_manager import PollutionSourceManager, SECTORS, TYPES, YEARS
+from ui import apply_theme, chart_layout
 
 st.set_page_config(page_title="Pollution Sources", layout="wide")
+
+apply_theme()
 
 
 def safe(action, *args):
@@ -64,13 +67,16 @@ with t2:
         st.info("No records match these filters.")
     else:
         a, b = st.columns(2)
-        a.plotly_chart(px.pie(m.by_sector(f), names="sector", values="emission_level", title="Emission share by sector"))
-        b.plotly_chart(px.bar(m.top_locations(f, 10), x="emission_level", y="location", orientation="h", title="Top 10 locations by average emission"))
+        fig1 = chart_layout(px.pie(m.by_sector(f), names="sector", values="emission_level", title="Emission share by sector"))
+        a.plotly_chart(fig1, use_container_width=True)
+        fig2 = chart_layout(px.bar(m.top_locations(f, 10), x="emission_level", y="location", orientation="h", title="Top 10 locations by average emission"))
+        b.plotly_chart(fig2, use_container_width=True)
         a2, b2 = st.columns(2)
-        fig = px.line(m.by_year(f), x="year", y="emission_level", color="sector", markers=True, title="Total emission per year")
-        fig.update_xaxes(dtick=1)
-        a2.plotly_chart(fig)
-        b2.plotly_chart(px.histogram(f, x="emission_level", nbins=30, log_y=True, title="Distribution of emission levels (log scale)"))
+        fig3 = px.line(m.by_year(f), x="year", y="emission_level", color="sector", markers=True, title="Total emission per year")
+        fig3.update_xaxes(dtick=1)
+        a2.plotly_chart(chart_layout(fig3), use_container_width=True)
+        fig4 = px.histogram(f, x="emission_level", nbins=30, log_y=True, title="Distribution of emission levels (log scale)")
+        b2.plotly_chart(chart_layout(fig4), use_container_width=True)
         st.caption("Buildings use district totals and other sectors use point sources. Overlapping rows are excluded from analysis but remain unchanged in the CSV.")
 
 with t3:

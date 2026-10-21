@@ -8,8 +8,11 @@ from manager.weather_manager import (
     WMO_CODE_MAP,
     WeatherManager,
 )
+from ui import apply_theme, chart_layout
 
 st.set_page_config(page_title="Weather Conditions", layout="wide")
+
+apply_theme()
 
 
 def safe(action, *args):
@@ -188,7 +191,7 @@ with tab_charts:
                 labels={"temp_max": "Max Temp (°C)", "date": "Date"},
             )
             fig_temp_line.update_layout(hovermode="x unified")
-            st.plotly_chart(fig_temp_line, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_temp_line), use_container_width=True)
 
         with row1_right:
             city_temps = m.city_temperature_averages(filtered_df)
@@ -201,7 +204,7 @@ with tab_charts:
                 title="2. Average Maximum Temperature by City (°C)",
                 labels={"avg_max_temp": "Avg Max Temp (°C)", "city": "City"},
             )
-            st.plotly_chart(fig_temp_bar, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_temp_bar), use_container_width=True)
 
         # Row 2: Rainfall Over Time & Average Wind Speed by City
         row2_left, row2_right = st.columns(2)
@@ -214,7 +217,7 @@ with tab_charts:
                 title="3. Daily Rainfall Over Time (mm)",
                 labels={"rainfall": "Rainfall (mm)", "date": "Date"},
             )
-            st.plotly_chart(fig_rain_line, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_rain_line), use_container_width=True)
 
         with row2_right:
             city_winds = m.city_wind_averages(filtered_df)
@@ -227,7 +230,7 @@ with tab_charts:
                 title="4. Average Wind Speed by City (km/h)",
                 labels={"avg_wind_speed": "Avg Wind Speed (km/h)", "city": "City"},
             )
-            st.plotly_chart(fig_wind_bar, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_wind_bar), use_container_width=True)
 
         # Row 3: Histogram of Max Temperature & Temperature vs Wind Speed Scatter
         row3_left, row3_right = st.columns(2)
@@ -240,7 +243,7 @@ with tab_charts:
                 title="5. Distribution of Maximum Temperature (°C)",
                 labels={"temp_max": "Max Temp (°C)"},
             )
-            st.plotly_chart(fig_hist, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_hist), use_container_width=True)
 
         with row3_right:
             fig_scatter = px.scatter(
@@ -252,7 +255,7 @@ with tab_charts:
                 labels={"temp_max": "Max Temp (°C)", "wind_speed": "Wind Speed (km/h)"},
                 hover_data=["date", "weather_code"],
             )
-            st.plotly_chart(fig_scatter, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_scatter), use_container_width=True)
 
 # ----------------- TAB 3: ADD (CREATE) -----------------
 with tab_add:
