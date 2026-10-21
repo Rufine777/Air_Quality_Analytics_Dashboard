@@ -1,13 +1,22 @@
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import streamlit as st
 
-from manager.page3_manager import PollutionSourceManager, SECTORS, TYPES, YEARS
-from ui import apply_theme
-
 st.set_page_config(page_title="Pollution Sources", layout="wide")
+
+try:
+    from manager.page3_manager import PollutionSourceManager, SECTORS, TYPES, YEARS
+    from ui import apply_theme
+except ModuleNotFoundError as e:
+    st.error(f"Missing dependency: {e}. Run `pip install -r requirements.txt`.")
+    st.stop()
 
 apply_theme()
 
