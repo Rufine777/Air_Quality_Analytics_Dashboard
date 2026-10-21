@@ -1,8 +1,11 @@
-import plotly.express as px
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 import streamlit as st
 
 from manager.page3_manager import PollutionSourceManager, SECTORS, TYPES, YEARS
-from ui import apply_theme, chart_layout
+from ui import apply_theme
 
 st.set_page_config(page_title="Pollution Sources", layout="wide")
 
@@ -66,17 +69,73 @@ with t2:
     if len(f) == 0:
         st.info("No records match these filters.")
     else:
+        BG = "#111827"
+        FG = "#e5e7eb"
+        GRID = "#1f2937"
+        ACCENT = "#38bdf8"
+
+        def style_ax(ax):
+            ax.set_facecolor(BG)
+            ax.figure.set_facecolor(BG)
+            ax.tick_params(colors=FG)
+            ax.xaxis.label.set_color(FG)
+            ax.yaxis.label.set_color(FG)
+            ax.title.set_color(FG)
+            for spine in ax.spines.values():
+                spine.set_color(GRID)
+            ax.grid(True, color=GRID, alpha=0.5)
+
         a, b = st.columns(2)
-        fig1 = chart_layout(px.pie(m.by_sector(f), names="sector", values="emission_level", title="Emission share by sector"))
-        a.plotly_chart(fig1, use_container_width=True)
-        fig2 = chart_layout(px.bar(m.top_locations(f, 10), x="emission_level", y="location", orientation="h", title="Top 10 locations by average emission"))
-        b.plotly_chart(fig2, use_container_width=True)
+
+        # 1. Emission share by sector (pie)
+        fig, ax = plt.subplots(figsize=(5, 4))
+        sec = m.by_sector(f)
+        ax.pie(sec["emission_level"], labels=sec["sector"], autopct="%1.1f%%",
+               colors=["#38bdf8", "#a78bfa", "#34d399", "#fbbf24", "#f87171", "#60a5fa"],
+               textprops={"color": FG, "fontsize": 9})
+        ax.set_title("Emission share by sector", color=FG)
+        fig.set_facecolor(BG)
+        a.pyplot(fig, use_container_width=True)
+        plt.close(fig)
+
+        # 2. Top 10 locations by average emission (horizontal bar)
+        fig, ax = plt.subplots(figsize=(5, 4))
+        top = m.top_locations(f, 10).sort_values("emission_level")
+        ax.barh(top["location"], top["emission_level"], color=ACCENT)
+        ax.set_title("Top 10 locations by average emission", color=FG)
+        ax.set_xlabel("Average emission", color=FG)
+        style_ax(ax)
+        a2_col = b
+        b.pyplot(fig, use_container_width=True)
+        plt.close(fig)
+
         a2, b2 = st.columns(2)
-        fig3 = px.line(m.by_year(f), x="year", y="emission_level", color="sector", markers=True, title="Total emission per year")
-        fig3.update_xaxes(dtick=1)
-        a2.plotly_chart(chart_layout(fig3), use_container_width=True)
-        fig4 = px.histogram(f, x="emission_level", nbins=30, log_y=True, title="Distribution of emission levels (log scale)")
-        b2.plotly_chart(chart_layout(fig4), use_container_width=True)
+
+        # 3. Total emission per year (line per sector)
+        fig, ax = plt.subplots(figsize=(5, 4))
+        by = m.by_year(f)
+        for sector, g in by.groupby("sector"):
+            g = g.sort_values("year")
+            ax.plot(g["year"], g["emission_level"], marker="o", label=sector)
+        ax.set_title("Total emission per year", color=FG)
+        ax.set_xlabel("Year", color=FG)
+        ax.set_ylabel("Emission", color=FG)
+        ax.set_xticks(sorted(by["year"].unique()))
+        style_ax(ax)
+        ax.legend(fontsize=8, facecolor=BG, edgecolor=GRID, labelcolor=FG)
+        a2.pyplot(fig, use_container_width=True)
+        plt.close(fig)
+
+        # 4. Distribution of emission levels (histogram, log scale)
+        fig, ax = plt.subplots(figsize=(5, 4))
+        ax.hist(f["emission_level"], bins=30, color=ACCENT, log=True)
+        ax.set_title("Distribution of emission levels (log scale)", color=FG)
+        ax.set_xlabel("Emission level", color=FG)
+        ax.set_ylabel("Count (log)", color=FG)
+        style_ax(ax)
+        b2.pyplot(fig, use_container_width=True)
+        plt.close(fig)
+
         st.caption("Buildings use district totals and other sectors use point sources. Overlapping rows are excluded from analysis but remain unchanged in the CSV.")
 
 with t3:
