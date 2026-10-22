@@ -96,7 +96,6 @@ with t2:
 
         a, b = st.columns(2)
 
-        # 1. Emission share by sector (pie)
         fig, ax = plt.subplots(figsize=(5, 4))
         sec = m.by_sector(f)
         ax.pie(sec["emission_level"], labels=sec["sector"], autopct="%1.1f%%",
@@ -107,7 +106,6 @@ with t2:
         a.pyplot(fig, use_container_width=True)
         plt.close(fig)
 
-        # 2. Top 10 locations by average emission (horizontal bar)
         fig, ax = plt.subplots(figsize=(5, 4))
         top = m.top_locations(f, 10).sort_values("emission_level")
         ax.barh(top["location"], top["emission_level"], color=ACCENT)
@@ -120,7 +118,6 @@ with t2:
 
         a2, b2 = st.columns(2)
 
-        # 3. Total emission per year (line per sector)
         fig, ax = plt.subplots(figsize=(5, 4))
         by = m.by_year(f)
         for sector, g in by.groupby("sector"):
@@ -135,7 +132,6 @@ with t2:
         a2.pyplot(fig, use_container_width=True)
         plt.close(fig)
 
-        # 4. Distribution of emission levels (histogram, log scale)
         fig, ax = plt.subplots(figsize=(5, 4))
         ax.hist(f["emission_level"], bins=30, color=ACCENT, log=True)
         ax.set_title("Distribution of emission levels (log scale)", color=FG)

@@ -5,16 +5,15 @@ import plotly.express as px
 import streamlit as st
 
 from manager.page1_manager import AQI_CATEGORIES, PollutantRecordManager
+from ui import apply_theme, chart_layout
 
 st.set_page_config(page_title="Pollutant Readings", layout="wide")
+apply_theme()
 
 UNKNOWN_SENTINEL = "(Unknown)"
 
 
 def safe(action, *args):
-    """
-    Safely executes an action, catching known exceptions and returning (ok, result).
-    """
     res = None
     ok = False
     try:
@@ -32,7 +31,6 @@ def safe(action, *args):
     return ok, res
 
 
-# Fresh load of pollutant dataset at page start
 m = PollutantRecordManager("data/page1.csv")
 ok, all_df = safe(m.load_data)
 if not ok:
@@ -46,7 +44,6 @@ st.write(
 if "msg" in st.session_state:
     st.success(st.session_state.pop("msg"))
 
-# --- Sidebar Filters ---
 st.sidebar.header("Filters")
 
 country_options = sorted(all_df["Country"].dropna().unique().tolist())
@@ -76,8 +73,6 @@ search_query = st.sidebar.text_input("Search (Country or City)", key="pollutant_
 include_unknown = UNKNOWN_SENTINEL in selected_countries
 known_selected = [c for c in selected_countries if c != UNKNOWN_SENTINEL]
 
-# Apply category/AQI-range/search filters without touching Country, then select the
-# Country subset manually so the "(Unknown)" sentinel can include null-Country rows.
 no_country_filtered = m.filter_data(
     countries=None,
     categories=selected_categories if selected_categories else None,
@@ -104,12 +99,10 @@ filter_desc = (
 
 st.write(f"Showing **{len(filtered_df)}** of **{len(all_df)}** records based on active filters.")
 
-# --- Navigation Tabs ---
 tab_view, tab_charts, tab_add, tab_edit, tab_delete, tab_report = st.tabs(
     ["View", "Charts", "Add", "Edit", "Delete", "Report"]
 )
 
-# ----------------- TAB 1: VIEW -----------------
 with tab_view:
     st.subheader("Key Pollutant Metrics")
     c1, c2, c3, c4 = st.columns(4)
@@ -141,7 +134,6 @@ with tab_view:
         display_df["Country"] = display_df["Country"].fillna(UNKNOWN_SENTINEL)
         st.dataframe(display_df, hide_index=True)
 
-# ----------------- TAB 2: CHARTS -----------------
 with tab_charts:
     if filtered_df.empty:
         st.info("No records match the active filters.")
@@ -156,6 +148,7 @@ with tab_charts:
 
         row1_left, row1_right = st.columns(2)
         with row1_left:
+            bar_title = f"Average {metric} by Top {int(top_n)} Countries"
             country_avgs = m.country_averages(filtered_df, metric, int(top_n))
             fig_bar = px.bar(
                 country_avgs,
@@ -163,21 +156,35 @@ with tab_charts:
                 y=metric,
                 color=metric,
                 color_continuous_scale="Viridis",
-                title=f"Average {metric} by Top {int(top_n)} Countries",
+                title=bar_title,
             )
-            st.plotly_chart(fig_bar, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_bar, title=bar_title), use_container_width=True)
 
         with row1_right:
+            pie_title = "AQI Category Distribution"
             category_dist = m.category_distribution(filtered_df)
             fig_pie = px.pie(
                 category_dist,
                 names="category",
                 values="count",
-                title="AQI Category Distribution",
+                title=pie_title,
             )
-            st.plotly_chart(fig_pie, use_container_width=True)
+            st.plotly_chart(chart_layout(fig_pie, title=pie_title), use_container_width=True)
 
-# ----------------- TAB 3: ADD (CREATE) -----------------
+        st.divider()
+        scatter_title = "AQI Value vs PM2.5 AQI Value by Category"
+        fig_scatter = px.scatter(
+            filtered_df,
+            x="AQI Value",
+            y="PM2.5 AQI Value",
+            color="AQI Category",
+            category_orders={"AQI Category": AQI_CATEGORIES},
+            title=scatter_title,
+            labels={"AQI Value": "AQI Value", "PM2.5 AQI Value": "PM2.5 AQI Value"},
+            hover_data=["Country", "City"],
+        )
+        st.plotly_chart(chart_layout(fig_scatter, title=scatter_title), use_container_width=True)
+
 with tab_add:
     st.subheader("Add New Pollutant Reading")
     st.write("Enter the pollutant parameters below. All entries are validated before saving.")
@@ -222,7 +229,6 @@ with tab_add:
             st.session_state["msg"] = f"Successfully added record ID #{created['record_id']} for {city_in}!"
             st.rerun()
 
-# ----------------- TAB 4: EDIT (UPDATE) -----------------
 with tab_edit:
     st.subheader("Edit Existing Pollutant Reading")
     edit_id = st.number_input("Enter Record ID to Edit", min_value=1, step=1, key="edit_record_id")
@@ -295,7 +301,6 @@ with tab_edit:
                 st.session_state["msg"] = f"Successfully updated record ID #{edit_id}."
                 st.rerun()
 
-# ----------------- TAB 5: DELETE -----------------
 with tab_delete:
     st.subheader("Delete Pollutant Reading")
     del_id = st.number_input("Enter Record ID to Delete", min_value=1, step=1, key="delete_record_id")
@@ -318,7 +323,6 @@ with tab_delete:
                 st.session_state["msg"] = f"Record ID #{del_id} successfully deleted."
                 st.rerun()
 
-# ----------------- TAB 6: REPORT -----------------
 with tab_report:
     st.subheader("Export Pollutant Analytics Report")
     st.write("Generate and download a comprehensive text summary of the filtered pollutant data.")

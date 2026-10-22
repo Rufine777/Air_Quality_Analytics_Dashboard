@@ -35,12 +35,10 @@ def preprocess():
     df = pd.read_csv(raw_file)
     print(f"Read {len(df)} rows from raw dataset.")
 
-    # Trim to 2022-01-01 through 2024-12-31 (3 complete years across 10 major Indian cities)
     subset = df[df["date"] >= "2022-01-01"].copy()
     subset = subset.sort_values(["city", "date"]).reset_index(drop=True)
     print(f"Trimmed to {len(subset)} rows covering {subset['city'].nunique()} cities from {subset['date'].min()} to {subset['date'].max()}.")
 
-    # Rename to project target schema
     subset = subset.rename(
         columns={
             "temperature_2m_max": "temp_max",
@@ -55,14 +53,11 @@ def preprocess():
         }
     )
 
-    # Validate missing values
     print("Missing values in subset:")
     print(subset.isna().sum())
 
-    # Insert sequential record_id
     subset.insert(0, "record_id", range(1, len(subset) + 1))
 
-    # Reorder columns
     cols = [
         "record_id",
         "city",
@@ -79,7 +74,6 @@ def preprocess():
     ]
     subset = subset[cols]
 
-    # Format numeric precisions
     subset["record_id"] = subset["record_id"].astype(int)
     subset["temp_max"] = subset["temp_max"].astype(float).round(1)
     subset["temp_min"] = subset["temp_min"].astype(float).round(1)

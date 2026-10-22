@@ -1,12 +1,5 @@
-"""Shared UI helpers: theme, typography, and chart defaults.
-
-Import and call ``apply_theme()`` once near the top of each page (after
-``st.set_page_config``) so every screen shares one look.
-"""
-
 import streamlit as st
 
-# Dark, restrained palette with a single cool accent.
 PALETTE = {
     "primary": "#38bdf8",
     "primary_dark": "#0ea5e9",

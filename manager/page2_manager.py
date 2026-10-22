@@ -58,24 +58,16 @@ WMO_CODE_MAP = {
 
 
 class WeatherManager(CSVManager):
-    """
-    Manager for weather condition records.
-    Extends the team's shared CSVManager base class.
-    """
 
     def __init__(self, file_path="data/page2.csv"):
         super().__init__(file_path, WEATHER_FIELDS)
 
     def load_data(self):
-        """
-        Loads CSV data with full try/except/else/finally handling and parses numeric columns.
-        """
         try:
             super().load_data()
         except Exception:
             raise
         else:
-            # Enforce clean data types
             self._data["record_id"] = pd.to_numeric(self._data["record_id"], errors="coerce")
             self._data["temp_max"] = pd.to_numeric(self._data["temp_max"], errors="coerce")
             self._data["temp_min"] = pd.to_numeric(self._data["temp_min"], errors="coerce")
@@ -87,7 +79,6 @@ class WeatherManager(CSVManager):
             self._data["wind_gusts"] = pd.to_numeric(self._data["wind_gusts"], errors="coerce")
             self._data["wind_direction"] = pd.to_numeric(self._data["wind_direction"], errors="coerce")
 
-            # Validate record_id has no NaNs
             if self._data["record_id"].isna().any():
                 raise ValueError("Encountered invalid or non-numeric record_id values in CSV.")
 
@@ -99,27 +90,18 @@ class WeatherManager(CSVManager):
             pass
 
     def next_id(self):
-        """
-        Returns the next available integer record_id.
-        """
         if self._data.empty or "record_id" not in self._data.columns:
             return 1
         return int(self._data["record_id"].max()) + 1
 
     def validate_record(self, rec, is_new=True):
-        """
-        Validates record fields and enforces business rules for weather measurements.
-        Returns a sanitized dictionary with proper types.
-        """
         if not isinstance(rec, dict):
             raise TypeError("Record must be provided as a dictionary.")
 
-        # City check
         city = str(rec.get("city", "")).strip()
         if not city:
             raise ValueError("City name cannot be blank.")
 
-        # Date check
         raw_date = str(rec.get("date", "")).strip()
         if not raw_date:
             raise ValueError("Observation date cannot be blank.")
@@ -129,7 +111,6 @@ class WeatherManager(CSVManager):
         except ValueError as e:
             raise ValueError(f"Invalid date format '{raw_date}'. Expected YYYY-MM-DD.") from e
 
-        # Numeric validations helper
         def parse_float(val, name, min_val=None, max_val=None):
             try:
                 num = float(val)
@@ -192,9 +173,6 @@ class WeatherManager(CSVManager):
         return cleaned
 
     def is_duplicate(self, city, date_str, exclude_id=None):
-        """
-        Checks whether a record for the specified city and date already exists.
-        """
         if self._data.empty:
             return False
         mask = (self._data["city"].str.lower() == str(city).strip().lower()) & (
@@ -205,10 +183,6 @@ class WeatherManager(CSVManager):
         return not self._data[mask].empty
 
     def create(self, rec):
-        """
-        Validates, checks for duplicates, and adds a new weather observation record.
-        Returns the created record.
-        """
         validated = self.validate_record(rec, is_new=True)
         if self.is_duplicate(validated["city"], validated["date"]):
             raise ValueError(
@@ -217,16 +191,9 @@ class WeatherManager(CSVManager):
         return super().create(validated)
 
     def read(self):
-        """
-        Returns a fresh copy of the current weather data.
-        """
         return super().read()
 
     def update(self, record_id, changes):
-        """
-        Updates an existing weather record by record_id after validation.
-        Returns the updated record.
-        """
         idx = self.validate_id(record_id)
         current = self._data.loc[idx].to_dict()
         current.update(changes)
@@ -237,22 +204,13 @@ class WeatherManager(CSVManager):
                 f"Another record for city '{validated['city']}' on date '{validated['date']}' already exists."
             )
 
-        # Update columns
         validated_changes = {k: v for k, v in validated.items() if k != "record_id"}
         return super().update(record_id, validated_changes)
 
     def delete(self, record_id):
-        """
-        Deletes a weather record by record_id.
-        Returns the deleted record.
-        """
         return super().delete(record_id)
 
     def filter_data(self, cities=None, start_date=None, end_date=None, temp_range=None, search_text=None):
-        """
-        Filters the dataset based on city, date range, temperature range, and text search.
-        Returns a filtered DataFrame.
-        """
         df = self._data.copy()
         if df.empty:
             return df
@@ -283,26 +241,11 @@ class WeatherManager(CSVManager):
         return df.reset_index(drop=True)
 
     def sort_data(self, df, column, ascending=True):
-        """
-        Sorts the given DataFrame by the specified column.
-        """
         if df.empty or column not in df.columns:
             return df
         return df.sort_values(by=column, ascending=ascending).reset_index(drop=True)
 
     def summary_stats(self, df=None):
-        """
-        Computes the mandatory 9 summary statistics using Pandas and NumPy:
-        1. Mean maximum temperature
-        2. Mean minimum temperature
-        3. Mean apparent temperature
-        4. Total rainfall
-        5. Total precipitation
-        6. Maximum wind speed
-        7. Maximum wind gust
-        8. Number of records
-        9. City with the highest average temperature
-        """
         target = self._data if df is None else df
         if target.empty:
             return {
@@ -317,7 +260,6 @@ class WeatherManager(CSVManager):
                 "top_temp_city": "—",
             }
 
-        # Explicitly handle missing numerical values (exclude from calculation)
         clean_temp = target.dropna(subset=["temp_max", "temp_min", "feels_like"])
         clean_rain = target.dropna(subset=["rainfall", "precipitation"])
         clean_wind = target.dropna(subset=["wind_speed", "wind_gusts"])
@@ -351,9 +293,6 @@ class WeatherManager(CSVManager):
         }
 
     def city_temperature_averages(self, df):
-        """
-        Returns average temperatures grouped by city.
-        """
         if df.empty:
             return pd.DataFrame(columns=["city", "avg_max_temp", "avg_min_temp", "avg_feels_like"])
         grouped = df.groupby("city").agg(
@@ -364,9 +303,6 @@ class WeatherManager(CSVManager):
         return grouped.sort_values(by="avg_max_temp", ascending=False)
 
     def city_wind_averages(self, df):
-        """
-        Returns average wind metrics grouped by city.
-        """
         if df.empty:
             return pd.DataFrame(columns=["city", "avg_wind_speed", "max_wind_gust"])
         grouped = df.groupby("city").agg(
@@ -376,9 +312,6 @@ class WeatherManager(CSVManager):
         return grouped.sort_values(by="avg_wind_speed", ascending=False)
 
     def export_report(self, df=None, filters_desc="None"):
-        """
-        Generates and returns a downloadable plain text summary report.
-        """
         target = self._data if df is None else df
         stats = self.summary_stats(target)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

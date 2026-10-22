@@ -22,19 +22,11 @@ AQI_CATEGORY_FIELDS = [
 
 
 class PollutantRecordManager(CSVManager):
-    """
-    Manager for global pollutant/AQI readings.
-    Extends the team's shared CSVManager base class.
-    """
 
     def __init__(self, file_path="data/page1.csv"):
         super().__init__(file_path, FIELDS)
 
     def load_data(self):
-        """
-        Loads CSV data and enforces numeric types on record_id and the 5 AQI value columns.
-        Country/City are left as-is since missing values there are legitimate.
-        """
         super().load_data()
 
         self._data["record_id"] = pd.to_numeric(self._data["record_id"], errors="coerce")
@@ -52,17 +44,11 @@ class PollutantRecordManager(CSVManager):
         return self.data
 
     def next_id(self):
-        """
-        Returns the next available integer record_id.
-        """
         if self._data.empty or "record_id" not in self._data.columns:
             return 1
         return int(self._data["record_id"].max()) + 1
 
     def validate_record(self, rec, is_new=True):
-        """
-        Validates record fields and returns a sanitized dictionary with proper types.
-        """
         if not isinstance(rec, dict):
             raise TypeError("Record must be provided as a dictionary.")
 
@@ -108,10 +94,6 @@ class PollutantRecordManager(CSVManager):
         return cleaned
 
     def is_duplicate(self, country, city, exclude_id=None):
-        """
-        Case-insensitive duplicate check on (Country, City). Missing Country is treated
-        as equal to missing Country.
-        """
         if self._data.empty:
             return False
 
@@ -135,9 +117,6 @@ class PollutantRecordManager(CSVManager):
         return not self._data[mask].empty
 
     def create(self, rec):
-        """
-        Validates, checks for duplicates, and adds a new pollutant reading record.
-        """
         validated = self.validate_record(rec, is_new=True)
         if self.is_duplicate(validated["Country"], validated["City"]):
             raise ValueError(
@@ -146,15 +125,9 @@ class PollutantRecordManager(CSVManager):
         return super().create(validated)
 
     def read(self):
-        """
-        Returns a fresh copy of the current pollutant data.
-        """
         return super().read()
 
     def update(self, record_id, changes):
-        """
-        Updates an existing pollutant record by record_id after re-validation.
-        """
         idx = self.validate_id(record_id)
         current = self._data.loc[idx].to_dict()
         current.update(changes)
@@ -168,16 +141,9 @@ class PollutantRecordManager(CSVManager):
         return super().update(record_id, validated)
 
     def delete(self, record_id):
-        """
-        Deletes a pollutant record by record_id.
-        """
         return super().delete(record_id)
 
     def filter_data(self, countries=None, categories=None, aqi_range=None, search_text=None):
-        """
-        Filters the dataset based on country, AQI category, AQI value range, and text search.
-        Returns a filtered DataFrame.
-        """
         df = self._data.copy()
         if df.empty:
             return df
@@ -203,21 +169,11 @@ class PollutantRecordManager(CSVManager):
         return df.reset_index(drop=True)
 
     def sort_data(self, df, column, ascending=True):
-        """
-        Sorts the given DataFrame by the specified column.
-        """
         if df.empty or column not in df.columns:
             return df
         return df.sort_values(column, ascending=ascending).reset_index(drop=True)
 
     def summary_stats(self, df):
-        """
-        Computes the 4 mandatory summary statistics:
-        1. Record count
-        2. Mean AQI value
-        3. Mean PM2.5 AQI value
-        4. Country with the highest mean AQI value (missing Country excluded)
-        """
         if df.empty:
             return {
                 "count": 0,
@@ -241,9 +197,6 @@ class PollutantRecordManager(CSVManager):
         }
 
     def country_averages(self, df, metric, top_n):
-        """
-        Returns the top-N countries by mean of the given metric, excluding missing Country.
-        """
         if df.empty:
             return pd.DataFrame(columns=["Country", metric])
         known = df.dropna(subset=["Country"])
@@ -253,9 +206,6 @@ class PollutantRecordManager(CSVManager):
         return grouped.sort_values(metric, ascending=False).head(top_n)
 
     def category_distribution(self, df):
-        """
-        Returns AQI Category counts for the current filtered view (includes missing-Country rows).
-        """
         if df.empty:
             return pd.DataFrame(columns=["category", "count"])
         result = df["AQI Category"].value_counts().reset_index()
@@ -263,9 +213,6 @@ class PollutantRecordManager(CSVManager):
         return result
 
     def export_report(self, df, filters_desc="None"):
-        """
-        Generates and returns a downloadable plain text summary report.
-        """
         stats = self.summary_stats(df)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 

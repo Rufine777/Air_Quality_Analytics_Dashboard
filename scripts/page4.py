@@ -1,17 +1,3 @@
-"""Prepare data/health_impact.csv from the original Kaggle dataset.
-
-Source: https://www.kaggle.com/datasets/khushikyad001/air-quality-weather-and-respiratory-health
-Original file: air_quality_health_dataset.csv (26 columns, 3,000 rows)
-
-Run this ONCE (it is not needed when the dashboard starts), from the project root:
-
-    python scripts/prepare_health_data.py
-    python scripts/prepare_health_data.py path/to/air_quality_health_dataset.csv
-
-By default the script looks for data/raw/air_quality_health_dataset.csv.
-The output is data/health_impact.csv with exactly these columns:
-record_id, date, area, respiratory_cases, hospital_visits, aqi_category
-"""
 import argparse
 import os
 import sys
@@ -28,7 +14,6 @@ DEFAULT_OUTPUT = PROJECT_ROOT / "data" / "health_impact.csv"
 SOURCE_COLUMNS = ["date", "region", "AQI", "respiratory_admissions", "hospital_visits"]
 OUTPUT_COLUMNS = ["record_id", "date", "area", "respiratory_cases", "hospital_visits", "aqi_category"]
 
-# US EPA style categories, as in the project plan (upper bound of each band, on the rounded AQI).
 AQI_BINS = [-np.inf, 50, 100, 150, 200, 300, np.inf]
 AQI_LABELS = [
     "Good",
@@ -41,7 +26,6 @@ AQI_LABELS = [
 
 
 def whole_count(series, name):
-    """Convert a count column to nullable integers. Missing values stay missing (never 0)."""
     nums = pd.to_numeric(series, errors="coerce")
     bad_text = nums.isna() & series.notna()
     if bad_text.any():
@@ -53,14 +37,12 @@ def whole_count(series, name):
 
 
 def build_health_table(raw):
-    """Turn the raw Kaggle DataFrame into the six-column health table."""
     missing = [c for c in SOURCE_COLUMNS if c not in raw.columns]
     if missing:
         raise ValueError("Original file is missing column(s): " + ", ".join(missing))
 
     df = pd.DataFrame()
 
-    # Dates must be real dates; saved as YYYY-MM-DD.
     dates = pd.to_datetime(raw["date"], format="%Y-%m-%d", errors="coerce")
     if dates.isna().any():
         raise ValueError(f"{int(dates.isna().sum())} row(s) have an invalid or missing date.")
@@ -70,7 +52,6 @@ def build_health_table(raw):
     df["respiratory_cases"] = whole_count(raw["respiratory_admissions"], "respiratory_admissions")
     df["hospital_visits"] = whole_count(raw["hospital_visits"], "hospital_visits")
 
-    # AQI is rounded half-up to a whole number first, then categorised.
     aqi = pd.to_numeric(raw["AQI"], errors="coerce")
     if aqi.isna().any():
         raise ValueError(f"{int(aqi.isna().sum())} row(s) have a missing or non-numeric AQI, "
@@ -85,7 +66,6 @@ def build_health_table(raw):
 
 
 def validate(df):
-    """Final checks on the prepared table."""
     assert list(df.columns) == OUTPUT_COLUMNS, "wrong columns/order"
     assert df["record_id"].is_unique, "record_id not unique"
     assert df["record_id"].min() == 1 and df["record_id"].max() == len(df), "record_id not 1..n"
@@ -95,7 +75,6 @@ def validate(df):
 
 
 def write_csv_safely(df, path):
-    """Write to a temp file, then replace the real file (same idea as CSVManager)."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile("w", suffix=".csv", dir=path.parent, delete=False,
                                      encoding="utf-8", newline="") as tf:

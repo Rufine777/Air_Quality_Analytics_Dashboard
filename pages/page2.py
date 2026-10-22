@@ -16,10 +16,6 @@ apply_theme()
 
 
 def safe(action, *args):
-    """
-    Safely executes an action, catching known exceptions and returning (ok, result).
-    Implements try/except/else/finally to prevent raw tracebacks.
-    """
     res = None
     ok = False
     try:
@@ -37,7 +33,6 @@ def safe(action, *args):
     return ok, res
 
 
-# Fresh load of weather dataset at page start
 m = WeatherManager("data/page2.csv")
 ok, all_df = safe(m.load_data)
 if not ok:
@@ -51,17 +46,14 @@ st.write(
 if "msg" in st.session_state:
     st.success(st.session_state.pop("msg"))
 
-# --- Sidebar Filters ---
 st.sidebar.header("Filters")
 
-# City selection
 selected_cities = st.sidebar.multiselect(
     "Select Cities",
     options=INDIAN_CITIES,
     default=INDIAN_CITIES,
 )
 
-# Date range selection
 min_date_val = datetime.strptime(str(all_df["date"].min()), "%Y-%m-%d").date()
 max_date_val = datetime.strptime(str(all_df["date"].max()), "%Y-%m-%d").date()
 
@@ -79,7 +71,6 @@ end_date = (
     else (date_range[0] if isinstance(date_range, (list, tuple)) and len(date_range) > 0 else max_date_val)
 )
 
-# Temperature range filter
 min_temp_val = float(all_df["temp_max"].min())
 max_temp_val = float(all_df["temp_max"].max())
 temp_range = st.sidebar.slider(
@@ -90,10 +81,8 @@ temp_range = st.sidebar.slider(
     step=0.5,
 )
 
-# Text search
 search_query = st.sidebar.text_input("Search (City or Date YYYY-MM-DD)", key="weather_search")
 
-# Apply filters
 filtered_df = m.filter_data(
     cities=selected_cities,
     start_date=start_date,
@@ -113,12 +102,10 @@ filter_desc = (
 
 st.write(f"Showing **{len(filtered_df)}** of **{len(all_df)}** records based on active filters.")
 
-# --- Navigation Tabs ---
 tab_view, tab_charts, tab_add, tab_edit, tab_delete, tab_report = st.tabs(
     ["View", "Charts", "Add", "Edit", "Delete", "Report"]
 )
 
-# ----------------- TAB 1: VIEW -----------------
 with tab_view:
     st.subheader("Key Weather Metrics")
     c1, c2, c3, c4 = st.columns(4)
@@ -172,14 +159,12 @@ with tab_view:
         sorted_df = m.sort_data(filtered_df, sort_by, ascending=(sort_direction == "Ascending"))
         st.dataframe(sorted_df, hide_index=True)
 
-# ----------------- TAB 2: CHARTS -----------------
 with tab_charts:
     if filtered_df.empty:
         st.info("No records match the active filters.")
     else:
         st.subheader("Dynamic Meteorological Visualizations")
 
-        # Row 1: Temperature Over Time & Average Temperature by City
         row1_left, row1_right = st.columns(2)
         with row1_left:
             fig_temp_line = px.line(
@@ -206,7 +191,6 @@ with tab_charts:
             )
             st.plotly_chart(chart_layout(fig_temp_bar), use_container_width=True)
 
-        # Row 2: Rainfall Over Time & Average Wind Speed by City
         row2_left, row2_right = st.columns(2)
         with row2_left:
             fig_rain_line = px.line(
@@ -232,7 +216,6 @@ with tab_charts:
             )
             st.plotly_chart(chart_layout(fig_wind_bar), use_container_width=True)
 
-        # Row 3: Histogram of Max Temperature & Temperature vs Wind Speed Scatter
         row3_left, row3_right = st.columns(2)
         with row3_left:
             fig_hist = px.histogram(
@@ -257,7 +240,6 @@ with tab_charts:
             )
             st.plotly_chart(chart_layout(fig_scatter), use_container_width=True)
 
-# ----------------- TAB 3: ADD (CREATE) -----------------
 with tab_add:
     st.subheader("Add New Weather Observation")
     st.write("Enter the weather parameters below. All entries are validated before saving.")
@@ -308,7 +290,6 @@ with tab_add:
             )
             st.rerun()
 
-# ----------------- TAB 4: EDIT (UPDATE) -----------------
 with tab_edit:
     st.subheader("Edit Existing Weather Observation")
     edit_id = st.number_input("Enter Record ID to Edit", min_value=1, step=1, key="edit_record_id")
@@ -376,7 +357,6 @@ with tab_edit:
                 st.session_state["msg"] = f"Successfully updated record ID #{edit_id}."
                 st.rerun()
 
-# ----------------- TAB 5: DELETE -----------------
 with tab_delete:
     st.subheader("Delete Weather Observation")
     del_id = st.number_input("Enter Record ID to Delete", min_value=1, step=1, key="delete_record_id")
@@ -397,7 +377,6 @@ with tab_delete:
                 st.session_state["msg"] = f"Record ID #{del_id} successfully deleted."
                 st.rerun()
 
-# ----------------- TAB 6: REPORT -----------------
 with tab_report:
     st.subheader("Export Weather Analytics Report")
     st.write("Generate and download a comprehensive text summary of the filtered weather data.")
