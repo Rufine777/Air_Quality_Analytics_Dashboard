@@ -2,8 +2,8 @@ from pathlib import Path
 
 import pandas as pd
 
-SOURCE_PATH = Path("data/pollution_readings.csv")
-BACKUP_PATH = Path("data/pollution_readings_full_backup.csv")
+SOURCE_PATH = Path("data/page1.csv")
+BACKUP_PATH = Path("data/page1_full_backup.csv")
 TARGET_ROWS = 2000
 RANDOM_STATE = 42
 

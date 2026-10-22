@@ -33,7 +33,7 @@ def safe(action, *args):
 
 
 # Fresh load of pollutant dataset at page start
-m = PollutantRecordManager("data/pollution_readings.csv")
+m = PollutantRecordManager("data/page1.csv")
 ok, all_df = safe(m.load_data)
 if not ok:
     st.stop()

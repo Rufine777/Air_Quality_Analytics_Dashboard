@@ -2,7 +2,7 @@ from datetime import date, datetime
 import plotly.express as px
 import streamlit as st
 
-from manager.weather_manager import (
+from manager.page2_manager import (
     INDIAN_CITIES,
     WEATHER_FIELDS,
     WMO_CODE_MAP,
@@ -38,7 +38,7 @@ def safe(action, *args):
 
 
 # Fresh load of weather dataset at page start
-m = WeatherManager("data/weather_conditions.csv")
+m = WeatherManager("data/page2.csv")
 ok, all_df = safe(m.load_data)
 if not ok:
     st.stop()

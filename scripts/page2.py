@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 RAW_PATH = Path("/tmp/weather_raw/india_2000_2024_daily_weather.csv")
-OUTPUT_PATH = Path("data/weather_conditions.csv")
+OUTPUT_PATH = Path("data/page2.csv")
 KAGGLE_URL = (
     "https://www.kaggle.com/api/v1/datasets/download/developerghost/climate-in-india-daily-weather-data-2000-2024"
 )

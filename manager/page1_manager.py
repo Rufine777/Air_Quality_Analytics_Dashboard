@@ -27,7 +27,7 @@ class PollutantRecordManager(CSVManager):
     Extends the team's shared CSVManager base class.
     """
 
-    def __init__(self, file_path="data/pollution_readings.csv"):
+    def __init__(self, file_path="data/page1.csv"):
         super().__init__(file_path, FIELDS)
 
     def load_data(self):

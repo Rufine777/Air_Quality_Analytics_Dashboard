@@ -2,3 +2,8 @@ venv/
 .venv/
 __pycache__/
 *.pyc
+
+CLAUDE.md
+Imp.md
+Page1_Implementation_Plan.md
+Rubics.md

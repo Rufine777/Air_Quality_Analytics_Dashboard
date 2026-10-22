@@ -9,9 +9,9 @@
 
 | Page | Dataset Topic | Owner | CSV File | Page File | Status |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| **1** | Pollutant Readings | Aadith Anil | `data/pollutant_readings.csv` | `pages/1_Pollutant_Readings.py` | In Progress |
-| **2** | Weather Conditions | Ajul T M | `data/weather_conditions.csv` | `pages/page2.py` | **Complete** |
-| **3** | Pollution Sources | Krishna | `data/pollution_sources.csv` | `pages/page3.py` | **Complete** |
+| **1** | Pollutant Readings | Aadith Anil | `data/page1.csv` | `pages/page1.py` | **Complete** |
+| **2** | Weather Conditions | Ajul T M | `data/page2.csv` | `pages/page2.py` | **Complete** |
+| **3** | Pollution Sources | Krishna | `data/page3.csv` | `pages/page3.py` | **Complete** |
 | **4** | Health Impact | Mokshith | `data/page4.csv` | `pages/page4.py` | **Complete** |
 
 ---
@@ -51,23 +51,25 @@ Air_Quality_Dashboard/
 ├── requirements.txt               # Dependencies (Streamlit, Pandas, NumPy, Plotly)
 ├── README.md                      # Documentation & team ownership
 ├── data/
-│   ├── weather_conditions.csv     # Member 2 (Ajul) weather dataset
+│   ├── page1.csv                  # Member 1 (Aadith) pollutant readings dataset
+│   ├── page2.csv                  # Member 2 (Ajul) weather dataset
 │   ├── page3.csv                  # Member 3 (Krishna) pollution sources dataset
 │   └── page4.csv                  # Member 4 (Mokshith) health impact dataset
 ├── manager/
 │   ├── __init__.py
 │   ├── csv_manager.py             # Shared base class for CSV CRUD & atomic writes
-│   ├── weather_manager.py         # Member 2: WeatherManager (CRUD, stats, validation)
-│   ├── page2_manager.py           # Page 2 manager alias
+│   ├── page1_manager.py           # Member 1: PollutantRecordManager
+│   ├── page2_manager.py           # Member 2: WeatherManager (CRUD, stats, validation)
 │   ├── page3_manager.py           # Member 3: PollutionSourceManager
 │   └── page4_manager.py           # Member 4: HealthImpactManager
 ├── pages/
+│   ├── page1.py                   # Member 1 (Aadith) pollutant readings dashboard
 │   ├── page2.py                   # Member 2 (Ajul) weather conditions dashboard
 │   ├── page3.py                   # Member 3 (Krishna) pollution sources dashboard
 │   └── page4.py                   # Member 4 (Mokshith) health impact dashboard
 └── scripts/
+    ├── page1.py                   # Member 1 dataset preprocessing script
     ├── page2.py                   # Member 2 dataset preprocessing script
-    ├── weather_preprocessing.py   # Member 2 preprocessing entrypoint
     ├── page3.py                   # Member 3 dataset preprocessing script
     └── page4.py                   # Member 4 dataset preprocessing script
 ```
