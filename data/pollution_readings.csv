@@ -1,0 +1,2001 @@
+record_id,Country,City,AQI Value,AQI Category,CO AQI Value,CO AQI Category,Ozone AQI Value,Ozone AQI Category,NO2 AQI Value,NO2 AQI Category,PM2.5 AQI Value,PM2.5 AQI Category
+1,Brazil,Cunha,38,Good,1,Good,23,Good,0,Good,38,Good
+2,Brazil,Santa Cecilia,17,Good,0,Good,17,Good,0,Good,15,Good
+3,Madagascar,Ambodifototra,26,Good,0,Good,26,Good,0,Good,15,Good
+4,Germany,Kaltenkirchen,30,Good,1,Good,30,Good,3,Good,27,Good
+5,Kenya,Garissa,43,Good,1,Good,23,Good,0,Good,43,Good
+6,Turkey,Sivas,45,Good,0,Good,45,Good,0,Good,43,Good
+7,Brazil,Aracati,22,Good,0,Good,21,Good,0,Good,22,Good
+8,Liberia,Zwedru,17,Good,0,Good,17,Good,0,Good,16,Good
+9,Brazil,Ladario,17,Good,1,Good,17,Good,0,Good,12,Good
+10,United States of America,Temple,41,Good,0,Good,22,Good,2,Good,41,Good
+11,United States of America,Clute,40,Good,1,Good,24,Good,4,Good,40,Good
+12,Indonesia,Sabang,40,Good,1,Good,23,Good,0,Good,40,Good
+13,Poland,Zgorzelec,32,Good,0,Good,28,Good,1,Good,32,Good
+14,Philippines,Cotabato,37,Good,1,Good,22,Good,1,Good,37,Good
+15,Poland,Tuchola,46,Good,1,Good,35,Good,1,Good,46,Good
+16,Russian Federation,Arkadak,28,Good,1,Good,28,Good,1,Good,15,Good
+17,Germany,Friedrichshafen,46,Good,2,Good,26,Good,6,Good,46,Good
+18,Russian Federation,Pallasovka,50,Good,1,Good,50,Good,0,Good,11,Good
+19,Australia,Armidale,26,Good,0,Good,26,Good,0,Good,3,Good
+20,,Itaparica,22,Good,0,Good,18,Good,1,Good,22,Good
+21,United States of America,Rock Hill,49,Good,1,Good,49,Good,1,Good,14,Good
+22,Italy,Bollate,28,Good,1,Good,28,Good,3,Good,24,Good
+23,Germany,Blaubeuren,50,Good,1,Good,24,Good,5,Good,50,Good
+24,Brazil,Teodoro Sampaio,46,Good,1,Good,9,Good,1,Good,46,Good
+25,Brazil,Parelhas,35,Good,0,Good,18,Good,1,Good,35,Good
+26,Poland,Srem,44,Good,1,Good,26,Good,2,Good,44,Good
+27,Japan,Izumo,44,Good,1,Good,44,Good,0,Good,35,Good
+28,Brazil,Cianorte,34,Good,1,Good,9,Good,1,Good,34,Good
+29,Germany,Zwickau,32,Good,0,Good,28,Good,1,Good,32,Good
+30,Russian Federation,Zarechnyy,41,Good,1,Good,41,Good,0,Good,28,Good
+31,Spain,Verin,35,Good,1,Good,35,Good,0,Good,9,Good
+32,Mexico,Jiquilpan,41,Good,1,Good,7,Good,4,Good,41,Good
+33,Italy,Medicina,40,Good,1,Good,40,Good,2,Good,27,Good
+34,Germany,Ahlen,28,Good,0,Good,28,Good,1,Good,26,Good
+35,United States of America,Weston,50,Good,1,Good,36,Good,3,Good,50,Good
+36,Brazil,Itaituba,26,Good,1,Good,4,Good,0,Good,26,Good
+37,Netherlands,Alkmaar,37,Good,0,Good,37,Good,0,Good,32,Good
+38,Japan,Kameoka,43,Good,1,Good,43,Good,1,Good,16,Good
+39,Lithuania,Vilnius,35,Good,1,Good,35,Good,0,Good,24,Good
+40,Germany,Neu Anspach,34,Good,1,Good,25,Good,5,Good,34,Good
+41,Italy,Albignasego,47,Good,1,Good,30,Good,4,Good,47,Good
+42,China,Hailun,38,Good,2,Good,38,Good,0,Good,33,Good
+43,Brazil,Dois Vizinhos,45,Good,1,Good,4,Good,3,Good,45,Good
+44,Portugal,Evora,40,Good,1,Good,40,Good,0,Good,16,Good
+45,Brazil,Araguatins,37,Good,1,Good,8,Good,0,Good,37,Good
+46,Costa Rica,Sabanilla,42,Good,1,Good,21,Good,2,Good,42,Good
+47,Hungary,Sarvar,47,Good,1,Good,31,Good,1,Good,47,Good
+48,United Kingdom of Great Britain and Northern Ireland,Hatfield,30,Good,0,Good,30,Good,1,Good,25,Good
+49,Japan,Iwakuni,48,Good,2,Good,43,Good,5,Good,48,Good
+50,France,Bretigny Sur Orge,35,Good,1,Good,27,Good,3,Good,35,Good
+51,Netherlands,Denekamp,37,Good,1,Good,37,Good,0,Good,31,Good
+52,Bosnia and Herzegovina,Cazin,50,Good,1,Good,33,Good,0,Good,50,Good
+53,Belgium,Aubange,30,Good,1,Good,28,Good,3,Good,30,Good
+54,,Alta,29,Good,1,Good,29,Good,0,Good,9,Good
+55,Colombia,Buga,17,Good,1,Good,13,Good,0,Good,17,Good
+56,Spain,Nijar,37,Good,1,Good,31,Good,4,Good,37,Good
+57,Japan,Kanzaki,48,Good,1,Good,48,Good,3,Good,33,Good
+58,Belgium,Herstal,40,Good,1,Good,21,Good,5,Good,40,Good
+59,United States of America,Novato,40,Good,1,Good,22,Good,9,Good,40,Good
+60,Thailand,Chum Phae,43,Good,0,Good,25,Good,0,Good,43,Good
+61,United States of America,Willowick,40,Good,1,Good,32,Good,8,Good,40,Good
+62,Netherlands,Lisse,40,Good,1,Good,27,Good,5,Good,40,Good
+63,Thailand,Nang Rong,39,Good,0,Good,26,Good,0,Good,39,Good
+64,Brazil,Campos Novos,18,Good,0,Good,13,Good,1,Good,18,Good
+65,Thailand,Lom Sak,34,Good,0,Good,25,Good,0,Good,34,Good
+66,United States of America,Bellevue,40,Good,1,Good,34,Good,5,Good,40,Good
+67,Russian Federation,Novomichurinsk,39,Good,1,Good,39,Good,1,Good,31,Good
+68,Japan,Otake,47,Good,1,Good,44,Good,4,Good,47,Good
+69,Philippines,Tubod,26,Good,1,Good,15,Good,0,Good,26,Good
+70,Viet Nam,Tay Ninh,45,Good,0,Good,18,Good,1,Good,45,Good
+71,France,Bouc Bel Air,30,Good,1,Good,30,Good,5,Good,30,Good
+72,Brazil,Sao Jeronimo,19,Good,1,Good,15,Good,2,Good,19,Good
+73,Russian Federation,Kashin,33,Good,1,Good,33,Good,0,Good,12,Good
+74,Denmark,Haderslev,33,Good,0,Good,33,Good,0,Good,19,Good
+75,Thailand,Nakhon Ratchasima,36,Good,0,Good,25,Good,0,Good,36,Good
+76,Russian Federation,Alagir,50,Good,1,Good,36,Good,1,Good,50,Good
+77,Russian Federation,Kuvshinovo,31,Good,1,Good,31,Good,0,Good,10,Good
+78,Thailand,Lampang,34,Good,0,Good,23,Good,1,Good,34,Good
+79,United States of America,Lackawanna,41,Good,1,Good,33,Good,1,Good,41,Good
+80,Belgium,Seraing,35,Good,1,Good,32,Good,3,Good,35,Good
+81,Italy,Vinci,39,Good,1,Good,39,Good,2,Good,33,Good
+82,United Republic of Tanzania,Mahuta,21,Good,0,Good,21,Good,0,Good,20,Good
+83,United States of America,Taunton,41,Good,1,Good,28,Good,10,Good,41,Good
+84,Poland,Ustka,41,Good,1,Good,25,Good,1,Good,41,Good
+85,Germany,Meiningen,34,Good,1,Good,27,Good,3,Good,34,Good
+86,United States of America,Lake Jackson,25,Good,0,Good,24,Good,2,Good,25,Good
+87,Sudan,Kaduqli,45,Good,2,Good,12,Good,0,Good,45,Good
+88,Russian Federation,Snezhnogorsk,32,Good,1,Good,32,Good,0,Good,20,Good
+89,Russian Federation,Korablino,37,Good,0,Good,32,Good,0,Good,37,Good
+90,Brazil,Aquidauana,16,Good,1,Good,12,Good,0,Good,16,Good
+91,Brazil,Pocone,44,Good,1,Good,8,Good,0,Good,44,Good
+92,Japan,Hondo,26,Good,1,Good,26,Good,1,Good,25,Good
+93,,Isabela,23,Good,1,Good,14,Good,0,Good,23,Good
+94,France,Barentin,41,Good,1,Good,25,Good,3,Good,41,Good
+95,Belgium,Sint Gillis Waas,35,Good,1,Good,32,Good,3,Good,35,Good
+96,Brazil,Urucui,38,Good,1,Good,11,Good,0,Good,38,Good
+97,Netherlands,Hilversum,33,Good,0,Good,33,Good,1,Good,15,Good
+98,Germany,Nuremberg,29,Good,0,Good,29,Good,1,Good,26,Good
+99,Democratic Republic of the Congo,Butembo,45,Good,1,Good,16,Good,0,Good,45,Good
+100,Belgium,Hasselt,48,Good,1,Good,30,Good,3,Good,48,Good
+101,Brazil,Lajedo,29,Good,0,Good,11,Good,1,Good,29,Good
+102,Tunisia,Tinjah,48,Good,1,Good,48,Good,1,Good,29,Good
+103,Mexico,La Orilla,18,Good,0,Good,18,Good,0,Good,8,Good
+104,Brazil,Monte Siao,41,Good,1,Good,7,Good,2,Good,41,Good
+105,Finland,Raisio,29,Good,1,Good,29,Good,3,Good,9,Good
+106,United States of America,Raymond,48,Good,1,Good,48,Good,2,Good,42,Good
+107,Indonesia,Banjarmasin,42,Good,1,Good,20,Good,0,Good,42,Good
+108,Russian Federation,Davydovo,31,Good,1,Good,31,Good,0,Good,26,Good
+109,Russian Federation,Peschanokopskoye,40,Good,1,Good,40,Good,0,Good,25,Good
+110,United States of America,River Falls,48,Good,1,Good,41,Good,2,Good,48,Good
+111,Brazil,Goianinha,23,Good,0,Good,23,Good,0,Good,19,Good
+112,Ecuador,Tena,27,Good,1,Good,4,Good,1,Good,27,Good
+113,Papua New Guinea,Goroka,14,Good,0,Good,6,Good,0,Good,14,Good
+114,United Republic of Tanzania,Nyakabindi,20,Good,0,Good,13,Good,0,Good,20,Good
+115,Russian Federation,Buguruslan,50,Good,1,Good,31,Good,0,Good,50,Good
+116,Germany,Dinklage,36,Good,0,Good,34,Good,1,Good,36,Good
+117,,Punta Umbria,41,Good,1,Good,41,Good,0,Good,21,Good
+118,Brazil,Miracema,30,Good,0,Good,24,Good,0,Good,30,Good
+119,Turkey,Inegol,27,Good,1,Good,26,Good,2,Good,27,Good
+120,Mexico,Vicente Guerrero,36,Good,1,Good,36,Good,0,Good,13,Good
+121,Botswana,Serowe,49,Good,1,Good,23,Good,0,Good,49,Good
+122,Germany,Hasbergen,36,Good,0,Good,34,Good,1,Good,36,Good
+123,Sweden,Sandviken,35,Good,0,Good,35,Good,0,Good,22,Good
+124,United States of America,Missouri City,35,Good,1,Good,18,Good,4,Good,35,Good
+125,United States of America,Greensburg,47,Good,1,Good,46,Good,1,Good,47,Good
+126,Russian Federation,Kyshtym,38,Good,1,Good,34,Good,0,Good,38,Good
+127,United Republic of Tanzania,Bariadi,30,Good,0,Good,17,Good,0,Good,30,Good
+128,Poland,Milanowek,41,Good,1,Good,41,Good,0,Good,31,Good
+129,Myanmar,Magway,23,Good,0,Good,23,Good,0,Good,18,Good
+130,United Republic of Tanzania,Kilosa,31,Good,0,Good,16,Good,0,Good,31,Good
+131,United States of America,Raymore,50,Good,1,Good,33,Good,7,Good,50,Good
+132,Poland,Strzelce Opolskie,40,Good,1,Good,29,Good,1,Good,40,Good
+133,Netherlands,Aalsmeer,38,Good,1,Good,33,Good,4,Good,38,Good
+134,Russian Federation,Zelenograd,40,Good,1,Good,23,Good,7,Good,40,Good
+135,Sweden,Motala,28,Good,0,Good,28,Good,0,Good,17,Good
+136,Japan,Yawata,46,Good,1,Good,46,Good,0,Good,23,Good
+137,Thailand,Ban Mo,50,Good,0,Good,28,Good,0,Good,50,Good
+138,Venezuela (Bolivarian Republic of),Los Dos Caminos,46,Good,1,Good,16,Good,5,Good,46,Good
+139,France,Colomiers,41,Good,1,Good,39,Good,1,Good,41,Good
+140,Japan,Ayase,37,Good,1,Good,37,Good,2,Good,19,Good
+141,Finland,Hyvinkaa,36,Good,1,Good,36,Good,1,Good,6,Good
+142,Russian Federation,Pervouralsk,40,Good,1,Good,40,Good,0,Good,12,Good
+143,Belgium,Balen,36,Good,1,Good,23,Good,5,Good,36,Good
+144,Russian Federation,Lesosibirsk,29,Good,1,Good,29,Good,0,Good,16,Good
+145,Russian Federation,Svetlyy Yar,39,Good,1,Good,39,Good,0,Good,27,Good
+146,Japan,Tokamachi,37,Good,1,Good,37,Good,1,Good,22,Good
+147,France,Sainte Suzanne,41,Good,1,Good,26,Good,0,Good,41,Good
+148,United Kingdom of Great Britain and Northern Ireland,Bentley,33,Good,1,Good,33,Good,3,Good,16,Good
+149,United Republic of Tanzania,Lugoba,24,Good,0,Good,15,Good,0,Good,24,Good
+150,Belgium,Knokke Heist,39,Good,1,Good,26,Good,3,Good,39,Good
+151,United Republic of Tanzania,Usa River,45,Good,1,Good,10,Good,0,Good,45,Good
+152,Brazil,Chopinzinho,37,Good,1,Good,5,Good,2,Good,37,Good
+153,Canada,Red Deer,32,Good,1,Good,32,Good,0,Good,9,Good
+154,Germany,Henstedt Ulzburg,33,Good,0,Good,33,Good,1,Good,14,Good
+155,Japan,Yonago,44,Good,1,Good,44,Good,0,Good,34,Good
+156,Russian Federation,Zima,34,Good,1,Good,8,Good,6,Good,34,Good
+157,Netherlands,Papendrecht,34,Good,0,Good,34,Good,1,Good,27,Good
+158,Russian Federation,Kozelsk,47,Good,1,Good,28,Good,1,Good,47,Good
+159,Russian Federation,Davlekanovo,40,Good,1,Good,40,Good,0,Good,30,Good
+160,Poland,Swiecie,44,Good,1,Good,33,Good,1,Good,44,Good
+161,Brazil,Xanxere,16,Good,0,Good,16,Good,0,Good,14,Good
+162,France,Vitre,42,Good,1,Good,30,Good,2,Good,42,Good
+163,Russian Federation,Gryazovets,34,Good,1,Good,34,Good,0,Good,8,Good
+164,Italy,Vicenza,28,Good,1,Good,28,Good,2,Good,21,Good
+165,Spain,Manlleu,27,Good,1,Good,27,Good,1,Good,24,Good
+166,United Kingdom of Great Britain and Northern Ireland,Saint Andrews,26,Good,1,Good,26,Good,2,Good,15,Good
+167,Poland,Zamosc,48,Good,1,Good,35,Good,1,Good,48,Good
+168,Peru,Tabalosos,34,Good,1,Good,2,Good,0,Good,34,Good
+169,Italy,Montecorvino Rovella,47,Good,1,Good,47,Good,2,Good,45,Good
+170,Russian Federation,Udachnyy,33,Good,1,Good,33,Good,0,Good,19,Good
+171,Kazakhstan,Sarkand,49,Good,1,Good,40,Good,0,Good,49,Good
+172,Germany,Boppard,31,Good,0,Good,27,Good,2,Good,31,Good
+173,Italy,Alghero,48,Good,1,Good,48,Good,0,Good,27,Good
+174,Russian Federation,Tayga,39,Good,1,Good,39,Good,0,Good,38,Good
+175,United States of America,Lauderdale Lakes,30,Good,1,Good,30,Good,2,Good,28,Good
+176,Germany,Buxtehude,45,Good,1,Good,45,Good,0,Good,24,Good
+177,Brazil,Conceicao Das Alagoas,35,Good,1,Good,4,Good,1,Good,35,Good
+178,Russian Federation,Lipetsk,34,Good,1,Good,34,Good,1,Good,25,Good
+179,,Svetlyy,35,Good,1,Good,35,Good,0,Good,21,Good
+180,United Kingdom of Great Britain and Northern Ireland,Rugeley,50,Good,1,Good,15,Good,10,Good,50,Good
+181,India,Lumding,43,Good,2,Good,21,Good,0,Good,43,Good
+182,Italy,Sorso,45,Good,1,Good,23,Good,5,Good,45,Good
+183,Japan,Edosaki,41,Good,1,Good,41,Good,1,Good,38,Good
+184,Spain,Cartagena,50,Good,1,Good,29,Good,3,Good,50,Good
+185,Canada,Elliot Lake,39,Good,1,Good,30,Good,0,Good,39,Good
+186,Brazil,Castro Alves,23,Good,0,Good,13,Good,1,Good,23,Good
+187,Denmark,Odder,38,Good,1,Good,38,Good,1,Good,32,Good
+188,Russian Federation,Bezenchuk,49,Good,1,Good,38,Good,0,Good,49,Good
+189,Mexico,Guaymas,48,Good,1,Good,22,Good,1,Good,48,Good
+190,Nicaragua,Mateare,33,Good,1,Good,17,Good,2,Good,33,Good
+191,Brazil,Itupeva,26,Good,0,Good,25,Good,0,Good,26,Good
+192,Philippines,Lianga,50,Good,1,Good,20,Good,0,Good,50,Good
+193,United Republic of Tanzania,Nkoaranga,31,Good,1,Good,16,Good,0,Good,31,Good
+194,Peru,La Arena,49,Good,0,Good,23,Good,0,Good,49,Good
+195,Russian Federation,Krasnovishersk,29,Good,1,Good,28,Good,0,Good,29,Good
+196,Peru,Cusco,29,Good,1,Good,2,Good,2,Good,29,Good
+197,Brazil,Sao Sebastiao Do Cai,35,Good,1,Good,14,Good,3,Good,35,Good
+198,Belgium,Meise,34,Good,0,Good,28,Good,3,Good,34,Good
+199,Brazil,Cajazeiras,23,Good,0,Good,14,Good,1,Good,23,Good
+200,Poland,Trzebiatow,44,Good,1,Good,31,Good,1,Good,44,Good
+201,France,Saint Lo,33,Good,0,Good,33,Good,1,Good,20,Good
+202,Russian Federation,Petushki,49,Good,1,Good,28,Good,6,Good,49,Good
+203,Brazil,Sao Miguel Do Araguaia,17,Good,0,Good,17,Good,0,Good,10,Good
+204,United States of America,Estelle,34,Good,0,Good,27,Good,1,Good,34,Good
+205,Belarus,Salihorsk,34,Good,1,Good,34,Good,0,Good,23,Good
+206,Russian Federation,Gubkinskiy,32,Good,1,Good,32,Good,0,Good,28,Good
+207,Japan,Tamano,47,Good,1,Good,47,Good,1,Good,23,Good
+208,China,Mishan,44,Good,1,Good,33,Good,0,Good,44,Good
+209,Netherlands,Bergschenhoek,38,Good,1,Good,38,Good,1,Good,32,Good
+210,Mauritius,Lalmatie,31,Good,0,Good,28,Good,0,Good,31,Good
+211,Russian Federation,Krasnoufimsk,37,Good,1,Good,27,Good,0,Good,37,Good
+212,Malawi,Mponela,50,Good,1,Good,19,Good,0,Good,50,Good
+213,Germany,Hemmingen,35,Good,0,Good,35,Good,1,Good,25,Good
+214,France,Longuenesse,35,Good,1,Good,35,Good,0,Good,31,Good
+215,Romania,Tandarei,41,Good,1,Good,41,Good,0,Good,38,Good
+216,Philippines,Ramon,47,Good,1,Good,27,Good,0,Good,47,Good
+217,India,Hindupur,24,Good,1,Good,24,Good,0,Good,21,Good
+218,Turkey,Carsamba,35,Good,1,Good,35,Good,0,Good,29,Good
+219,Sweden,Skovde,38,Good,1,Good,38,Good,0,Good,11,Good
+220,Brazil,Candido Mota,43,Good,1,Good,20,Good,0,Good,43,Good
+221,Chile,Purranque,22,Good,1,Good,22,Good,1,Good,18,Good
+222,Brazil,Jaguaribe,33,Good,0,Good,18,Good,0,Good,33,Good
+223,Poland,Wrzesnia,35,Good,0,Good,32,Good,1,Good,35,Good
+224,Russian Federation,Sim,31,Good,1,Good,31,Good,0,Good,31,Good
+225,United Kingdom of Great Britain and Northern Ireland,Sleaford,36,Good,1,Good,36,Good,3,Good,15,Good
+226,Russian Federation,Nolinsk,35,Good,1,Good,32,Good,0,Good,35,Good
+227,Bulgaria,Silistra,47,Good,1,Good,43,Good,0,Good,47,Good
+228,Brazil,Quipapa,24,Good,0,Good,16,Good,1,Good,24,Good
+229,Brazil,Barro,34,Good,1,Good,8,Good,2,Good,34,Good
+230,Russian Federation,Platnirovskaya,38,Good,1,Good,38,Good,0,Good,13,Good
+231,Russian Federation,Lakinsk,29,Good,1,Good,28,Good,4,Good,29,Good
+232,Cameroon,Mbalmayo,49,Good,2,Good,23,Good,0,Good,49,Good
+233,France,Armentieres,34,Good,0,Good,28,Good,2,Good,34,Good
+234,France,Gien,39,Good,1,Good,31,Good,2,Good,39,Good
+235,Peru,Imperial,20,Good,1,Good,20,Good,1,Good,17,Good
+236,Guatemala,Poptun,48,Good,1,Good,20,Good,0,Good,48,Good
+237,Germany,Bergheim,45,Good,1,Good,24,Good,4,Good,45,Good
+238,Russian Federation,Lyskovo,37,Good,1,Good,26,Good,0,Good,37,Good
+239,Brazil,Seabra,21,Good,0,Good,21,Good,0,Good,16,Good
+240,Spain,Ermua,32,Good,0,Good,32,Good,1,Good,22,Good
+241,Latvia,Rezekne,41,Good,1,Good,38,Good,0,Good,41,Good
+242,Russian Federation,Kalach Na Donu,50,Good,1,Good,40,Good,0,Good,50,Good
+243,Brazil,Boqueirao,39,Good,0,Good,13,Good,1,Good,39,Good
+244,Russian Federation,Leninsk,49,Good,1,Good,40,Good,0,Good,49,Good
+245,Italy,Castel Maggiore,37,Good,1,Good,37,Good,3,Good,34,Good
+246,Romania,Pantelimon,50,Good,1,Good,37,Good,4,Good,50,Good
+247,Russian Federation,Aleksandrovskoye,45,Good,1,Good,45,Good,0,Good,19,Good
+248,Thailand,Nakhon Pathom,35,Good,0,Good,24,Good,0,Good,35,Good
+249,Russian Federation,Arsk,28,Good,1,Good,28,Good,1,Good,19,Good
+250,United States of America,Butte,46,Good,0,Good,27,Good,0,Good,46,Good
+251,Germany,Leinefelde,35,Good,0,Good,29,Good,1,Good,35,Good
+252,Belgium,Leuven,35,Good,1,Good,26,Good,3,Good,35,Good
+253,Russian Federation,Elektrogorsk,39,Good,1,Good,39,Good,2,Good,27,Good
+254,Brazil,Nova Vicosa,20,Good,0,Good,20,Good,0,Good,17,Good
+255,Papua New Guinea,Wau,17,Good,0,Good,17,Good,0,Good,7,Good
+256,Brazil,Cacoal,42,Good,1,Good,6,Good,0,Good,42,Good
+257,United States of America,Billings,40,Good,1,Good,24,Good,4,Good,40,Good
+258,Germany,Waldbrol,30,Good,0,Good,27,Good,2,Good,30,Good
+259,Latvia,Valga,33,Good,1,Good,33,Good,0,Good,13,Good
+260,Brazil,Braganca,42,Good,1,Good,17,Good,0,Good,42,Good
+261,Switzerland,Frauenfeld,41,Good,1,Good,27,Good,2,Good,41,Good
+262,Russian Federation,Barabinsk,39,Good,1,Good,39,Good,0,Good,35,Good
+263,Russian Federation,Krasnodar,44,Good,1,Good,44,Good,4,Good,31,Good
+264,Japan,Nichinan,41,Good,1,Good,41,Good,2,Good,35,Good
+265,Japan,Tenno,32,Good,1,Good,32,Good,1,Good,16,Good
+266,Austria,Lienz,50,Good,1,Good,28,Good,1,Good,50,Good
+267,Russian Federation,Kumertau,37,Good,1,Good,37,Good,0,Good,33,Good
+268,Thailand,Lop Buri,47,Good,1,Good,28,Good,0,Good,47,Good
+269,France,Olivet,38,Good,1,Good,23,Good,2,Good,38,Good
+270,Finland,Kempele,31,Good,1,Good,31,Good,1,Good,11,Good
+271,Romania,Calinesti,50,Good,1,Good,42,Good,0,Good,50,Good
+272,Brazil,Governador Valadares,27,Good,0,Good,24,Good,0,Good,27,Good
+273,Brazil,Maribondo,24,Good,0,Good,24,Good,0,Good,16,Good
+274,Poland,Wabrzezno,41,Good,1,Good,41,Good,0,Good,21,Good
+275,Russian Federation,Sunzha,40,Good,1,Good,39,Good,1,Good,40,Good
+276,Germany,Hilchenbach,34,Good,1,Good,34,Good,1,Good,27,Good
+277,Colombia,Tulua,31,Good,1,Good,15,Good,0,Good,31,Good
+278,Thailand,Nakhon Sawan,21,Good,0,Good,21,Good,0,Good,20,Good
+279,,Great Yarmouth,30,Good,0,Good,30,Good,3,Good,21,Good
+280,Italy,Leonforte,44,Good,1,Good,42,Good,0,Good,44,Good
+281,Germany,Zetel,38,Good,1,Good,38,Good,0,Good,32,Good
+282,United States of America,Essex,32,Good,1,Good,32,Good,6,Good,30,Good
+283,United States of America,Pendleton,30,Good,1,Good,22,Good,4,Good,30,Good
+284,Belgium,Aartselaar,41,Good,1,Good,29,Good,4,Good,41,Good
+285,Russian Federation,Valuyki,42,Good,1,Good,35,Good,0,Good,42,Good
+286,Brazil,Piuma,29,Good,0,Good,26,Good,0,Good,29,Good
+287,Netherlands,Almelo,37,Good,1,Good,37,Good,0,Good,29,Good
+288,Spain,Santa Cruz De La Palma,38,Good,0,Good,38,Good,0,Good,14,Good
+289,Denmark,Hillerod,44,Good,1,Good,44,Good,0,Good,13,Good
+290,Germany,Hohen Neuendorf,45,Good,1,Good,45,Good,0,Good,26,Good
+291,United States of America,Pepperell,30,Good,1,Good,30,Good,3,Good,22,Good
+292,Italy,Pontinia,42,Good,1,Good,39,Good,4,Good,42,Good
+293,Germany,Sprockhovel,46,Good,1,Good,29,Good,2,Good,46,Good
+294,Germany,Hude,33,Good,1,Good,33,Good,2,Good,26,Good
+295,United States of America,Goldsboro,47,Good,1,Good,47,Good,1,Good,39,Good
+296,Mexico,Chilac,41,Good,0,Good,26,Good,0,Good,41,Good
+297,Japan,Hasama,39,Good,1,Good,39,Good,0,Good,14,Good
+298,Japan,Yugawara,42,Good,1,Good,42,Good,2,Good,36,Good
+299,Japan,Kashihara,40,Good,1,Good,40,Good,2,Good,35,Good
+300,United States of America,Fostoria,43,Good,1,Good,37,Good,3,Good,43,Good
+301,Russian Federation,Kuleshovka,37,Good,1,Good,37,Good,2,Good,17,Good
+302,Brazil,Juazeiro Do Norte,32,Good,0,Good,11,Good,2,Good,32,Good
+303,Russian Federation,Sosnovoborsk,45,Good,1,Good,34,Good,0,Good,45,Good
+304,United States of America,Natchitoches,50,Good,1,Good,39,Good,2,Good,50,Good
+305,Philippines,Calbayog,36,Good,1,Good,22,Good,0,Good,36,Good
+306,France,Hoenheim,33,Good,1,Good,33,Good,1,Good,28,Good
+307,Russian Federation,Votkinsk,38,Good,1,Good,28,Good,1,Good,38,Good
+308,Estonia,Maardu,23,Good,1,Good,23,Good,7,Good,20,Good
+309,Russian Federation,Tselina,45,Good,1,Good,45,Good,0,Good,21,Good
+310,Spain,Algete,28,Good,1,Good,17,Good,5,Good,28,Good
+311,United States of America,Hampton,41,Good,1,Good,33,Good,2,Good,41,Good
+312,Brazil,Baependi,43,Good,1,Good,11,Good,2,Good,43,Good
+313,United Republic of Tanzania,Mlalo,34,Good,0,Good,21,Good,0,Good,34,Good
+314,Japan,Miyata,44,Good,1,Good,44,Good,0,Good,37,Good
+315,Canada,Saint Georges,31,Good,1,Good,9,Good,2,Good,31,Good
+316,Brazil,Queimadas,24,Good,0,Good,11,Good,1,Good,24,Good
+317,Poland,Pinczow,48,Good,1,Good,27,Good,3,Good,48,Good
+318,Argentina,Viedma,23,Good,0,Good,16,Good,0,Good,23,Good
+319,Russian Federation,Kaliningrad,38,Good,1,Good,31,Good,2,Good,38,Good
+320,Thailand,Chumphon,41,Good,0,Good,15,Good,0,Good,41,Good
+321,France,Kingersheim,34,Good,1,Good,30,Good,1,Good,34,Good
+322,Spain,Siero,42,Good,1,Good,30,Good,4,Good,42,Good
+323,United States of America,Desert Hot Springs,46,Good,1,Good,32,Good,4,Good,46,Good
+324,Germany,Hilden,49,Good,1,Good,31,Good,3,Good,49,Good
+325,Democratic Republic of the Congo,Wamba,33,Good,1,Good,12,Good,0,Good,33,Good
+326,Sweden,Vasterhaninge,29,Good,1,Good,29,Good,0,Good,9,Good
+327,Ukraine,Pidhorodne,39,Good,1,Good,39,Good,2,Good,13,Good
+328,Brazil,Guara,45,Good,1,Good,4,Good,2,Good,45,Good
+329,Côte d'Ivoire,Zuenoula,48,Good,1,Good,14,Good,0,Good,48,Good
+330,Mexico,San Juan Del Rio,48,Good,1,Good,29,Good,1,Good,48,Good
+331,Belgium,Deinze,36,Good,1,Good,25,Good,3,Good,36,Good
+332,France,Mende,44,Good,1,Good,39,Good,0,Good,44,Good
+333,Brazil,Ampere,19,Good,0,Good,19,Good,0,Good,13,Good
+334,Ukraine,Baryshivka,38,Good,1,Good,38,Good,0,Good,13,Good
+335,Russian Federation,Arsenyev,38,Good,1,Good,26,Good,0,Good,38,Good
+336,Spain,Almendralejo,37,Good,1,Good,27,Good,3,Good,37,Good
+337,Uruguay,Paysandu,18,Good,0,Good,16,Good,0,Good,18,Good
+338,Italy,Fisciano,44,Good,1,Good,44,Good,2,Good,43,Good
+339,Brazil,Lucelia,22,Good,1,Good,8,Good,1,Good,22,Good
+340,Nicaragua,Ocotal,32,Good,1,Good,18,Good,0,Good,32,Good
+341,United Republic of Tanzania,Matai,19,Good,0,Good,19,Good,0,Good,19,Good
+342,Spain,Bullas,29,Good,1,Good,21,Good,2,Good,29,Good
+343,Germany,Buttelborn,29,Good,0,Good,29,Good,2,Good,27,Good
+344,Japan,Tobetsu,45,Good,1,Good,25,Good,3,Good,45,Good
+345,Canada,Sudbury,48,Good,1,Good,18,Good,1,Good,48,Good
+346,Netherlands,Hellendoorn,45,Good,1,Good,24,Good,5,Good,45,Good
+347,Philippines,Pagsangahan,32,Good,0,Good,23,Good,0,Good,32,Good
+348,Belgium,Lokeren,31,Good,0,Good,31,Good,2,Good,31,Good
+349,Ukraine,Chyhyryn,37,Good,1,Good,37,Good,1,Good,29,Good
+350,United States of America,Suffern,50,Good,1,Good,44,Good,3,Good,50,Good
+351,United States of America,East Liverpool,43,Good,1,Good,43,Good,4,Good,35,Good
+352,United States of America,Millcreek,44,Good,1,Good,21,Good,8,Good,44,Good
+353,United States of America,Swansea,34,Good,1,Good,24,Good,8,Good,34,Good
+354,Honduras,Juticalpa,49,Good,1,Good,21,Good,0,Good,49,Good
+355,United Kingdom of Great Britain and Northern Ireland,Royal Tunbridge Wells,28,Good,1,Good,23,Good,6,Good,28,Good
+356,Japan,Ryotsu,43,Good,1,Good,43,Good,0,Good,30,Good
+357,Austria,Bludenz,35,Good,1,Good,29,Good,1,Good,35,Good
+358,United States of America,El Reno,39,Good,1,Good,39,Good,1,Good,35,Good
+359,Switzerland,Worb,44,Good,1,Good,42,Good,0,Good,44,Good
+360,Brazil,Sao Francisco De Assis,19,Good,0,Good,19,Good,0,Good,8,Good
+361,India,Piriyapatna,27,Good,0,Good,21,Good,0,Good,27,Good
+362,United States of America,Rosemont,50,Good,1,Good,26,Good,7,Good,50,Good
+363,Peru,Motupe,38,Good,1,Good,18,Good,0,Good,38,Good
+364,Brazil,Arinos,40,Good,1,Good,2,Good,2,Good,40,Good
+365,United Kingdom of Great Britain and Northern Ireland,Bishopbriggs,37,Good,1,Good,11,Good,9,Good,37,Good
+366,France,Lomme,44,Good,1,Good,38,Good,1,Good,44,Good
+367,Japan,Osakasayama,43,Good,1,Good,43,Good,1,Good,18,Good
+368,United States of America,Brockton,43,Good,1,Good,36,Good,4,Good,43,Good
+369,Russian Federation,Barysh,46,Good,0,Good,31,Good,0,Good,46,Good
+370,Ukraine,Feodosiya,42,Good,1,Good,42,Good,0,Good,20,Good
+371,France,Saint Pol Sur Mer,44,Good,1,Good,33,Good,1,Good,44,Good
+372,Peru,Cajamarca,44,Good,1,Good,3,Good,2,Good,44,Good
+373,France,Saint Orens De Gameville,32,Good,1,Good,32,Good,2,Good,23,Good
+374,Sweden,Hudiksvall,26,Good,0,Good,26,Good,0,Good,17,Good
+375,Brazil,Aracuai,32,Good,1,Good,4,Good,2,Good,32,Good
+376,Italy,Castiglion Fiorentino,45,Good,1,Good,36,Good,3,Good,45,Good
+377,South Africa,Louis Trichardt,33,Good,1,Good,23,Good,1,Good,33,Good
+378,Madagascar,Bealanana,22,Good,0,Good,22,Good,0,Good,7,Good
+379,Belgium,Kortemark,39,Good,1,Good,25,Good,3,Good,39,Good
+380,Brazil,Penalva,21,Good,0,Good,11,Good,0,Good,21,Good
+381,Latvia,Ludza,31,Good,1,Good,31,Good,0,Good,28,Good
+382,Germany,Altotting,50,Good,1,Good,29,Good,3,Good,50,Good
+383,Russian Federation,Odintsovo,36,Good,1,Good,32,Good,6,Good,36,Good
+384,Russian Federation,Kotelnikovo,39,Good,1,Good,39,Good,0,Good,20,Good
+385,Finland,Mantsala,27,Good,1,Good,27,Good,3,Good,9,Good
+386,Sweden,Sala,34,Good,1,Good,34,Good,0,Good,14,Good
+387,Germany,Aerzen,35,Good,1,Good,35,Good,1,Good,34,Good
+388,Brazil,Pombos,40,Good,1,Good,9,Good,4,Good,40,Good
+389,Peru,Tumbes,47,Good,1,Good,23,Good,0,Good,47,Good
+390,Dominican Republic,Pedernales,46,Good,1,Good,17,Good,2,Good,46,Good
+391,France,Pontivy,40,Good,1,Good,27,Good,3,Good,40,Good
+392,Brazil,Ibaiti,17,Good,1,Good,13,Good,0,Good,17,Good
+393,United States of America,Ukiah,31,Good,1,Good,30,Good,1,Good,31,Good
+394,Italy,Oleggio,34,Good,1,Good,34,Good,3,Good,30,Good
+395,Japan,Kiryu,34,Good,1,Good,19,Good,4,Good,34,Good
+396,United Kingdom of Great Britain and Northern Ireland,Newburn,31,Good,0,Good,31,Good,2,Good,21,Good
+397,Brazil,Dianopolis,17,Good,0,Good,17,Good,0,Good,17,Good
+398,Chile,Diego De Almagro,16,Good,0,Good,16,Good,2,Good,14,Good
+399,Netherlands,Schoonhoven,34,Good,0,Good,34,Good,2,Good,32,Good
+400,Spain,Camas,27,Good,0,Good,27,Good,1,Good,17,Good
+401,Brazil,Pianco,23,Good,0,Good,15,Good,0,Good,23,Good
+402,Slovakia,Surany,50,Good,1,Good,30,Good,1,Good,50,Good
+403,Japan,Maki,41,Good,1,Good,41,Good,0,Good,26,Good
+404,Netherlands,Raalte,41,Good,1,Good,24,Good,6,Good,41,Good
+405,Japan,Obu,45,Good,1,Good,45,Good,1,Good,18,Good
+406,United States of America,Mastic Beach,37,Good,1,Good,22,Good,15,Good,37,Good
+407,Brazil,Campos Belos,20,Good,0,Good,20,Good,0,Good,18,Good
+408,Mexico,Petatlan,39,Good,1,Good,12,Good,2,Good,39,Good
+409,Portugal,Barcelos,32,Good,1,Good,32,Good,2,Good,22,Good
+410,Zimbabwe,Hwange,44,Good,0,Good,17,Good,0,Good,44,Good
+411,Netherlands,Bergen,39,Good,1,Good,28,Good,4,Good,39,Good
+412,Spain,Melilla,32,Good,1,Good,32,Good,1,Good,26,Good
+413,Germany,Eichenau,49,Good,1,Good,42,Good,2,Good,49,Good
+414,Canada,Williams Lake,34,Good,1,Good,34,Good,0,Good,5,Good
+415,Côte d'Ivoire,Gagnoa,39,Good,1,Good,18,Good,0,Good,39,Good
+416,Myanmar,Myanaung,42,Good,0,Good,23,Good,0,Good,42,Good
+417,Mexico,San Miguel El Alto,50,Good,1,Good,26,Good,1,Good,50,Good
+418,Poland,Bedzin,50,Good,1,Good,27,Good,3,Good,50,Good
+419,Italy,Forlimpopoli,38,Good,1,Good,38,Good,1,Good,36,Good
+420,Mexico,Saltillo,48,Good,1,Good,16,Good,2,Good,48,Good
+421,Thailand,Ban Tak,42,Good,0,Good,20,Good,0,Good,42,Good
+422,United States of America,Moses Lake,32,Good,1,Good,32,Good,1,Good,15,Good
+423,Spain,Pinos Puente,24,Good,1,Good,24,Good,2,Good,16,Good
+424,Brazil,Mari,28,Good,0,Good,15,Good,2,Good,28,Good
+425,Argentina,Corrientes,13,Good,1,Good,12,Good,0,Good,13,Good
+426,United States of America,Chicopee,45,Good,1,Good,45,Good,2,Good,31,Good
+427,Germany,Mettingen,33,Good,0,Good,33,Good,1,Good,19,Good
+428,Japan,Kashiwazaki,40,Good,1,Good,40,Good,0,Good,30,Good
+429,Japan,Shiogama,40,Good,1,Good,40,Good,0,Good,14,Good
+430,Brazil,Tapes,20,Good,0,Good,20,Good,0,Good,9,Good
+431,Peru,Huancavelica,10,Good,0,Good,2,Good,1,Good,10,Good
+432,Russian Federation,Ivanteyevka,50,Good,1,Good,27,Good,5,Good,50,Good
+433,Sri Lanka,Anuradhapura,47,Good,0,Good,26,Good,0,Good,47,Good
+434,United Kingdom of Great Britain and Northern Ireland,Stirling,39,Good,1,Good,17,Good,7,Good,39,Good
+435,Romania,Pechea,50,Good,1,Good,49,Good,0,Good,50,Good
+436,Brazil,Timoteo,31,Good,0,Good,20,Good,0,Good,31,Good
+437,Brazil,Urucuca,40,Good,1,Good,8,Good,2,Good,40,Good
+438,Turkey,Tosya,40,Good,1,Good,40,Good,0,Good,10,Good
+439,Poland,Sochaczew,41,Good,1,Good,41,Good,0,Good,28,Good
+440,Finland,Oulu,34,Good,1,Good,34,Good,0,Good,3,Good
+441,United States of America,Marysville,44,Good,1,Good,40,Good,1,Good,44,Good
+442,United Kingdom of Great Britain and Northern Ireland,Cambridge,30,Good,1,Good,30,Good,3,Good,14,Good
+443,Russian Federation,Mezhdurechensk,37,Good,1,Good,37,Good,0,Good,28,Good
+444,United Kingdom of Great Britain and Northern Ireland,Leyland,35,Good,1,Good,35,Good,3,Good,18,Good
+445,Spain,Camargo,42,Good,1,Good,42,Good,0,Good,15,Good
+446,Italy,Sedriano,34,Good,1,Good,34,Good,2,Good,20,Good
+447,Germany,Ettlingen,45,Good,1,Good,34,Good,4,Good,45,Good
+448,Argentina,Rawson,22,Good,0,Good,22,Good,0,Good,11,Good
+449,Germany,Bad Harzburg,36,Good,0,Good,30,Good,1,Good,36,Good
+450,France,Roubaix,46,Good,1,Good,38,Good,1,Good,46,Good
+451,,Labuan,25,Good,2,Good,25,Good,0,Good,18,Good
+452,Belgium,Stekene,39,Good,1,Good,30,Good,3,Good,39,Good
+453,United Kingdom of Great Britain and Northern Ireland,Cumbernauld,27,Good,1,Good,22,Good,6,Good,27,Good
+454,Cambodia,Kampong Thum,44,Good,1,Good,21,Good,0,Good,44,Good
+455,Belgium,Boechout,40,Good,1,Good,29,Good,3,Good,40,Good
+456,Russian Federation,Rylsk,40,Good,1,Good,40,Good,0,Good,12,Good
+457,Switzerland,Bern,30,Good,0,Good,30,Good,0,Good,28,Good
+458,Japan,Yuza,37,Good,1,Good,37,Good,0,Good,29,Good
+459,Burkina Faso,Reo,49,Good,1,Good,18,Good,0,Good,49,Good
+460,Spain,Aranjuez,41,Good,1,Good,41,Good,0,Good,11,Good
+461,Netherlands,Duiven,30,Good,1,Good,30,Good,2,Good,21,Good
+462,United Republic of Tanzania,Tingi,24,Good,0,Good,17,Good,0,Good,24,Good
+463,Italy,Enna,46,Good,1,Good,43,Good,0,Good,46,Good
+464,Angola,Huambo,28,Good,1,Good,21,Good,0,Good,28,Good
+465,Russian Federation,Furmanov,30,Good,1,Good,30,Good,0,Good,14,Good
+466,Brazil,Taiobeiras,19,Good,0,Good,7,Good,1,Good,19,Good
+467,Germany,Schwabisch Hall,27,Good,1,Good,24,Good,4,Good,27,Good
+468,Belgium,Soumagne,48,Good,1,Good,23,Good,4,Good,48,Good
+469,Spain,Marin,35,Good,1,Good,35,Good,1,Good,20,Good
+470,United Republic of Tanzania,Kibakwe,19,Good,0,Good,19,Good,0,Good,16,Good
+471,Serbia,Ivanjica,38,Good,1,Good,38,Good,0,Good,23,Good
+472,Russian Federation,Kozlovka,39,Good,1,Good,33,Good,1,Good,39,Good
+473,France,Troyes,30,Good,1,Good,25,Good,1,Good,30,Good
+474,United States of America,Troy,50,Good,1,Good,38,Good,4,Good,50,Good
+475,Brazil,Camaqua,35,Good,1,Good,18,Good,1,Good,35,Good
+476,Italy,Cortona,36,Good,1,Good,36,Good,2,Good,22,Good
+477,Russian Federation,Vorsma,47,Good,1,Good,34,Good,1,Good,47,Good
+478,Poland,Czarnkow,32,Good,1,Good,29,Good,1,Good,32,Good
+479,United States of America,Forest Lake,48,Good,1,Good,40,Good,2,Good,48,Good
+480,Germany,Kelheim,48,Good,1,Good,28,Good,3,Good,48,Good
+481,Russian Federation,Krasnozerskoye,46,Good,1,Good,46,Good,0,Good,16,Good
+482,Madagascar,Sakaraha,29,Good,0,Good,23,Good,0,Good,29,Good
+483,Romania,Sacele,40,Good,1,Good,40,Good,0,Good,15,Good
+484,Portugal,Oliveira De Azemeis,42,Good,0,Good,42,Good,0,Good,18,Good
+485,Russian Federation,Uyar,32,Good,1,Good,32,Good,0,Good,15,Good
+486,France,Nantes,38,Good,1,Good,25,Good,2,Good,38,Good
+487,Philippines,Parang,50,Good,1,Good,18,Good,2,Good,50,Good
+488,Thailand,Kranuan,42,Good,0,Good,28,Good,0,Good,42,Good
+489,Russian Federation,Rasskazovo,48,Good,1,Good,35,Good,1,Good,48,Good
+490,Poland,Jozefow,43,Good,1,Good,30,Good,3,Good,43,Good
+491,Canada,Owen Sound,36,Good,1,Good,36,Good,3,Good,36,Good
+492,Russian Federation,Naryan Mar,26,Good,1,Good,26,Good,0,Good,11,Good
+493,Portugal,Matosinhos,29,Good,0,Good,29,Good,2,Good,20,Good
+494,Ukraine,Rakitnoye,41,Good,1,Good,41,Good,0,Good,13,Good
+495,United States of America,Middleburg Heights,47,Good,1,Good,30,Good,8,Good,47,Good
+496,Greece,Orestias,42,Good,1,Good,42,Good,0,Good,29,Good
+497,Brazil,Paicandu,21,Good,1,Good,10,Good,1,Good,21,Good
+498,United States of America,Lexington Park,39,Good,1,Good,39,Good,1,Good,30,Good
+499,Netherlands,Nederweert,36,Good,1,Good,34,Good,2,Good,36,Good
+500,Brazil,Granja,30,Good,0,Good,10,Good,1,Good,30,Good
+501,United Republic of Tanzania,Ndago,16,Good,0,Good,16,Good,0,Good,15,Good
+502,United Kingdom of Great Britain and Northern Ireland,Kilmarnock,35,Good,1,Good,35,Good,1,Good,35,Good
+503,Canada,Cobourg,30,Good,1,Good,30,Good,2,Good,26,Good
+504,Brazil,Cachoeira,36,Good,0,Good,23,Good,0,Good,36,Good
+505,Thailand,Chiang Kham,30,Good,0,Good,25,Good,0,Good,30,Good
+506,United States of America,Kennebunk,45,Good,1,Good,41,Good,3,Good,45,Good
+507,Russian Federation,Zernograd,37,Good,1,Good,37,Good,0,Good,29,Good
+508,Lithuania,Lentvaris,34,Good,0,Good,34,Good,0,Good,33,Good
+509,Germany,Finnentrop,35,Good,1,Good,35,Good,1,Good,26,Good
+510,Spain,Martos,36,Good,1,Good,31,Good,2,Good,36,Good
+511,Russian Federation,Luchegorsk,36,Good,2,Good,25,Good,8,Good,36,Good
+512,United States of America,Kerrville,36,Good,0,Good,20,Good,1,Good,36,Good
+513,United Kingdom of Great Britain and Northern Ireland,Clevedon,50,Good,1,Good,15,Good,7,Good,50,Good
+514,France,Trelaze,29,Good,1,Good,28,Good,1,Good,29,Good
+515,Bolivia (Plurinational State of),Warnes,14,Good,1,Good,5,Good,0,Good,14,Good
+516,Brazil,Riachao Das Neves,13,Good,1,Good,6,Good,1,Good,13,Good
+517,United States of America,Berwick,50,Good,1,Good,35,Good,5,Good,50,Good
+518,Brazil,Ituiutaba,25,Good,1,Good,10,Good,1,Good,25,Good
+519,Russian Federation,Novouzensk,49,Good,1,Good,49,Good,0,Good,11,Good
+520,Brazil,Amambai,14,Good,1,Good,12,Good,0,Good,14,Good
+521,United States of America,North Miami,35,Good,1,Good,31,Good,3,Good,35,Good
+522,France,Dunkirk,35,Good,1,Good,35,Good,0,Good,31,Good
+523,Russian Federation,Skalistyy,29,Good,1,Good,29,Good,0,Good,8,Good
+524,Italy,Matera,43,Good,1,Good,43,Good,1,Good,22,Good
+525,Malaysia,Kudat,40,Good,1,Good,23,Good,0,Good,40,Good
+526,United States of America,Dover,48,Good,1,Good,35,Good,4,Good,48,Good
+527,Philippines,Pacol,34,Good,1,Good,18,Good,0,Good,34,Good
+528,Russian Federation,Dimitrovgrad,31,Good,0,Good,30,Good,0,Good,31,Good
+529,Netherlands,Apeldoorn,39,Good,1,Good,23,Good,6,Good,39,Good
+530,Mexico,Buenos Aires,43,Good,1,Good,28,Good,0,Good,43,Good
+531,United States of America,Crawfordsville,42,Good,1,Good,34,Good,7,Good,42,Good
+532,Germany,Schopfheim,34,Good,1,Good,29,Good,2,Good,34,Good
+533,Germany,Rommerskirchen,30,Good,0,Good,25,Good,2,Good,30,Good
+534,United States of America,Brawley,36,Good,1,Good,18,Good,8,Good,36,Good
+535,Indonesia,Katobu,22,Good,0,Good,18,Good,0,Good,22,Good
+536,United States of America,North Marysville,38,Good,1,Good,27,Good,6,Good,38,Good
+537,France,Petit Bourg,50,Good,0,Good,28,Good,0,Good,50,Good
+538,Papua New Guinea,Lae,18,Good,0,Good,18,Good,0,Good,11,Good
+539,Argentina,Zarate,24,Good,0,Good,14,Good,3,Good,24,Good
+540,France,La Fleche,31,Good,1,Good,26,Good,2,Good,31,Good
+541,Japan,Isawa,44,Good,1,Good,44,Good,0,Good,22,Good
+542,Brazil,Presidente Dutra,41,Good,1,Good,5,Good,1,Good,41,Good
+543,United States of America,Weirton,47,Good,1,Good,39,Good,2,Good,47,Good
+544,Russian Federation,Nizhniye Sergi,37,Good,1,Good,35,Good,0,Good,37,Good
+545,Indonesia,Bantul,46,Good,1,Good,25,Good,0,Good,46,Good
+546,Spain,Burriana,41,Good,1,Good,41,Good,0,Good,14,Good
+547,Brazil,Inhambupe,23,Good,0,Good,14,Good,1,Good,23,Good
+548,Denmark,Greve Strand,39,Good,0,Good,39,Good,0,Good,19,Good
+549,United States of America,Jacinto City,33,Good,0,Good,22,Good,3,Good,33,Good
+550,United States of America,Douglasville,45,Good,1,Good,45,Good,5,Good,40,Good
+551,Germany,Schwalbach,31,Good,0,Good,31,Good,1,Good,26,Good
+552,Poland,Wroclaw,50,Good,1,Good,44,Good,0,Good,50,Good
+553,,Goderich,25,Good,1,Good,23,Good,0,Good,25,Good
+554,Spain,Silla,35,Good,1,Good,28,Good,2,Good,35,Good
+555,Brazil,Conde,19,Good,0,Good,19,Good,0,Good,11,Good
+556,United States of America,Seekonk,41,Good,1,Good,34,Good,4,Good,41,Good
+557,Ukraine,Zhovti Vody,44,Good,1,Good,44,Good,0,Good,24,Good
+558,Russian Federation,Kinel,35,Good,1,Good,35,Good,0,Good,18,Good
+559,Turkey,Erbaa,42,Good,1,Good,42,Good,0,Good,31,Good
+560,Germany,Bockenem,44,Good,1,Good,44,Good,0,Good,37,Good
+561,Germany,Stadthagen,36,Good,0,Good,34,Good,1,Good,36,Good
+562,Belgium,Horst,33,Good,1,Good,22,Good,4,Good,33,Good
+563,Poland,Mogilno,44,Good,1,Good,34,Good,1,Good,44,Good
+564,Brazil,Aracruz,50,Good,0,Good,28,Good,0,Good,50,Good
+565,Uruguay,Paso De Los Toros,14,Good,0,Good,14,Good,0,Good,9,Good
+566,United States of America,Northview,46,Good,1,Good,31,Good,0,Good,46,Good
+567,,Bang Lamung,37,Good,0,Good,17,Good,1,Good,37,Good
+568,Sweden,Uppsala,29,Good,1,Good,29,Good,0,Good,9,Good
+569,Brazil,Porteirinha,28,Good,1,Good,4,Good,1,Good,28,Good
+570,United States of America,Mount Juliet,50,Good,1,Good,50,Good,2,Good,50,Good
+571,Russian Federation,Kashira,34,Good,1,Good,34,Good,0,Good,34,Good
+572,Brazil,Nova Olimpia,25,Good,1,Good,3,Good,1,Good,25,Good
+573,Netherlands,Helden,37,Good,1,Good,31,Good,2,Good,37,Good
+574,Turkey,Fatsa,41,Good,1,Good,34,Good,0,Good,41,Good
+575,Poland,Wyszkow,40,Good,1,Good,40,Good,0,Good,21,Good
+576,United States of America,Dixon,44,Good,1,Good,28,Good,5,Good,44,Good
+577,Brazil,Itapetinga,35,Good,1,Good,6,Good,2,Good,35,Good
+578,Netherlands,Loon Op Zand,32,Good,0,Good,27,Good,3,Good,32,Good
+579,Turkey,Tokat,44,Good,1,Good,40,Good,0,Good,44,Good
+580,Poland,Kutno,34,Good,1,Good,34,Good,1,Good,27,Good
+581,Brazil,Medianeira,32,Good,1,Good,8,Good,1,Good,32,Good
+582,United States of America,Fairborn,44,Good,1,Good,44,Good,1,Good,44,Good
+583,Germany,Westerstede,36,Good,0,Good,36,Good,0,Good,34,Good
+584,Spain,Arcos De La Frontera,31,Good,1,Good,31,Good,4,Good,30,Good
+585,United Kingdom of Great Britain and Northern Ireland,Hertford,32,Good,1,Good,32,Good,4,Good,23,Good
+586,Germany,Ludinghausen,34,Good,1,Good,33,Good,2,Good,34,Good
+587,Italy,Marigliano,49,Good,1,Good,49,Good,3,Good,49,Good
+588,Spain,Inca,43,Good,1,Good,43,Good,0,Good,30,Good
+589,Spain,San Juan De Aznalfarache,42,Good,1,Good,42,Good,0,Good,17,Good
+590,Italy,Pietrasanta,41,Good,1,Good,41,Good,2,Good,16,Good
+591,Ireland,Carrigaline,33,Good,1,Good,33,Good,2,Good,22,Good
+592,Australia,Griffith,24,Good,0,Good,24,Good,0,Good,10,Good
+593,Indonesia,Klaten,48,Good,1,Good,27,Good,0,Good,48,Good
+594,Romania,Matca,42,Good,1,Good,42,Good,0,Good,37,Good
+595,United Kingdom of Great Britain and Northern Ireland,Motherwell,32,Good,1,Good,24,Good,4,Good,32,Good
+596,Zambia,Choma,37,Good,1,Good,21,Good,0,Good,37,Good
+597,Madagascar,Antalaha,22,Good,0,Good,22,Good,0,Good,20,Good
+598,United Republic of Tanzania,Lukuledi,40,Good,0,Good,23,Good,0,Good,40,Good
+599,United States of America,Gilroy,41,Good,1,Good,29,Good,3,Good,41,Good
+600,United States of America,Cedar Park,50,Good,1,Good,16,Good,3,Good,50,Good
+601,United Republic of Tanzania,Isaka,36,Good,0,Good,15,Good,0,Good,36,Good
+602,Brazil,Esperanca,24,Good,0,Good,24,Good,0,Good,19,Good
+603,Turkey,Safranbolu,40,Good,1,Good,35,Good,0,Good,40,Good
+604,Indonesia,Manggar,34,Good,0,Good,19,Good,0,Good,34,Good
+605,Ukraine,Starokostyantyniv,35,Good,1,Good,35,Good,1,Good,30,Good
+606,Gabon,Bitam,45,Good,1,Good,22,Good,0,Good,45,Good
+607,Austria,Rankweil,36,Good,1,Good,36,Good,1,Good,35,Good
+608,Spain,Cullera,34,Good,1,Good,30,Good,1,Good,34,Good
+609,Ukraine,Koryukivka,36,Good,1,Good,36,Good,0,Good,10,Good
+610,Japan,Ofunato,48,Good,1,Good,24,Good,3,Good,48,Good
+611,Georgia,Gali,34,Good,1,Good,34,Good,0,Good,20,Good
+612,Nicaragua,Quilali,30,Good,1,Good,19,Good,0,Good,30,Good
+613,Japan,Moriguchi,50,Good,1,Good,46,Good,2,Good,50,Good
+614,United States of America,Munhall,49,Good,1,Good,40,Good,2,Good,49,Good
+615,United Kingdom of Great Britain and Northern Ireland,Sale,34,Good,1,Good,30,Good,3,Good,34,Good
+616,Cambodia,Kampong Chhnang,21,Good,0,Good,16,Good,0,Good,21,Good
+617,Brazil,Porecatu,30,Good,1,Good,9,Good,2,Good,30,Good
+618,Colombia,Puerto Berrio,38,Good,2,Good,15,Good,1,Good,38,Good
+619,Japan,Nanae,36,Good,1,Good,36,Good,0,Good,7,Good
+620,Portugal,Vila Nova De Gaia,36,Good,1,Good,24,Good,4,Good,36,Good
+621,Indonesia,Tondano,29,Good,0,Good,15,Good,0,Good,29,Good
+622,Spain,Avila,45,Good,1,Good,22,Good,2,Good,45,Good
+623,Brazil,Londrina,35,Good,1,Good,17,Good,0,Good,35,Good
+624,Netherlands,Gendringen,40,Good,1,Good,38,Good,0,Good,40,Good
+625,India,Chikmagalur,25,Good,0,Good,20,Good,0,Good,25,Good
+626,Spain,Guimar,41,Good,0,Good,41,Good,0,Good,14,Good
+627,France,Tours,36,Good,1,Good,28,Good,3,Good,36,Good
+628,Brazil,Joao Camara,29,Good,0,Good,19,Good,1,Good,29,Good
+629,Portugal,Viseu,27,Good,0,Good,27,Good,1,Good,16,Good
+630,Poland,Polkowice,44,Good,1,Good,44,Good,0,Good,37,Good
+631,United States of America,Sartell,36,Good,1,Good,36,Good,5,Good,31,Good
+632,United Kingdom of Great Britain and Northern Ireland,Widnes,32,Good,1,Good,21,Good,6,Good,32,Good
+633,United States of America,Goffstown,35,Good,1,Good,33,Good,1,Good,35,Good
+634,Netherlands,Beverwijk,37,Good,1,Good,37,Good,0,Good,31,Good
+635,Germany,Ismaning,31,Good,0,Good,29,Good,1,Good,31,Good
+636,Philippines,Sorsogon,47,Good,1,Good,26,Good,0,Good,47,Good
+637,Turkey,Ordu,32,Good,1,Good,32,Good,0,Good,24,Good
+638,Morocco,Tawnat,46,Good,1,Good,29,Good,2,Good,46,Good
+639,Switzerland,Gossau,44,Good,1,Good,26,Good,5,Good,44,Good
+640,Ireland,Swords,41,Good,1,Good,41,Good,0,Good,30,Good
+641,Italy,Rionero In Vulture,42,Good,1,Good,42,Good,2,Good,34,Good
+642,Germany,Nordenham,37,Good,0,Good,37,Good,0,Good,29,Good
+643,Romania,Liesti,44,Good,1,Good,37,Good,1,Good,44,Good
+644,Sweden,Timra,30,Good,1,Good,30,Good,0,Good,7,Good
+645,Belgium,Chaudfontaine,34,Good,1,Good,32,Good,2,Good,34,Good
+646,Turkey,Cumra,30,Good,1,Good,30,Good,1,Good,29,Good
+647,Italy,Teramo,44,Good,1,Good,44,Good,1,Good,38,Good
+648,Portugal,Sao Domingos De Rana,29,Good,1,Good,28,Good,8,Good,29,Good
+649,France,Creil,50,Good,1,Good,21,Good,5,Good,50,Good
+650,Lao People's Democratic Republic,Champasak,47,Good,0,Good,22,Good,0,Good,47,Good
+651,Brazil,Nova Granada,37,Good,1,Good,9,Good,2,Good,37,Good
+652,United Republic of Tanzania,Mugango,40,Good,1,Good,15,Good,0,Good,40,Good
+653,Russian Federation,Krasnoobsk,43,Good,1,Good,43,Good,1,Good,34,Good
+654,Germany,Siegen,49,Good,1,Good,26,Good,3,Good,49,Good
+655,Lithuania,Marijampole,26,Good,1,Good,26,Good,1,Good,26,Good
+656,Romania,Ramnicu Sarat,36,Good,1,Good,36,Good,0,Good,15,Good
+657,Germany,Dieburg,37,Good,0,Good,37,Good,0,Good,29,Good
+658,Papua New Guinea,Arawa,50,Good,0,Good,12,Good,0,Good,50,Good
+659,Brazil,Itajai,34,Good,0,Good,20,Good,2,Good,34,Good
+660,Germany,Leverkusen,32,Good,1,Good,32,Good,2,Good,30,Good
+661,United States of America,Twin Falls,27,Good,1,Good,27,Good,2,Good,16,Good
+662,Mexico,Dzitbalche,43,Good,1,Good,22,Good,0,Good,43,Good
+663,France,Gardanne,30,Good,1,Good,24,Good,8,Good,30,Good
+664,Russian Federation,Solnechnyy,30,Good,0,Good,30,Good,0,Good,7,Good
+665,Bulgaria,Sevlievo,39,Good,1,Good,39,Good,0,Good,32,Good
+666,United States of America,Berkeley,46,Good,1,Good,33,Good,3,Good,46,Good
+667,Austria,Ternitz,27,Good,0,Good,27,Good,1,Good,20,Good
+668,United States of America,Seabrook,30,Good,0,Good,24,Good,3,Good,30,Good
+669,Brazil,Camapua,27,Good,1,Good,26,Good,0,Good,27,Good
+670,Mexico,Tepalcatepec,44,Good,1,Good,27,Good,0,Good,44,Good
+671,Brazil,Barra Da Estiva,18,Good,0,Good,7,Good,1,Good,18,Good
+672,United States of America,Picayune,50,Good,1,Good,36,Good,1,Good,50,Good
+673,Ukraine,Okhtyrka,40,Good,1,Good,40,Good,1,Good,24,Good
+674,Finland,Imatra,29,Good,1,Good,29,Good,1,Good,7,Good
+675,Belgium,Brugge,37,Good,1,Good,25,Good,3,Good,37,Good
+676,United States of America,Sammamish,34,Good,1,Good,32,Good,4,Good,34,Good
+677,Turkey,Osmaniye,46,Good,1,Good,39,Good,0,Good,46,Good
+678,Brazil,Altos,50,Good,1,Good,7,Good,2,Good,50,Good
+679,United States of America,New Bedford,32,Good,1,Good,32,Good,7,Good,27,Good
+680,Finland,Siilinjarvi,32,Good,1,Good,32,Good,2,Good,24,Good
+681,Russian Federation,Krasnoturinsk,32,Good,1,Good,32,Good,0,Good,4,Good
+682,France,Begles,41,Good,1,Good,41,Good,0,Good,25,Good
+683,Honduras,Tegucigalpa,50,Good,1,Good,9,Good,3,Good,50,Good
+684,Turkey,Zile,46,Good,1,Good,46,Good,0,Good,24,Good
+685,Brazil,Monte Azul Paulista,38,Good,1,Good,11,Good,1,Good,38,Good
+686,China,Datong,44,Good,1,Good,44,Good,1,Good,38,Good
+687,Poland,Bialogard,33,Good,0,Good,33,Good,0,Good,26,Good
+688,Ukraine,Artsyz,39,Good,1,Good,39,Good,0,Good,36,Good
+689,Russian Federation,Kuvandyk,29,Good,1,Good,29,Good,0,Good,17,Good
+690,Japan,Suita,46,Good,1,Good,46,Good,0,Good,22,Good
+691,Luxembourg,Dudelange,26,Good,1,Good,26,Good,2,Good,23,Good
+692,Poland,Dobre Miasto,37,Good,0,Good,33,Good,0,Good,37,Good
+693,New Zealand,Avarua,28,Good,0,Good,28,Good,0,Good,12,Good
+694,South Africa,Danielskuil,29,Good,0,Good,21,Good,0,Good,29,Good
+695,,Winthrop,45,Good,1,Good,40,Good,1,Good,45,Good
+696,United Republic of Tanzania,Lindi,35,Good,0,Good,22,Good,0,Good,35,Good
+697,United Kingdom of Great Britain and Northern Ireland,Musselburgh,30,Good,1,Good,18,Good,7,Good,30,Good
+698,Brazil,Vespasiano,42,Good,1,Good,21,Good,0,Good,42,Good
+699,Russian Federation,Poykovskiy,43,Good,1,Good,28,Good,0,Good,43,Good
+700,Netherlands,Zaanstad,38,Good,1,Good,28,Good,5,Good,38,Good
+701,United States of America,Ankeny,39,Good,1,Good,35,Good,3,Good,39,Good
+702,Brazil,Senador Pompeu,32,Good,1,Good,11,Good,1,Good,32,Good
+703,Spain,Leganes,28,Good,1,Good,28,Good,3,Good,16,Good
+704,Germany,Selm,36,Good,1,Good,33,Good,2,Good,36,Good
+705,Poland,Wschowa,36,Good,1,Good,27,Good,1,Good,36,Good
+706,Ireland,Arklow,33,Good,0,Good,31,Good,1,Good,33,Good
+707,Zambia,Mansa,41,Good,1,Good,21,Good,0,Good,41,Good
+708,Peru,Eten,50,Good,0,Good,24,Good,0,Good,50,Good
+709,Brazil,Crixas,37,Good,1,Good,8,Good,0,Good,37,Good
+710,Brazil,Sao Cristovao,22,Good,0,Good,22,Good,0,Good,14,Good
+711,Canada,Terrace,24,Good,0,Good,24,Good,1,Good,11,Good
+712,Russian Federation,Nizhnyaya Tura,41,Good,1,Good,41,Good,0,Good,39,Good
+713,Netherlands,Oud Beijerland,34,Good,0,Good,34,Good,2,Good,31,Good
+714,Portugal,Pedroso,35,Good,1,Good,35,Good,2,Good,25,Good
+715,Russian Federation,Kotlas,28,Good,1,Good,28,Good,0,Good,18,Good
+716,United States of America,Belvidere,38,Good,1,Good,38,Good,1,Good,38,Good
+717,Netherlands,Zevenaar,37,Good,0,Good,32,Good,2,Good,37,Good
+718,Turkey,Nigde,41,Good,0,Good,41,Good,0,Good,30,Good
+719,Bosnia and Herzegovina,Kakanj,50,Good,1,Good,32,Good,0,Good,50,Good
+720,Mexico,Comonfort,45,Good,1,Good,15,Good,4,Good,45,Good
+721,France,Ronchin,47,Good,1,Good,25,Good,5,Good,47,Good
+722,United States of America,Aloha,33,Good,1,Good,19,Good,9,Good,33,Good
+723,Italy,Cameri,35,Good,1,Good,35,Good,1,Good,19,Good
+724,United States of America,Palm Harbor,45,Good,1,Good,37,Good,7,Good,45,Good
+725,Argentina,Mercedes,14,Good,1,Good,14,Good,0,Good,3,Good
+726,Turkey,Ortakoy,50,Good,1,Good,35,Good,0,Good,50,Good
+727,United States of America,Olivehurst,48,Good,1,Good,33,Good,6,Good,48,Good
+728,Germany,Miesbach,32,Good,0,Good,28,Good,1,Good,32,Good
+729,France,Rombas,24,Good,1,Good,23,Good,3,Good,24,Good
+730,Poland,Wloszczowa,38,Good,1,Good,30,Good,1,Good,38,Good
+731,Japan,Rumoi,26,Good,1,Good,26,Good,0,Good,23,Good
+732,Germany,Gronau,36,Good,0,Good,33,Good,1,Good,36,Good
+733,Thailand,Sam Roi Yot,30,Good,0,Good,19,Good,0,Good,30,Good
+734,Russian Federation,Gukovo,38,Good,1,Good,38,Good,0,Good,13,Good
+735,Brazil,Tome Acu,34,Good,1,Good,5,Good,0,Good,34,Good
+736,Spain,Paterna,35,Good,0,Good,35,Good,0,Good,18,Good
+737,United States of America,Ludlow,50,Good,1,Good,44,Good,1,Good,50,Good
+738,Brazil,Corumba,12,Good,0,Good,8,Good,0,Good,12,Good
+739,India,Karamadai,44,Good,0,Good,23,Good,0,Good,44,Good
+740,United Kingdom of Great Britain and Northern Ireland,Kendal,31,Good,1,Good,31,Good,3,Good,16,Good
+741,Poland,Chelmza,31,Good,1,Good,31,Good,1,Good,27,Good
+742,Ukraine,Berdychiv,36,Good,1,Good,36,Good,1,Good,19,Good
+743,Spain,El Ejido,38,Good,1,Good,38,Good,0,Good,37,Good
+744,India,Basugaon,42,Good,2,Good,39,Good,0,Good,42,Good
+745,Canada,North Battleford,33,Good,1,Good,33,Good,0,Good,6,Good
+746,Italy,Locri,50,Good,1,Good,44,Good,1,Good,50,Good
+747,Russian Federation,Krasnokumskoye,43,Good,1,Good,43,Good,1,Good,31,Good
+748,India,Odlabari,50,Good,1,Good,39,Good,0,Good,50,Good
+749,Australia,Tamworth,23,Good,0,Good,23,Good,1,Good,12,Good
+750,France,Cugnaux,33,Good,1,Good,33,Good,1,Good,22,Good
+751,Poland,Gizycko,49,Good,1,Good,21,Good,2,Good,49,Good
+752,Brazil,Vitoria Da Conquista,38,Good,1,Good,3,Good,2,Good,38,Good
+753,India,Sidlaghatta,44,Good,0,Good,22,Good,1,Good,44,Good
+754,Brazil,Tucano,20,Good,0,Good,14,Good,0,Good,20,Good
+755,Brazil,Montanha,21,Good,0,Good,17,Good,0,Good,21,Good
+756,Brazil,Jequitinhonha,25,Good,0,Good,7,Good,1,Good,25,Good
+757,,Port De Bouc,48,Good,1,Good,48,Good,2,Good,40,Good
+758,Uruguay,Rivera,13,Good,0,Good,13,Good,1,Good,13,Good
+759,Russian Federation,Chaplygin,39,Good,1,Good,39,Good,0,Good,18,Good
+760,Brazil,Afogados Da Ingazeira,24,Good,0,Good,12,Good,0,Good,24,Good
+761,Russian Federation,Kataysk,33,Good,1,Good,33,Good,0,Good,23,Good
+762,Equatorial Guinea,Ebebiyin,44,Good,1,Good,23,Good,0,Good,44,Good
+763,Sweden,Vastervik,38,Good,1,Good,38,Good,0,Good,9,Good
+764,France,Guebwiller,32,Good,1,Good,31,Good,1,Good,32,Good
+765,Ecuador,Riobamba,20,Good,0,Good,7,Good,0,Good,20,Good
+766,United Republic of Tanzania,Mwadui,33,Good,0,Good,17,Good,0,Good,33,Good
+767,Guinea,Mamou,32,Good,1,Good,16,Good,0,Good,32,Good
+768,Brazil,Sao Francisco De Paula,21,Good,1,Good,15,Good,1,Good,21,Good
+769,Japan,Yonezawa,38,Good,1,Good,38,Good,1,Good,11,Good
+770,Netherlands,Anna Paulowna,35,Good,0,Good,35,Good,0,Good,13,Good
+771,Equatorial Guinea,Malabo,32,Good,1,Good,22,Good,0,Good,32,Good
+772,Kazakhstan,Aqtobe,38,Good,1,Good,38,Good,0,Good,28,Good
+773,Spain,Tafalla,38,Good,1,Good,38,Good,0,Good,9,Good
+774,Russian Federation,Bologoye,27,Good,0,Good,27,Good,0,Good,22,Good
+775,Italy,Torre Santa Susanna,47,Good,1,Good,47,Good,1,Good,37,Good
+776,Japan,Tokoname,44,Good,1,Good,44,Good,1,Good,19,Good
+777,South Africa,Bredasdorp,44,Good,1,Good,22,Good,1,Good,44,Good
+778,Russian Federation,Chelyabinsk 40,39,Good,1,Good,39,Good,1,Good,11,Good
+779,Brazil,Guacui,44,Good,1,Good,12,Good,2,Good,44,Good
+780,France,Saint Chamond,35,Good,1,Good,24,Good,2,Good,35,Good
+781,United States of America,Johnston,41,Good,1,Good,37,Good,2,Good,41,Good
+782,Kenya,Lodwar,26,Good,1,Good,16,Good,0,Good,26,Good
+783,Brazil,Quirinopolis,25,Good,1,Good,4,Good,0,Good,25,Good
+784,Germany,Weimar,33,Good,1,Good,33,Good,1,Good,32,Good
+785,Bulgaria,Kavarna,44,Good,1,Good,44,Good,0,Good,41,Good
+786,Brazil,Andradina,11,Good,1,Good,11,Good,0,Good,11,Good
+787,Solomon Islands,Honiara,18,Good,0,Good,18,Good,0,Good,6,Good
+788,,Gallipoli,47,Good,1,Good,45,Good,0,Good,47,Good
+789,Japan,Murakami,42,Good,1,Good,42,Good,0,Good,29,Good
+790,Brazil,Dourados,13,Good,1,Good,13,Good,0,Good,12,Good
+791,Russian Federation,Mayrtup,48,Good,1,Good,48,Good,1,Good,33,Good
+792,Netherlands,Son En Breugel,30,Good,1,Good,30,Good,2,Good,28,Good
+793,Netherlands,Lichtenvoorde,32,Good,0,Good,32,Good,1,Good,21,Good
+794,Brazil,Vicosa Do Ceara,40,Good,1,Good,8,Good,2,Good,40,Good
+795,United States of America,Galion,47,Good,1,Good,37,Good,2,Good,47,Good
+796,United States of America,Laramie,35,Good,0,Good,35,Good,0,Good,8,Good
+797,Russian Federation,Khimki,40,Good,1,Good,30,Good,8,Good,40,Good
+798,Germany,Kirchhain,31,Good,0,Good,29,Good,1,Good,31,Good
+799,Russian Federation,Nevel,33,Good,1,Good,33,Good,0,Good,11,Good
+800,Japan,Kumano,29,Good,1,Good,29,Good,1,Good,18,Good
+801,Peru,Paramonga,41,Good,1,Good,18,Good,1,Good,41,Good
+802,Poland,Lublin,32,Good,1,Good,32,Good,1,Good,28,Good
+803,Russian Federation,Vyksa,29,Good,1,Good,29,Good,0,Good,19,Good
+804,Kazakhstan,Zachagansk,39,Good,1,Good,39,Good,0,Good,23,Good
+805,United States of America,Hayesville,42,Good,1,Good,21,Good,8,Good,42,Good
+806,Ecuador,Alausi,40,Good,1,Good,3,Good,2,Good,40,Good
+807,Brazil,Imbituva,24,Good,1,Good,8,Good,0,Good,24,Good
+808,Bolivia (Plurinational State of),Cotoca,16,Good,1,Good,9,Good,0,Good,16,Good
+809,Russian Federation,Otradnaya,44,Good,1,Good,44,Good,1,Good,31,Good
+810,Niger,Kollo,39,Good,2,Good,18,Good,1,Good,39,Good
+811,Germany,Gaggenau,29,Good,0,Good,29,Good,2,Good,26,Good
+812,Russian Federation,Chekmagush,39,Good,1,Good,34,Good,0,Good,39,Good
+813,Brazil,Taquarituba,41,Good,1,Good,20,Good,0,Good,41,Good
+814,United Kingdom of Great Britain and Northern Ireland,Lisburn,28,Good,1,Good,28,Good,3,Good,17,Good
+815,Brazil,Itaitinga,29,Good,0,Good,20,Good,1,Good,29,Good
+816,Spain,Coria Del Rio,36,Good,1,Good,30,Good,3,Good,36,Good
+817,Brazil,Alta Floresta,21,Good,1,Good,13,Good,0,Good,21,Good
+818,Brazil,America Dourada,15,Good,0,Good,14,Good,0,Good,15,Good
+819,United Kingdom of Great Britain and Northern Ireland,Whitstable,50,Good,0,Good,37,Good,1,Good,50,Good
+820,Russian Federation,Balezino,29,Good,1,Good,29,Good,0,Good,25,Good
+821,Germany,Eckernforde,32,Good,0,Good,32,Good,0,Good,31,Good
+822,Canada,Saskatoon,32,Good,1,Good,24,Good,2,Good,32,Good
+823,Nepal,Khandbari,34,Good,1,Good,32,Good,0,Good,34,Good
+824,Brazil,Barreirinhas,39,Good,0,Good,21,Good,0,Good,39,Good
+825,United States of America,Reidsville,47,Good,1,Good,47,Good,0,Good,20,Good
+826,Brazil,Maracana,50,Good,0,Good,16,Good,0,Good,50,Good
+827,Germany,Genthin,31,Good,0,Good,30,Good,1,Good,31,Good
+828,Mexico,Nuevo Laredo,47,Good,0,Good,25,Good,0,Good,47,Good
+829,,Kristiansund,29,Good,1,Good,29,Good,0,Good,11,Good
+830,Poland,Rumia,35,Good,1,Good,35,Good,0,Good,24,Good
+831,Turkey,Denizli,50,Good,1,Good,40,Good,1,Good,50,Good
+832,Italy,San Giovanni Rotondo,48,Good,1,Good,48,Good,1,Good,25,Good
+833,United States of America,Celina,39,Good,1,Good,29,Good,6,Good,39,Good
+834,Finland,Orimattila,35,Good,1,Good,35,Good,0,Good,16,Good
+835,France,Bourg En Bresse,30,Good,1,Good,30,Good,1,Good,18,Good
+836,Russian Federation,Ugleuralskiy,33,Good,1,Good,33,Good,0,Good,32,Good
+837,Germany,Ilmenau,29,Good,0,Good,29,Good,1,Good,28,Good
+838,Spain,Albal,34,Good,0,Good,34,Good,0,Good,19,Good
+839,United States of America,Vancouver,49,Good,1,Good,20,Good,10,Good,49,Good
+840,Georgia,Sukhumi,40,Good,1,Good,36,Good,0,Good,40,Good
+841,Germany,Lichtenfels,32,Good,1,Good,26,Good,2,Good,32,Good
+842,Germany,Fellbach,30,Good,0,Good,30,Good,2,Good,26,Good
+843,United Kingdom of Great Britain and Northern Ireland,Kilwinning,27,Good,1,Good,27,Good,2,Good,26,Good
+844,United Kingdom of Great Britain and Northern Ireland,Carlisle,38,Good,1,Good,38,Good,0,Good,35,Good
+845,Russian Federation,Kirovgrad,33,Good,1,Good,30,Good,1,Good,33,Good
+846,Germany,Hunfeld,33,Good,1,Good,33,Good,2,Good,33,Good
+847,Brazil,Itacarambi,21,Good,0,Good,7,Good,1,Good,21,Good
+848,Chad,Mongo,53,Moderate,2,Good,10,Good,1,Good,53,Moderate
+849,Italy,Formello,98,Moderate,1,Good,45,Good,1,Good,98,Moderate
+850,Mexico,Tonala,63,Moderate,1,Good,7,Good,7,Good,63,Moderate
+851,India,Siddapur,52,Moderate,0,Good,23,Good,0,Good,52,Moderate
+852,United States of America,Centereach,74,Moderate,2,Good,40,Good,10,Good,74,Moderate
+853,Iraq,Panjwin,55,Moderate,1,Good,55,Moderate,0,Good,47,Good
+854,Thailand,Sungai Kolok,65,Moderate,1,Good,34,Good,0,Good,65,Moderate
+855,South Africa,Heilbron,71,Moderate,2,Good,21,Good,4,Good,71,Moderate
+856,Germany,Breisach,68,Moderate,1,Good,60,Moderate,0,Good,68,Moderate
+857,Uganda,Tororo,80,Moderate,5,Good,35,Good,2,Good,80,Moderate
+858,United States of America,Cortland,72,Moderate,3,Good,5,Good,10,Good,72,Moderate
+859,Japan,Ueno,99,Moderate,2,Good,11,Good,16,Good,99,Moderate
+860,United States of America,Baytown,78,Moderate,2,Good,15,Good,8,Good,78,Moderate
+861,Lebanon,Beirut,64,Moderate,1,Good,49,Good,2,Good,64,Moderate
+862,Paraguay,San Lorenzo,59,Moderate,1,Good,13,Good,2,Good,59,Moderate
+863,Belgium,Blegny,61,Moderate,1,Good,32,Good,4,Good,61,Moderate
+864,Democratic Republic of the Congo,Bukama,58,Moderate,1,Good,23,Good,0,Good,58,Moderate
+865,Nigeria,Iseyin,90,Moderate,3,Good,18,Good,2,Good,90,Moderate
+866,United States of America,Burnsville,53,Moderate,1,Good,43,Good,2,Good,53,Moderate
+867,Germany,Babenhausen,68,Moderate,1,Good,36,Good,3,Good,68,Moderate
+868,Egypt,El Balyana,80,Moderate,1,Good,80,Moderate,0,Good,79,Moderate
+869,Japan,Tsubame,67,Moderate,3,Good,42,Good,5,Good,67,Moderate
+870,Brazil,Tupi Paulista,51,Moderate,1,Good,28,Good,0,Good,51,Moderate
+871,Afghanistan,Sahrak,68,Moderate,0,Good,32,Good,0,Good,68,Moderate
+872,United States of America,Barstow,62,Moderate,1,Good,45,Good,3,Good,62,Moderate
+873,Ethiopia,Areka,53,Moderate,1,Good,17,Good,0,Good,53,Moderate
+874,Germany,Pirna,78,Moderate,1,Good,35,Good,2,Good,78,Moderate
+875,United Kingdom of Great Britain and Northern Ireland,Whitley Bay,53,Moderate,0,Good,32,Good,0,Good,53,Moderate
+876,United States of America,El Sobrante,59,Moderate,1,Good,24,Good,16,Good,59,Moderate
+877,Hungary,Marcali,66,Moderate,1,Good,66,Moderate,0,Good,55,Moderate
+878,Philippines,Lucban,74,Moderate,2,Good,22,Good,6,Good,74,Moderate
+879,Slovakia,Kosice,85,Moderate,1,Good,37,Good,1,Good,85,Moderate
+880,Ghana,Bawku,63,Moderate,1,Good,18,Good,0,Good,63,Moderate
+881,Russian Federation,Bogorodsk,51,Moderate,1,Good,31,Good,3,Good,51,Moderate
+882,Russian Federation,Dalmatovo,60,Moderate,1,Good,34,Good,1,Good,60,Moderate
+883,Romania,Negresti Oas,64,Moderate,1,Good,38,Good,1,Good,64,Moderate
+884,Mexico,Zimapan,69,Moderate,1,Good,22,Good,7,Good,69,Moderate
+885,Iran (Islamic Republic of),Takab,67,Moderate,1,Good,34,Good,0,Good,67,Moderate
+886,Hungary,Mohacs,65,Moderate,1,Good,65,Moderate,0,Good,51,Moderate
+887,United States of America,Justice,58,Moderate,2,Good,30,Good,13,Good,58,Moderate
+888,Germany,Bad Hersfeld,62,Moderate,1,Good,38,Good,2,Good,62,Moderate
+889,India,Manvi,67,Moderate,0,Good,27,Good,0,Good,67,Moderate
+890,Japan,Kuki,82,Moderate,1,Good,25,Good,18,Good,82,Moderate
+891,Hungary,Kaposvar,66,Moderate,1,Good,66,Moderate,0,Good,54,Moderate
+892,Mexico,Bacalar,53,Moderate,1,Good,25,Good,0,Good,53,Moderate
+893,United States of America,New Britain,60,Moderate,2,Good,19,Good,15,Good,60,Moderate
+894,Czechia,Blansko,75,Moderate,1,Good,37,Good,1,Good,75,Moderate
+895,France,Montigny En Gohelle,51,Moderate,1,Good,32,Good,3,Good,51,Moderate
+896,United States of America,South Plainfield,92,Moderate,3,Good,20,Good,19,Good,92,Moderate
+897,Germany,Heidenheim,64,Moderate,1,Good,53,Moderate,0,Good,64,Moderate
+898,United States of America,Selma,61,Moderate,2,Good,8,Good,17,Good,61,Moderate
+899,,Gaeta,77,Moderate,1,Good,77,Moderate,0,Good,40,Good
+900,Burundi,Muyinga,64,Moderate,3,Good,17,Good,1,Good,64,Moderate
+901,Japan,Kimitsu,57,Moderate,1,Good,57,Moderate,3,Good,47,Good
+902,Germany,Arnstadt,55,Moderate,1,Good,36,Good,3,Good,55,Moderate
+903,Germany,Hanau,59,Moderate,1,Good,59,Moderate,0,Good,59,Moderate
+904,India,Vikramasingapuram,54,Moderate,1,Good,27,Good,0,Good,54,Moderate
+905,Ethiopia,Boditi,84,Moderate,2,Good,19,Good,0,Good,84,Moderate
+906,Germany,Prien,68,Moderate,1,Good,64,Moderate,0,Good,68,Moderate
+907,United States of America,Gloucester City,53,Moderate,1,Good,29,Good,8,Good,53,Moderate
+908,Cuba,Los Arabos,87,Moderate,1,Good,20,Good,1,Good,87,Moderate
+909,Mexico,Tecpan,62,Moderate,2,Good,9,Good,3,Good,62,Moderate
+910,United States of America,Gladeview,84,Moderate,1,Good,9,Good,15,Good,84,Moderate
+911,Ukraine,Chuhuyiv,56,Moderate,1,Good,30,Good,2,Good,56,Moderate
+912,Sudan,Abu Zabad,59,Moderate,2,Good,11,Good,0,Good,59,Moderate
+913,France,Bron,69,Moderate,1,Good,55,Moderate,0,Good,69,Moderate
+914,Germany,Nordlingen,64,Moderate,1,Good,35,Good,4,Good,64,Moderate
+915,Indonesia,Cepu,76,Moderate,2,Good,64,Moderate,1,Good,76,Moderate
+916,Romania,Voluntari,63,Moderate,2,Good,41,Good,5,Good,63,Moderate
+917,Poland,Zlotoryja,72,Moderate,1,Good,39,Good,1,Good,72,Moderate
+918,Germany,Maintal,52,Moderate,1,Good,27,Good,3,Good,52,Moderate
+919,Czechia,Holesov,71,Moderate,1,Good,47,Good,0,Good,71,Moderate
+920,United States of America,Pleasanton,54,Moderate,1,Good,28,Good,7,Good,54,Moderate
+921,France,Cannes,61,Moderate,1,Good,61,Moderate,1,Good,42,Good
+922,Germany,Kaufungen,54,Moderate,1,Good,46,Good,0,Good,54,Moderate
+923,Indonesia,Wonosobo,81,Moderate,2,Good,48,Good,0,Good,81,Moderate
+924,Viet Nam,Viet Tri,80,Moderate,2,Good,56,Moderate,2,Good,80,Moderate
+925,Germany,Mechernich,55,Moderate,1,Good,47,Good,0,Good,55,Moderate
+926,Colombia,Yumbo,59,Moderate,2,Good,5,Good,5,Good,59,Moderate
+927,Germany,Deggendorf,69,Moderate,1,Good,51,Moderate,0,Good,69,Moderate
+928,Guatemala,San Agustin Acasaguastlan,61,Moderate,2,Good,14,Good,4,Good,61,Moderate
+929,Nigeria,Zaria,78,Moderate,2,Good,43,Good,0,Good,78,Moderate
+930,Switzerland,Zug,54,Moderate,1,Good,22,Good,3,Good,54,Moderate
+931,United States of America,Maryland Heights,88,Moderate,2,Good,20,Good,16,Good,88,Moderate
+932,Greece,Diavata,64,Moderate,1,Good,47,Good,1,Good,64,Moderate
+933,Russian Federation,Buzuluk,56,Moderate,1,Good,37,Good,0,Good,56,Moderate
+934,Italy,Carbonia,79,Moderate,1,Good,38,Good,0,Good,79,Moderate
+935,Germany,Versmold,70,Moderate,2,Good,15,Good,13,Good,70,Moderate
+936,Germany,Bad Wildungen,68,Moderate,1,Good,33,Good,6,Good,68,Moderate
+937,United States of America,White Center,52,Moderate,1,Good,27,Good,7,Good,52,Moderate
+938,Philippines,Carigara,61,Moderate,1,Good,23,Good,0,Good,61,Moderate
+939,Turkmenistan,Boldumsaz,84,Moderate,1,Good,42,Good,0,Good,84,Moderate
+940,Egypt,Marsa Matruh,59,Moderate,1,Good,57,Moderate,0,Good,59,Moderate
+941,Belgium,Boortmeerbeek,65,Moderate,1,Good,26,Good,7,Good,65,Moderate
+942,United States of America,Okmulgee,56,Moderate,1,Good,47,Good,1,Good,56,Moderate
+943,India,Colgong,78,Moderate,2,Good,48,Good,1,Good,78,Moderate
+944,Iran (Islamic Republic of),Bardsir,91,Moderate,1,Good,49,Good,0,Good,91,Moderate
+945,United States of America,La Quinta,58,Moderate,1,Good,37,Good,3,Good,58,Moderate
+946,Belgium,Beyne Heusay,57,Moderate,1,Good,29,Good,4,Good,57,Moderate
+947,Côte d'Ivoire,Ndiekro,56,Moderate,1,Good,13,Good,0,Good,56,Moderate
+948,United States of America,Kennesaw,65,Moderate,2,Good,34,Good,9,Good,65,Moderate
+949,United States of America,Cedar Grove,56,Moderate,1,Good,43,Good,5,Good,56,Moderate
+950,Italy,Racconigi,73,Moderate,2,Good,14,Good,7,Good,73,Moderate
+951,Australia,Melton,57,Moderate,1,Good,2,Good,18,Good,57,Moderate
+952,Italy,Corato,60,Moderate,1,Good,60,Moderate,0,Good,41,Good
+953,Ethiopia,Goba,54,Moderate,1,Good,21,Good,0,Good,54,Moderate
+954,Switzerland,Olten,57,Moderate,1,Good,50,Good,0,Good,57,Moderate
+955,Turkey,Emirdag,75,Moderate,1,Good,36,Good,0,Good,75,Moderate
+956,Italy,Sarezzo,79,Moderate,2,Good,22,Good,5,Good,79,Moderate
+957,United States of America,Staunton,61,Moderate,2,Good,24,Good,5,Good,61,Moderate
+958,India,Karambakkudi,84,Moderate,1,Good,40,Good,1,Good,84,Moderate
+959,Libya,Masallatah,96,Moderate,1,Good,57,Moderate,1,Good,96,Moderate
+960,Belgium,Mettet,63,Moderate,1,Good,31,Good,5,Good,63,Moderate
+961,United States of America,Acworth,64,Moderate,2,Good,37,Good,8,Good,64,Moderate
+962,United States of America,Warner Robins,72,Moderate,1,Good,72,Moderate,3,Good,39,Good
+963,Japan,Tajimi,52,Moderate,1,Good,34,Good,3,Good,52,Moderate
+964,Philippines,Trapiche,51,Moderate,1,Good,19,Good,0,Good,51,Moderate
+965,Colombia,Ariguani,80,Moderate,1,Good,23,Good,0,Good,80,Moderate
+966,Greece,Ano Liosia,87,Moderate,1,Good,43,Good,4,Good,87,Moderate
+967,Indonesia,Jatibarang,91,Moderate,2,Good,83,Moderate,1,Good,91,Moderate
+968,Mexico,San Jose Del Castillo,67,Moderate,1,Good,17,Good,5,Good,67,Moderate
+969,Austria,Salzburg,70,Moderate,1,Good,34,Good,1,Good,70,Moderate
+970,Indonesia,Lhokseumawe,88,Moderate,2,Good,21,Good,2,Good,88,Moderate
+971,Germany,Penzberg,53,Moderate,1,Good,36,Good,4,Good,53,Moderate
+972,Mexico,Tierra Blanca,73,Moderate,2,Good,28,Good,3,Good,73,Moderate
+973,Guatemala,Mixco,87,Moderate,2,Good,6,Good,7,Good,87,Moderate
+974,United States of America,Camarillo,51,Moderate,2,Good,29,Good,12,Good,51,Moderate
+975,Indonesia,Besuki,58,Moderate,1,Good,37,Good,0,Good,58,Moderate
+976,United States of America,Charlton,66,Moderate,2,Good,18,Good,13,Good,66,Moderate
+977,Colombia,Cumaral,66,Moderate,2,Good,1,Good,5,Good,66,Moderate
+978,Russian Federation,Kraskovo,57,Moderate,1,Good,21,Good,13,Good,57,Moderate
+979,United States of America,Duncanville,68,Moderate,2,Good,35,Good,5,Good,68,Moderate
+980,Germany,Viersen,53,Moderate,1,Good,27,Good,6,Good,53,Moderate
+981,Philippines,Aringay,59,Moderate,1,Good,24,Good,1,Good,59,Moderate
+982,Central African Republic,Kembe,52,Moderate,2,Good,9,Good,0,Good,52,Moderate
+983,United States of America,Ypsilanti,56,Moderate,1,Good,35,Good,1,Good,56,Moderate
+984,United States of America,Mequon,51,Moderate,1,Good,26,Good,1,Good,51,Moderate
+985,Colombia,Bosconia,75,Moderate,2,Good,9,Good,4,Good,75,Moderate
+986,India,Sakleshpur,63,Moderate,1,Good,12,Good,4,Good,63,Moderate
+987,United States of America,Mount Pleasant,52,Moderate,1,Good,39,Good,3,Good,52,Moderate
+988,Germany,Waiblingen,61,Moderate,1,Good,27,Good,3,Good,61,Moderate
+989,Italy,Savignano Sul Rubicone,74,Moderate,1,Good,37,Good,4,Good,74,Moderate
+990,Italy,Meda,67,Moderate,1,Good,36,Good,4,Good,67,Moderate
+991,Malawi,Blantyre,53,Moderate,2,Good,24,Good,0,Good,53,Moderate
+992,Italy,Bergamo,89,Moderate,1,Good,50,Good,0,Good,89,Moderate
+993,Germany,Murnau,76,Moderate,1,Good,31,Good,3,Good,76,Moderate
+994,Croatia,Sisak,64,Moderate,2,Good,32,Good,1,Good,64,Moderate
+995,South Africa,Phuthaditjhaba,59,Moderate,3,Good,14,Good,2,Good,59,Moderate
+996,Philippines,Binalbagan,75,Moderate,1,Good,18,Good,0,Good,75,Moderate
+997,Colombia,La Calera,99,Moderate,3,Good,0,Good,8,Good,99,Moderate
+998,Italy,Creazzo,58,Moderate,2,Good,45,Good,4,Good,58,Moderate
+999,Ethiopia,Asbe Teferi,65,Moderate,1,Good,19,Good,0,Good,65,Moderate
+1000,United Kingdom of Great Britain and Northern Ireland,Stockport,61,Moderate,1,Good,15,Good,11,Good,61,Moderate
+1001,United States of America,Joplin,71,Moderate,1,Good,26,Good,4,Good,71,Moderate
+1002,United States of America,Yucaipa,57,Moderate,2,Good,16,Good,12,Good,57,Moderate
+1003,Germany,Schwabmunchen,67,Moderate,1,Good,59,Moderate,0,Good,67,Moderate
+1004,India,Bagalkot,57,Moderate,0,Good,23,Good,0,Good,57,Moderate
+1005,Croatia,Vinkovci,67,Moderate,1,Good,67,Moderate,0,Good,52,Moderate
+1006,China,Juifang,60,Moderate,1,Good,48,Good,2,Good,60,Moderate
+1007,United States of America,Bloomington,64,Moderate,2,Good,15,Good,13,Good,64,Moderate
+1008,Russian Federation,Sharya,51,Moderate,1,Good,30,Good,0,Good,51,Moderate
+1009,Germany,Bruchkobel,51,Moderate,1,Good,27,Good,3,Good,51,Moderate
+1010,Poland,Morag,71,Moderate,1,Good,30,Good,1,Good,71,Moderate
+1011,France,Rennes,51,Moderate,1,Good,27,Good,3,Good,51,Moderate
+1012,United States of America,Baker,71,Moderate,1,Good,13,Good,7,Good,71,Moderate
+1013,United States of America,Mays Chapel,52,Moderate,1,Good,34,Good,4,Good,52,Moderate
+1014,Belgium,Arlon,61,Moderate,1,Good,49,Good,0,Good,61,Moderate
+1015,Mexico,Fresnillo,57,Moderate,1,Good,24,Good,0,Good,57,Moderate
+1016,Norway,Kristiansand,52,Moderate,0,Good,34,Good,1,Good,52,Moderate
+1017,Costa Rica,San Diego,56,Moderate,2,Good,5,Good,11,Good,56,Moderate
+1018,Italy,Ferrara,68,Moderate,2,Good,27,Good,10,Good,68,Moderate
+1019,Japan,Tokyo,79,Moderate,1,Good,28,Good,17,Good,79,Moderate
+1020,Russian Federation,Karabanovo,70,Moderate,2,Good,18,Good,15,Good,70,Moderate
+1021,India,Kadayanallur,64,Moderate,0,Good,24,Good,0,Good,64,Moderate
+1022,China,Wuzhou,51,Moderate,2,Good,23,Good,3,Good,51,Moderate
+1023,Slovenia,Velenje,82,Moderate,1,Good,32,Good,3,Good,82,Moderate
+1024,Switzerland,Monthey,63,Moderate,1,Good,29,Good,1,Good,63,Moderate
+1025,Brazil,Sarzedo,95,Moderate,3,Good,2,Good,9,Good,95,Moderate
+1026,Philippines,Hermosa,54,Moderate,1,Good,26,Good,1,Good,54,Moderate
+1027,Italy,Russi,68,Moderate,1,Good,67,Moderate,0,Good,68,Moderate
+1028,Spain,Torrelodones,57,Moderate,1,Good,25,Good,3,Good,57,Moderate
+1029,India,Talikota,79,Moderate,0,Good,25,Good,0,Good,79,Moderate
+1030,Indonesia,Bumiayu,73,Moderate,1,Good,37,Good,1,Good,73,Moderate
+1031,Israel,Kefar Yona,93,Moderate,1,Good,44,Good,7,Good,93,Moderate
+1032,Japan,Nagareyama,68,Moderate,1,Good,68,Moderate,3,Good,31,Good
+1033,India,Biloli,96,Moderate,1,Good,31,Good,0,Good,96,Moderate
+1034,Greece,Sikeai,65,Moderate,1,Good,59,Moderate,0,Good,65,Moderate
+1035,Japan,Hannan,73,Moderate,2,Good,29,Good,8,Good,73,Moderate
+1036,United States of America,Chula Vista,58,Moderate,2,Good,17,Good,20,Good,58,Moderate
+1037,India,Konnur,86,Moderate,0,Good,23,Good,0,Good,86,Moderate
+1038,India,Rangapara,74,Moderate,2,Good,48,Good,0,Good,74,Moderate
+1039,United States of America,Hope,60,Moderate,2,Good,28,Good,6,Good,60,Moderate
+1040,United States of America,Vernon Hills,61,Moderate,2,Good,13,Good,19,Good,61,Moderate
+1041,Ukraine,Lebedyn,55,Moderate,1,Good,40,Good,1,Good,55,Moderate
+1042,Bulgaria,Panagjuriste,56,Moderate,1,Good,47,Good,0,Good,56,Moderate
+1043,India,Atmakur,57,Moderate,0,Good,29,Good,0,Good,57,Moderate
+1044,Belgium,Herselt,52,Moderate,1,Good,37,Good,1,Good,52,Moderate
+1045,Japan,Kure,51,Moderate,2,Good,41,Good,6,Good,51,Moderate
+1046,Ukraine,Vyshneve,85,Moderate,1,Good,39,Good,1,Good,85,Moderate
+1047,United States of America,Lyndhurst,73,Moderate,2,Good,15,Good,21,Good,73,Moderate
+1048,Hungary,Csongrad,55,Moderate,1,Good,51,Moderate,0,Good,55,Moderate
+1049,Switzerland,Emmen,52,Moderate,1,Good,30,Good,1,Good,52,Moderate
+1050,Germany,Mossingen,58,Moderate,1,Good,37,Good,2,Good,58,Moderate
+1051,Malaysia,Alor Setar,55,Moderate,1,Good,35,Good,0,Good,55,Moderate
+1052,Germany,Lehre,55,Moderate,1,Good,28,Good,4,Good,55,Moderate
+1053,United States of America,Yauco,82,Moderate,0,Good,22,Good,0,Good,82,Moderate
+1054,United States of America,Jenison,79,Moderate,3,Good,7,Good,19,Good,79,Moderate
+1055,China,Sanchung,61,Moderate,1,Good,36,Good,3,Good,61,Moderate
+1056,United States of America,Peekskill,63,Moderate,2,Good,16,Good,18,Good,63,Moderate
+1057,Italy,Ponte San Nicolo,98,Moderate,2,Good,34,Good,5,Good,98,Moderate
+1058,United States of America,Clarksdale,55,Moderate,1,Good,27,Good,2,Good,55,Moderate
+1059,Germany,Radeberg,79,Moderate,1,Good,35,Good,2,Good,79,Moderate
+1060,Italy,Copparo,86,Moderate,1,Good,67,Moderate,0,Good,86,Moderate
+1061,Philippines,Luna,54,Moderate,1,Good,23,Good,0,Good,54,Moderate
+1062,United States of America,West Norriton,59,Moderate,1,Good,45,Good,4,Good,59,Moderate
+1063,Republic of Moldova,Glodeni,67,Moderate,1,Good,45,Good,0,Good,67,Moderate
+1064,Spain,Teruel,54,Moderate,1,Good,27,Good,1,Good,54,Moderate
+1065,United States of America,Lexington Fayette,66,Moderate,2,Good,21,Good,15,Good,66,Moderate
+1066,Poland,Sosnowiec,61,Moderate,1,Good,44,Good,1,Good,61,Moderate
+1067,Czechia,Valasske Mezirici,70,Moderate,1,Good,40,Good,1,Good,70,Moderate
+1068,United States of America,Leawood,70,Moderate,2,Good,26,Good,10,Good,70,Moderate
+1069,Sri Lanka,Kegalla,60,Moderate,1,Good,23,Good,1,Good,60,Moderate
+1070,Kyrgyzstan,Toktogul,84,Moderate,0,Good,41,Good,0,Good,84,Moderate
+1071,Ukraine,Bohodukhiv,54,Moderate,1,Good,40,Good,2,Good,54,Moderate
+1072,United States of America,Overland,52,Moderate,1,Good,41,Good,4,Good,52,Moderate
+1073,Italy,Lonate Pozzolo,82,Moderate,1,Good,42,Good,2,Good,82,Moderate
+1074,Indonesia,Tebingtinggi,84,Moderate,2,Good,45,Good,0,Good,84,Moderate
+1075,United States of America,Vestavia Hills,71,Moderate,1,Good,13,Good,10,Good,71,Moderate
+1076,Germany,Attendorn,69,Moderate,1,Good,36,Good,4,Good,69,Moderate
+1077,Belgium,Zemst,65,Moderate,1,Good,27,Good,8,Good,65,Moderate
+1078,France,Aix En Provence,55,Moderate,1,Good,26,Good,3,Good,55,Moderate
+1079,Ethiopia,Hirna,71,Moderate,1,Good,19,Good,0,Good,71,Moderate
+1080,Ukraine,Balta,65,Moderate,1,Good,43,Good,0,Good,65,Moderate
+1081,Romania,Bucov,64,Moderate,1,Good,45,Good,1,Good,64,Moderate
+1082,Malaysia,Raub,74,Moderate,1,Good,35,Good,0,Good,74,Moderate
+1083,India,Shoranur,74,Moderate,1,Good,24,Good,1,Good,74,Moderate
+1084,South Africa,Whittlesea,53,Moderate,1,Good,23,Good,0,Good,53,Moderate
+1085,Guatemala,San Andres Itzapa,63,Moderate,1,Good,27,Good,1,Good,63,Moderate
+1086,Czechia,Tabor,67,Moderate,1,Good,49,Good,0,Good,67,Moderate
+1087,India,Thrissur,89,Moderate,1,Good,21,Good,4,Good,89,Moderate
+1088,Mexico,Apatlaco,91,Moderate,2,Good,8,Good,10,Good,91,Moderate
+1089,Botswana,Thamaga,59,Moderate,1,Good,16,Good,0,Good,59,Moderate
+1090,United States of America,Mansfield,74,Moderate,2,Good,11,Good,23,Good,74,Moderate
+1091,Monaco,Beausoleil,56,Moderate,1,Good,56,Moderate,1,Good,42,Good
+1092,United Kingdom of Great Britain and Northern Ireland,Billingham,56,Moderate,1,Good,12,Good,12,Good,56,Moderate
+1093,United States of America,Huntsville,75,Moderate,1,Good,21,Good,5,Good,75,Moderate
+1094,Central African Republic,Bangassou,62,Moderate,2,Good,8,Good,0,Good,62,Moderate
+1095,Italy,Santo Stino Di Livenza,77,Moderate,1,Good,33,Good,3,Good,77,Moderate
+1096,United States of America,Highland,69,Moderate,2,Good,11,Good,18,Good,69,Moderate
+1097,Ukraine,Zhovkva,67,Moderate,1,Good,32,Good,2,Good,67,Moderate
+1098,United States of America,Huntington,63,Moderate,1,Good,23,Good,16,Good,63,Moderate
+1099,Romania,Comanesti,61,Moderate,1,Good,40,Good,0,Good,61,Moderate
+1100,South Sudan,Uwayl,84,Moderate,1,Good,11,Good,0,Good,84,Moderate
+1101,Italy,Ravanusa,57,Moderate,2,Good,28,Good,6,Good,57,Moderate
+1102,Guatemala,Tiquisate,86,Moderate,2,Good,38,Good,2,Good,86,Moderate
+1103,Switzerland,Morges,63,Moderate,1,Good,24,Good,2,Good,63,Moderate
+1104,United States of America,Elmhurst,67,Moderate,2,Good,14,Good,19,Good,67,Moderate
+1105,Italy,Este,94,Moderate,1,Good,36,Good,5,Good,94,Moderate
+1106,Kazakhstan,Balkhash,60,Moderate,1,Good,33,Good,0,Good,60,Moderate
+1107,Italy,Qualiano,51,Moderate,1,Good,51,Moderate,1,Good,35,Good
+1108,Belgium,Durbuy,64,Moderate,1,Good,35,Good,4,Good,64,Moderate
+1109,Ecuador,Quevedo,74,Moderate,3,Good,3,Good,7,Good,74,Moderate
+1110,Colombia,Repelon,88,Moderate,2,Good,16,Good,7,Good,88,Moderate
+1111,Colombia,Villavicencio,65,Moderate,2,Good,0,Good,5,Good,65,Moderate
+1112,Poland,Miedzychod,51,Moderate,1,Good,35,Good,1,Good,51,Moderate
+1113,United States of America,Morganton,71,Moderate,3,Good,18,Good,15,Good,71,Moderate
+1114,China,Linjiang,78,Moderate,2,Good,49,Good,1,Good,78,Moderate
+1115,Colombia,Ayapel,57,Moderate,1,Good,19,Good,0,Good,57,Moderate
+1116,Iran (Islamic Republic of),Neyshabur,86,Moderate,1,Good,41,Good,1,Good,86,Moderate
+1117,Thailand,Chiang Rai,67,Moderate,2,Good,13,Good,2,Good,67,Moderate
+1118,Brazil,Raposa,74,Moderate,2,Good,3,Good,1,Good,74,Moderate
+1119,Hungary,Dorog,76,Moderate,1,Good,36,Good,2,Good,76,Moderate
+1120,Uganda,Pallisa,73,Moderate,3,Good,34,Good,1,Good,73,Moderate
+1121,Japan,Hashimoto,63,Moderate,1,Good,27,Good,6,Good,63,Moderate
+1122,Germany,Buhl,66,Moderate,1,Good,24,Good,3,Good,66,Moderate
+1123,Thailand,Betong,51,Moderate,1,Good,32,Good,0,Good,51,Moderate
+1124,Thailand,Tak Bai,72,Moderate,2,Good,27,Good,3,Good,72,Moderate
+1125,United Kingdom of Great Britain and Northern Ireland,Egham,53,Moderate,1,Good,6,Good,13,Good,53,Moderate
+1126,Japan,Ichinomiya,57,Moderate,1,Good,49,Good,4,Good,57,Moderate
+1127,Angola,Luena,66,Moderate,1,Good,22,Good,0,Good,66,Moderate
+1128,Indonesia,Dumai,70,Moderate,2,Good,16,Good,0,Good,70,Moderate
+1129,Turkey,Nazilli,88,Moderate,1,Good,45,Good,0,Good,88,Moderate
+1130,Italy,Licata,54,Moderate,1,Good,46,Good,0,Good,54,Moderate
+1131,United States of America,Marlton,70,Moderate,1,Good,45,Good,4,Good,70,Moderate
+1132,Germany,Coburg,59,Moderate,1,Good,36,Good,4,Good,59,Moderate
+1133,Germany,Sankt Georgen,62,Moderate,1,Good,51,Moderate,0,Good,62,Moderate
+1134,United States of America,Chickasha,65,Moderate,1,Good,29,Good,2,Good,65,Moderate
+1135,Romania,Jilava,58,Moderate,1,Good,49,Good,0,Good,58,Moderate
+1136,Malaysia,Batu Arang,58,Moderate,1,Good,41,Good,1,Good,58,Moderate
+1137,United States of America,North Bergen,54,Moderate,1,Good,40,Good,4,Good,54,Moderate
+1138,United States of America,Rahway,62,Moderate,1,Good,44,Good,5,Good,62,Moderate
+1139,United States of America,Wellesley,54,Moderate,1,Good,46,Good,3,Good,54,Moderate
+1140,Brazil,Ipua,62,Moderate,1,Good,10,Good,2,Good,62,Moderate
+1141,Netherlands,Steenbergen,53,Moderate,1,Good,35,Good,5,Good,53,Moderate
+1142,Poland,Bystrzyca Klodzka,59,Moderate,1,Good,40,Good,0,Good,59,Moderate
+1143,Mexico,Miramar,57,Moderate,1,Good,26,Good,1,Good,57,Moderate
+1144,China,Xinglongshan,97,Moderate,3,Good,49,Good,4,Good,97,Moderate
+1145,Germany,Korntal Munchingen,52,Moderate,2,Good,28,Good,6,Good,52,Moderate
+1146,India,Lala,87,Moderate,1,Good,36,Good,0,Good,87,Moderate
+1147,Italy,Porto Tolle,71,Moderate,1,Good,46,Good,1,Good,71,Moderate
+1148,Italy,Bronte,56,Moderate,1,Good,46,Good,0,Good,56,Moderate
+1149,Central African Republic,Bossembele,56,Moderate,1,Good,22,Good,0,Good,56,Moderate
+1150,Russian Federation,Ussuriysk,56,Moderate,2,Good,35,Good,1,Good,56,Moderate
+1151,Chile,Curanilahue,66,Moderate,2,Good,8,Good,8,Good,66,Moderate
+1152,France,Romainville,70,Moderate,1,Good,46,Good,1,Good,70,Moderate
+1153,United States of America,Lehigh Acres,66,Moderate,2,Good,9,Good,11,Good,66,Moderate
+1154,Germany,Kassel,51,Moderate,1,Good,38,Good,1,Good,51,Moderate
+1155,China,Nancha,92,Moderate,3,Good,30,Good,2,Good,92,Moderate
+1156,Latvia,Salaspils,55,Moderate,1,Good,31,Good,1,Good,55,Moderate
+1157,Czechia,Frenstat,62,Moderate,1,Good,39,Good,1,Good,62,Moderate
+1158,Italy,Campodarsego,75,Moderate,2,Good,19,Good,9,Good,75,Moderate
+1159,Austria,Zwettl,58,Moderate,1,Good,31,Good,2,Good,58,Moderate
+1160,Ukraine,Borshchiv,78,Moderate,1,Good,34,Good,1,Good,78,Moderate
+1161,Philippines,Silay,72,Moderate,2,Good,29,Good,3,Good,72,Moderate
+1162,Equatorial Guinea,Aconibe,52,Moderate,1,Good,20,Good,0,Good,52,Moderate
+1163,Italy,Abbiategrasso,69,Moderate,1,Good,37,Good,4,Good,69,Moderate
+1164,South Africa,Standerton,84,Moderate,1,Good,13,Good,13,Good,84,Moderate
+1165,Germany,Erbach,57,Moderate,1,Good,43,Good,2,Good,57,Moderate
+1166,Germany,Simmerath,55,Moderate,1,Good,46,Good,0,Good,55,Moderate
+1167,Switzerland,Kloten,54,Moderate,1,Good,35,Good,1,Good,54,Moderate
+1168,France,Pierrefitte Sur Seine,67,Moderate,1,Good,46,Good,1,Good,67,Moderate
+1169,Nigeria,Ikole,75,Moderate,2,Good,24,Good,1,Good,75,Moderate
+1170,Nepal,Bhadrapur,60,Moderate,2,Good,46,Good,0,Good,60,Moderate
+1171,United States of America,Del City,67,Moderate,1,Good,29,Good,2,Good,67,Moderate
+1172,United States of America,Palm Bay,51,Moderate,1,Good,25,Good,7,Good,51,Moderate
+1173,United Kingdom of Great Britain and Northern Ireland,Cardiff,67,Moderate,0,Good,33,Good,0,Good,67,Moderate
+1174,Hungary,Mor,61,Moderate,1,Good,39,Good,1,Good,61,Moderate
+1175,United States of America,Costa Mesa,56,Moderate,2,Good,21,Good,18,Good,56,Moderate
+1176,United States of America,Calhoun,68,Moderate,2,Good,16,Good,19,Good,68,Moderate
+1177,Belgium,Morlanwelz,55,Moderate,1,Good,42,Good,1,Good,55,Moderate
+1178,United States of America,Pittsburg,73,Moderate,1,Good,27,Good,4,Good,73,Moderate
+1179,China,Chupei,57,Moderate,1,Good,46,Good,1,Good,57,Moderate
+1180,Rwanda,Gikongoro,78,Moderate,6,Good,17,Good,3,Good,78,Moderate
+1181,Colombia,Cajica,58,Moderate,1,Good,2,Good,5,Good,58,Moderate
+1182,Indonesia,Mlonggo,82,Moderate,2,Good,50,Good,1,Good,82,Moderate
+1183,Philippines,Carmen,80,Moderate,1,Good,26,Good,0,Good,80,Moderate
+1184,Hungary,Tiszafured,60,Moderate,1,Good,50,Good,0,Good,60,Moderate
+1185,Indonesia,Sleman,63,Moderate,1,Good,34,Good,1,Good,63,Moderate
+1186,Russian Federation,Voronezh,52,Moderate,1,Good,28,Good,3,Good,52,Moderate
+1187,Serbia,Kursumlija,57,Moderate,1,Good,44,Good,0,Good,57,Moderate
+1188,Philippines,Longos,52,Moderate,1,Good,25,Good,1,Good,52,Moderate
+1189,India,Pennadam,61,Moderate,1,Good,31,Good,1,Good,61,Moderate
+1190,United States of America,East Hemet,55,Moderate,1,Good,15,Good,10,Good,55,Moderate
+1191,El Salvador,Santa Rosa De Lima,71,Moderate,1,Good,37,Good,3,Good,71,Moderate
+1192,United States of America,Newnan,73,Moderate,3,Good,18,Good,20,Good,73,Moderate
+1193,China,Kuytun,84,Moderate,1,Good,20,Good,4,Good,84,Moderate
+1194,Italy,Travagliato,62,Moderate,1,Good,36,Good,3,Good,62,Moderate
+1195,Mexico,Las Choapas,67,Moderate,1,Good,23,Good,0,Good,67,Moderate
+1196,Namibia,Mariental,97,Moderate,1,Good,20,Good,0,Good,97,Moderate
+1197,Italy,Casal Di Principe,59,Moderate,1,Good,55,Moderate,3,Good,59,Moderate
+1198,Germany,Nienburg,69,Moderate,1,Good,38,Good,4,Good,69,Moderate
+1199,Russian Federation,Golitsyno,61,Moderate,1,Good,27,Good,9,Good,61,Moderate
+1200,Italy,Reggio Di Calabria,62,Moderate,1,Good,49,Good,0,Good,62,Moderate
+1201,Kazakhstan,Shu,61,Moderate,1,Good,29,Good,1,Good,61,Moderate
+1202,Poland,Gora Kalwaria,89,Moderate,1,Good,33,Good,3,Good,89,Moderate
+1203,United States of America,Wayne,51,Moderate,1,Good,30,Good,9,Good,51,Moderate
+1204,Philippines,Montalban,70,Moderate,1,Good,23,Good,2,Good,70,Moderate
+1205,Germany,Karlsruhe,55,Moderate,1,Good,28,Good,3,Good,55,Moderate
+1206,State of Palestine,Jerusalem,86,Moderate,1,Good,85,Moderate,2,Good,86,Moderate
+1207,Poland,Kluczbork,51,Moderate,1,Good,18,Good,6,Good,51,Moderate
+1208,Philippines,Estancia,51,Moderate,1,Good,23,Good,0,Good,51,Moderate
+1209,United States of America,River Edge,52,Moderate,1,Good,46,Good,2,Good,52,Moderate
+1210,Russian Federation,Magdagachi,52,Moderate,1,Good,26,Good,0,Good,52,Moderate
+1211,Germany,Hochstadt,61,Moderate,1,Good,51,Moderate,0,Good,61,Moderate
+1212,Germany,Limburgerhof,62,Moderate,1,Good,61,Moderate,0,Good,62,Moderate
+1213,Japan,Kitsuki,52,Moderate,1,Good,47,Good,2,Good,52,Moderate
+1214,Mexico,El Arenal,73,Moderate,2,Good,1,Good,8,Good,73,Moderate
+1215,Romania,Targu Ocna,65,Moderate,1,Good,43,Good,0,Good,65,Moderate
+1216,Italy,Squinzano,71,Moderate,1,Good,71,Moderate,1,Good,47,Good
+1217,Czechia,Pribram,53,Moderate,1,Good,32,Good,3,Good,53,Moderate
+1218,Italy,Ravenna,70,Moderate,1,Good,49,Good,1,Good,70,Moderate
+1219,Russian Federation,Volzhsk,62,Moderate,1,Good,36,Good,0,Good,62,Moderate
+1220,India,Repalle,55,Moderate,1,Good,42,Good,0,Good,55,Moderate
+1221,Nigeria,Jos,64,Moderate,2,Good,31,Good,0,Good,64,Moderate
+1222,Sierra Leone,Yengema,54,Moderate,1,Good,8,Good,0,Good,54,Moderate
+1223,United States of America,Kings Mountain,72,Moderate,2,Good,28,Good,13,Good,72,Moderate
+1224,Italy,Scalea,53,Moderate,1,Good,40,Good,2,Good,53,Moderate
+1225,United States of America,Gautier,51,Moderate,1,Good,42,Good,1,Good,51,Moderate
+1226,Panama,Chilibre,82,Moderate,2,Good,18,Good,8,Good,82,Moderate
+1227,United States of America,Saint Joseph,51,Moderate,1,Good,29,Good,7,Good,51,Moderate
+1228,Brazil,Santa Cruz Do Rio Pardo,53,Moderate,1,Good,24,Good,0,Good,53,Moderate
+1229,Czechia,Roudnice,57,Moderate,1,Good,46,Good,1,Good,57,Moderate
+1230,Russian Federation,Redkino,53,Moderate,1,Good,27,Good,1,Good,53,Moderate
+1231,United States of America,Coram,65,Moderate,2,Good,39,Good,9,Good,65,Moderate
+1232,Côte d'Ivoire,Bouake,62,Moderate,2,Good,15,Good,1,Good,62,Moderate
+1233,Turkey,Manavgat,51,Moderate,2,Good,29,Good,3,Good,51,Moderate
+1234,United States of America,Seguin,55,Moderate,1,Good,16,Good,3,Good,55,Moderate
+1235,India,Satara,88,Moderate,1,Good,24,Good,3,Good,88,Moderate
+1236,Kenya,Kajiado,57,Moderate,1,Good,21,Good,0,Good,57,Moderate
+1237,Philippines,San Nicolas,62,Moderate,1,Good,23,Good,1,Good,62,Moderate
+1238,Turkey,Karakose,59,Moderate,1,Good,40,Good,0,Good,59,Moderate
+1239,Turkey,Aksehir,75,Moderate,1,Good,33,Good,0,Good,75,Moderate
+1240,United States of America,Haddonfield,70,Moderate,1,Good,38,Good,5,Good,70,Moderate
+1241,Venezuela (Bolivarian Republic of),Yaritagua,58,Moderate,1,Good,15,Good,3,Good,58,Moderate
+1242,Italy,Acqui Terme,70,Moderate,1,Good,34,Good,3,Good,70,Moderate
+1243,Brazil,Sao Goncalo Dos Campos,68,Moderate,1,Good,4,Good,6,Good,68,Moderate
+1244,France,Brignais,68,Moderate,1,Good,58,Moderate,0,Good,68,Moderate
+1245,Central African Republic,Bossangoa,74,Moderate,2,Good,17,Good,0,Good,74,Moderate
+1246,Philippines,Kabankalan,81,Moderate,1,Good,16,Good,0,Good,81,Moderate
+1247,South Africa,Christiana,83,Moderate,2,Good,22,Good,4,Good,83,Moderate
+1248,Indonesia,Ciparay,91,Moderate,2,Good,52,Moderate,1,Good,91,Moderate
+1249,Thailand,Nakhon Thai,69,Moderate,0,Good,23,Good,0,Good,69,Moderate
+1250,Italy,Agrate Brianza,89,Moderate,1,Good,64,Moderate,0,Good,89,Moderate
+1251,United States of America,Knoxville,56,Moderate,1,Good,56,Moderate,1,Good,19,Good
+1252,Costa Rica,San Ramon,62,Moderate,2,Good,2,Good,12,Good,62,Moderate
+1253,India,Kovur,74,Moderate,0,Good,26,Good,0,Good,74,Moderate
+1254,Italy,Bondeno,69,Moderate,2,Good,27,Good,10,Good,69,Moderate
+1255,Japan,Koganei,84,Moderate,2,Good,24,Good,18,Good,84,Moderate
+1256,Germany,Esslingen,64,Moderate,1,Good,27,Good,3,Good,64,Moderate
+1257,Burkina Faso,Yako,74,Moderate,1,Good,34,Good,0,Good,74,Moderate
+1258,Costa Rica,San Francisco,58,Moderate,1,Good,9,Good,7,Good,58,Moderate
+1259,Italy,Porcia,71,Moderate,1,Good,29,Good,3,Good,71,Moderate
+1260,China,Yuancheng,69,Moderate,2,Good,16,Good,8,Good,69,Moderate
+1261,France,Vire,52,Moderate,1,Good,36,Good,1,Good,52,Moderate
+1262,Mexico,Celaya,54,Moderate,1,Good,31,Good,1,Good,54,Moderate
+1263,Honduras,Sonaguera,77,Moderate,1,Good,14,Good,0,Good,77,Moderate
+1264,Russian Federation,Chuguyevka,71,Moderate,1,Good,61,Moderate,0,Good,71,Moderate
+1265,Colombia,Miranda,52,Moderate,1,Good,6,Good,3,Good,52,Moderate
+1266,Indonesia,Sumenep,51,Moderate,1,Good,35,Good,0,Good,51,Moderate
+1267,Malawi,Luchenza,62,Moderate,1,Good,21,Good,0,Good,62,Moderate
+1268,,Wexford,68,Moderate,0,Good,38,Good,0,Good,68,Moderate
+1269,Greece,Kifisia,65,Moderate,1,Good,43,Good,4,Good,65,Moderate
+1270,Niger,Aguie,69,Moderate,2,Good,25,Good,2,Good,69,Moderate
+1271,United States of America,East Bethel,53,Moderate,1,Good,34,Good,8,Good,53,Moderate
+1272,Poland,Tomaszow Lubelski,53,Moderate,1,Good,33,Good,0,Good,53,Moderate
+1273,Finland,Sipoo,52,Moderate,1,Good,27,Good,12,Good,52,Moderate
+1274,Central African Republic,Bozoum,57,Moderate,1,Good,15,Good,0,Good,57,Moderate
+1275,Romania,Barlad,66,Moderate,1,Good,42,Good,1,Good,66,Moderate
+1276,Mexico,Paracho,57,Moderate,1,Good,11,Good,4,Good,57,Moderate
+1277,United States of America,Aliquippa,86,Moderate,2,Good,19,Good,23,Good,86,Moderate
+1278,United States of America,Longwood,59,Moderate,1,Good,11,Good,15,Good,59,Moderate
+1279,United Kingdom of Great Britain and Northern Ireland,Bridgend,63,Moderate,1,Good,12,Good,8,Good,63,Moderate
+1280,Poland,Stalowa Wola,56,Moderate,1,Good,46,Good,0,Good,56,Moderate
+1281,United States of America,Grand Rapids,75,Moderate,3,Good,7,Good,19,Good,75,Moderate
+1282,Russian Federation,Imeni Morozova,74,Moderate,1,Good,37,Good,4,Good,74,Moderate
+1283,Kenya,Mombasa,51,Moderate,1,Good,24,Good,0,Good,51,Moderate
+1284,Italy,Carpenedolo,75,Moderate,1,Good,35,Good,4,Good,75,Moderate
+1285,Philippines,Halayhay,60,Moderate,1,Good,26,Good,3,Good,60,Moderate
+1286,France,Maisons Laffitte,61,Moderate,1,Good,20,Good,6,Good,61,Moderate
+1287,Indonesia,Temanggung,87,Moderate,2,Good,58,Moderate,1,Good,87,Moderate
+1288,Jordan,Jawa,75,Moderate,1,Good,45,Good,2,Good,75,Moderate
+1289,India,Jalakandapuram,55,Moderate,1,Good,27,Good,2,Good,55,Moderate
+1290,Malaysia,Bandar Penggaram,76,Moderate,1,Good,39,Good,0,Good,76,Moderate
+1291,France,Corbeil Essonnes,69,Moderate,2,Good,28,Good,6,Good,69,Moderate
+1292,Colombia,San Onofre,56,Moderate,2,Good,10,Good,4,Good,56,Moderate
+1293,Israel,Ganne Tiqwa,94,Moderate,2,Good,49,Good,6,Good,94,Moderate
+1294,Germany,Friesoythe,57,Moderate,1,Good,32,Good,4,Good,57,Moderate
+1295,,Keansburg,77,Moderate,2,Good,45,Good,6,Good,77,Moderate
+1296,Syrian Arab Republic,Baniyas,57,Moderate,1,Good,45,Good,1,Good,57,Moderate
+1297,Mexico,Actopan,67,Moderate,1,Good,18,Good,3,Good,67,Moderate
+1298,Paraguay,Fernando De La Mora,59,Moderate,1,Good,12,Good,2,Good,59,Moderate
+1299,Thailand,Krathum Baen,54,Moderate,1,Good,24,Good,0,Good,54,Moderate
+1300,Nigeria,Asaba,89,Moderate,3,Good,18,Good,3,Good,89,Moderate
+1301,United States of America,Mineola,59,Moderate,2,Good,38,Good,8,Good,59,Moderate
+1302,China,Weihe,64,Moderate,2,Good,43,Good,0,Good,64,Moderate
+1303,Benin,Cove,94,Moderate,2,Good,18,Good,2,Good,94,Moderate
+1304,France,Orleans,71,Moderate,1,Good,24,Good,4,Good,71,Moderate
+1305,France,Noisiel,62,Moderate,1,Good,25,Good,4,Good,62,Moderate
+1306,Canada,White Rock,71,Moderate,2,Good,22,Good,12,Good,71,Moderate
+1307,United States of America,Hanahan,73,Moderate,2,Good,35,Good,8,Good,73,Moderate
+1308,Italy,Galatina,61,Moderate,1,Good,61,Moderate,1,Good,42,Good
+1309,Netherlands,Axel,58,Moderate,1,Good,36,Good,4,Good,58,Moderate
+1310,United States of America,Northglenn,78,Moderate,2,Good,4,Good,16,Good,78,Moderate
+1311,Mexico,Las Varas,95,Moderate,2,Good,22,Good,1,Good,95,Moderate
+1312,Poland,Garwolin,92,Moderate,1,Good,30,Good,3,Good,92,Moderate
+1313,China,Lishui,59,Moderate,1,Good,40,Good,1,Good,59,Moderate
+1314,Italy,Sestu,67,Moderate,1,Good,40,Good,1,Good,67,Moderate
+1315,Turkey,Fethiye,87,Moderate,1,Good,39,Good,2,Good,87,Moderate
+1316,Slovakia,Detva,69,Moderate,1,Good,42,Good,0,Good,69,Moderate
+1317,United States of America,Fuquay Varina,61,Moderate,2,Good,34,Good,7,Good,61,Moderate
+1318,Republic of North Macedonia,Struga,60,Moderate,1,Good,41,Good,0,Good,60,Moderate
+1319,United States of America,Kenosha,58,Moderate,2,Good,23,Good,14,Good,58,Moderate
+1320,Croatia,Zadar,71,Moderate,1,Good,38,Good,1,Good,71,Moderate
+1321,Romania,Moreni,56,Moderate,1,Good,42,Good,0,Good,56,Moderate
+1322,Slovakia,Banovce,59,Moderate,1,Good,26,Good,2,Good,59,Moderate
+1323,Italy,Nicosia,52,Moderate,1,Good,48,Good,0,Good,52,Moderate
+1324,Chad,Fianga,58,Moderate,2,Good,7,Good,0,Good,58,Moderate
+1325,Japan,Minamiashigara,62,Moderate,1,Good,62,Moderate,1,Good,40,Good
+1326,Mexico,Tecate,62,Moderate,2,Good,19,Good,13,Good,62,Moderate
+1327,Brazil,Viradouro,55,Moderate,1,Good,23,Good,0,Good,55,Moderate
+1328,Italy,Cecina,83,Moderate,1,Good,83,Moderate,0,Good,35,Good
+1329,Zimbabwe,Chitungwiza,63,Moderate,3,Good,14,Good,2,Good,63,Moderate
+1330,Ukraine,Kivertsi,60,Moderate,1,Good,33,Good,0,Good,60,Moderate
+1331,,Puerto Vallarta,61,Moderate,2,Good,12,Good,2,Good,61,Moderate
+1332,Togo,Niamtougou,56,Moderate,1,Good,29,Good,0,Good,56,Moderate
+1333,Indonesia,Pacet,98,Moderate,2,Good,84,Moderate,1,Good,98,Moderate
+1334,,Forio,51,Moderate,1,Good,51,Moderate,1,Good,20,Good
+1335,Romania,Brasov,55,Moderate,1,Good,40,Good,0,Good,55,Moderate
+1336,Italy,Vedelago,85,Moderate,1,Good,58,Moderate,0,Good,85,Moderate
+1337,Democratic Republic of the Congo,Kambove,77,Moderate,1,Good,30,Good,1,Good,77,Moderate
+1338,United States of America,Red Wing,55,Moderate,1,Good,32,Good,1,Good,55,Moderate
+1339,United States of America,Harrisburg,67,Moderate,2,Good,20,Good,17,Good,67,Moderate
+1340,Benin,Parakou,60,Moderate,2,Good,18,Good,0,Good,60,Moderate
+1341,Iran (Islamic Republic of),Aligudarz,68,Moderate,1,Good,45,Good,0,Good,68,Moderate
+1342,China,Shaowu,80,Moderate,4,Good,14,Good,9,Good,80,Moderate
+1343,China,Xiongzhou,95,Moderate,3,Good,46,Good,2,Good,95,Moderate
+1344,Switzerland,Altstatten,55,Moderate,1,Good,24,Good,3,Good,55,Moderate
+1345,China,Zhuzhou,80,Moderate,3,Good,32,Good,7,Good,80,Moderate
+1346,Thailand,Taphan Hin,53,Moderate,0,Good,21,Good,0,Good,53,Moderate
+1347,United States of America,Grafton,78,Moderate,3,Good,10,Good,19,Good,78,Moderate
+1348,Côte d'Ivoire,Issia,84,Moderate,2,Good,10,Good,1,Good,84,Moderate
+1349,India,Junagarh,99,Moderate,1,Good,35,Good,0,Good,99,Moderate
+1350,India,Dharapuram,51,Moderate,0,Good,24,Good,0,Good,51,Moderate
+1351,United States of America,Moberly,54,Moderate,2,Good,27,Good,8,Good,54,Moderate
+1352,France,Cambrai,54,Moderate,1,Good,42,Good,1,Good,54,Moderate
+1353,Russian Federation,Mozhga,54,Moderate,1,Good,36,Good,0,Good,54,Moderate
+1354,India,Khed,95,Moderate,0,Good,22,Good,0,Good,95,Moderate
+1355,Bangladesh,Khulna,53,Moderate,1,Good,29,Good,1,Good,53,Moderate
+1356,Germany,Burgkirchen,66,Moderate,1,Good,36,Good,2,Good,66,Moderate
+1357,United States of America,Elizabethton,57,Moderate,1,Good,25,Good,6,Good,57,Moderate
+1358,United States of America,Carrollton,60,Moderate,2,Good,39,Good,8,Good,60,Moderate
+1359,United States of America,Meridian,52,Moderate,2,Good,30,Good,3,Good,52,Moderate
+1360,Guatemala,San Pedro Ayampuc,74,Moderate,2,Good,8,Good,5,Good,74,Moderate
+1361,India,Erattupetta,96,Moderate,2,Good,16,Good,5,Good,96,Moderate
+1362,Japan,Sumoto,72,Moderate,2,Good,22,Good,10,Good,72,Moderate
+1363,Mexico,Zacoalco,51,Moderate,1,Good,8,Good,4,Good,51,Moderate
+1364,United States of America,Everett,67,Moderate,2,Good,17,Good,16,Good,67,Moderate
+1365,Japan,Shiozawa,65,Moderate,1,Good,49,Good,2,Good,65,Moderate
+1366,Mexico,Zaachila,75,Moderate,2,Good,6,Good,8,Good,75,Moderate
+1367,Poland,Pszczyna,71,Moderate,2,Good,31,Good,7,Good,71,Moderate
+1368,Germany,Rodental,54,Moderate,1,Good,49,Good,0,Good,54,Moderate
+1369,Afghanistan,Acin,62,Moderate,0,Good,46,Good,0,Good,62,Moderate
+1370,United States of America,Los Gatos,58,Moderate,1,Good,14,Good,16,Good,58,Moderate
+1371,,Nileshwar,61,Moderate,1,Good,21,Good,2,Good,61,Moderate
+1372,Japan,Hayama,51,Moderate,1,Good,36,Good,5,Good,51,Moderate
+1373,Democratic Republic of the Congo,Lubao,99,Moderate,2,Good,23,Good,1,Good,99,Moderate
+1374,Ukraine,Rakhiv,54,Moderate,1,Good,39,Good,0,Good,54,Moderate
+1375,Italy,Piossasco,74,Moderate,1,Good,49,Good,0,Good,74,Moderate
+1376,Slovakia,Liptovsky Mikulas,65,Moderate,1,Good,45,Good,0,Good,65,Moderate
+1377,United States of America,Martinsville,55,Moderate,1,Good,45,Good,1,Good,55,Moderate
+1378,Guatemala,Panajachel,82,Moderate,2,Good,13,Good,9,Good,82,Moderate
+1379,Czechia,Hranice,72,Moderate,1,Good,45,Good,0,Good,72,Moderate
+1380,Brazil,Esperantina,55,Moderate,2,Good,1,Good,3,Good,55,Moderate
+1381,China,Hailin,62,Moderate,1,Good,42,Good,0,Good,62,Moderate
+1382,United States of America,Taylorville,57,Moderate,1,Good,37,Good,6,Good,57,Moderate
+1383,Germany,Dobeln,69,Moderate,1,Good,31,Good,4,Good,69,Moderate
+1384,South Sudan,Ler,75,Moderate,1,Good,10,Good,0,Good,75,Moderate
+1385,,Ventimiglia,66,Moderate,1,Good,38,Good,2,Good,66,Moderate
+1386,Mexico,Ocotlan,78,Moderate,3,Good,7,Good,6,Good,78,Moderate
+1387,Central African Republic,Bouca,63,Moderate,1,Good,17,Good,0,Good,63,Moderate
+1388,United States of America,Muskegon,53,Moderate,2,Good,15,Good,21,Good,53,Moderate
+1389,Kenya,Kangundo,58,Moderate,1,Good,19,Good,1,Good,58,Moderate
+1390,Romania,Breaza,52,Moderate,1,Good,41,Good,0,Good,52,Moderate
+1391,Italy,San Mauro Torinese,55,Moderate,1,Good,32,Good,3,Good,55,Moderate
+1392,United States of America,Franklin Park,60,Moderate,1,Good,30,Good,5,Good,60,Moderate
+1393,United States of America,Alderwood Manor,62,Moderate,2,Good,21,Good,10,Good,62,Moderate
+1394,Japan,Tanabe,55,Moderate,1,Good,55,Moderate,0,Good,15,Good
+1395,Turkey,Silifke,52,Moderate,1,Good,35,Good,1,Good,52,Moderate
+1396,Italy,Biassono,61,Moderate,1,Good,36,Good,3,Good,61,Moderate
+1397,United States of America,Markham,75,Moderate,2,Good,14,Good,25,Good,75,Moderate
+1398,United States of America,Atlantic City,71,Moderate,1,Good,42,Good,4,Good,71,Moderate
+1399,Japan,Yotsukaido,60,Moderate,1,Good,60,Moderate,3,Good,46,Good
+1400,France,Hirson,58,Moderate,1,Good,47,Good,0,Good,58,Moderate
+1401,Australia,Craigieburn,71,Moderate,2,Good,0,Good,20,Good,71,Moderate
+1402,United Kingdom of Great Britain and Northern Ireland,Gateshead,54,Moderate,1,Good,17,Good,11,Good,54,Moderate
+1403,Malawi,Zomba,59,Moderate,1,Good,23,Good,0,Good,59,Moderate
+1404,Germany,Altena,55,Moderate,1,Good,44,Good,0,Good,55,Moderate
+1405,Colombia,Ansermanuevo,98,Moderate,3,Good,1,Good,9,Good,98,Moderate
+1406,Germany,Wilnsdorf,54,Moderate,1,Good,47,Good,0,Good,54,Moderate
+1407,Ukraine,Dergachi,52,Moderate,1,Good,35,Good,0,Good,52,Moderate
+1408,Mexico,Parras,52,Moderate,1,Good,28,Good,1,Good,52,Moderate
+1409,Tunisia,Safaqis,62,Moderate,1,Good,40,Good,3,Good,62,Moderate
+1410,Malaysia,Bandar Maharani,75,Moderate,1,Good,31,Good,0,Good,75,Moderate
+1411,Italy,San Cataldo,57,Moderate,1,Good,46,Good,0,Good,57,Moderate
+1412,Japan,Iwatsuki,52,Moderate,1,Good,52,Moderate,3,Good,28,Good
+1413,Germany,Bad Homburg,69,Moderate,1,Good,36,Good,3,Good,69,Moderate
+1414,Burkina Faso,Ziniare,54,Moderate,2,Good,15,Good,1,Good,54,Moderate
+1415,India,Bhatkal,72,Moderate,0,Good,23,Good,0,Good,72,Moderate
+1416,Romania,Craiova,55,Moderate,1,Good,43,Good,1,Good,55,Moderate
+1417,India,Ratnagiri,74,Moderate,1,Good,23,Good,2,Good,74,Moderate
+1418,Germany,Bexbach,51,Moderate,1,Good,29,Good,3,Good,51,Moderate
+1419,Brazil,Sao Jose Do Rio Pardo,64,Moderate,2,Good,3,Good,4,Good,64,Moderate
+1420,Jordan,Sakib,77,Moderate,1,Good,49,Good,3,Good,77,Moderate
+1421,Mexico,Platon Sanchez,80,Moderate,3,Good,13,Good,7,Good,80,Moderate
+1422,Iran (Islamic Republic of),Maku,57,Moderate,1,Good,39,Good,0,Good,57,Moderate
+1423,Romania,Targu Mures,64,Moderate,1,Good,37,Good,1,Good,64,Moderate
+1424,United States of America,Burien,51,Moderate,2,Good,23,Good,13,Good,51,Moderate
+1425,Russian Federation,Dzerzhinskiy,62,Moderate,1,Good,25,Good,11,Good,62,Moderate
+1426,Russian Federation,Mozdok,74,Moderate,1,Good,44,Good,0,Good,74,Moderate
+1427,United States of America,River Forest,82,Moderate,2,Good,9,Good,30,Good,82,Moderate
+1428,United States of America,Country Club Hills,70,Moderate,2,Good,18,Good,15,Good,70,Moderate
+1429,United States of America,West Point,60,Moderate,1,Good,49,Good,1,Good,60,Moderate
+1430,Russian Federation,Balakovo,65,Moderate,1,Good,35,Good,0,Good,65,Moderate
+1431,Italy,Bibbiena,57,Moderate,1,Good,57,Moderate,0,Good,53,Moderate
+1432,United States of America,North Palm Beach,53,Moderate,1,Good,12,Good,10,Good,53,Moderate
+1433,Brazil,Chapadinha,56,Moderate,1,Good,9,Good,1,Good,56,Moderate
+1434,United States of America,Gallatin,72,Moderate,2,Good,18,Good,18,Good,72,Moderate
+1435,United States of America,Saint James,91,Moderate,5,Good,10,Good,37,Good,91,Moderate
+1436,Slovakia,Galanta,61,Moderate,1,Good,33,Good,2,Good,61,Moderate
+1437,Brazil,Itajuba,54,Moderate,1,Good,8,Good,4,Good,54,Moderate
+1438,Ghana,Dunkwa,82,Moderate,1,Good,17,Good,0,Good,82,Moderate
+1439,India,Virarajendrapet,54,Moderate,0,Good,22,Good,0,Good,54,Moderate
+1440,India,Methala,66,Moderate,1,Good,26,Good,0,Good,66,Moderate
+1441,Bulgaria,Dupnica,58,Moderate,1,Good,42,Good,1,Good,58,Moderate
+1442,Belgium,Brussels,53,Moderate,1,Good,37,Good,2,Good,53,Moderate
+1443,Germany,Troisdorf,59,Moderate,1,Good,36,Good,3,Good,59,Moderate
+1444,India,Moirang,67,Moderate,2,Good,6,Good,3,Good,67,Moderate
+1445,France,Pontarlier,56,Moderate,1,Good,35,Good,0,Good,56,Moderate
+1446,Cuba,Campechuela,77,Moderate,1,Good,24,Good,2,Good,77,Moderate
+1447,Nigeria,Akure,76,Moderate,2,Good,24,Good,1,Good,76,Moderate
+1448,Iran (Islamic Republic of),Abhar,72,Moderate,1,Good,46,Good,0,Good,72,Moderate
+1449,India,Sindhnur,83,Moderate,1,Good,32,Good,3,Good,83,Moderate
+1450,Chad,Pala,78,Moderate,1,Good,14,Good,0,Good,78,Moderate
+1451,Russian Federation,Obluche,92,Moderate,2,Good,42,Good,0,Good,92,Moderate
+1452,Italy,Lurate Caccivio,97,Moderate,1,Good,56,Moderate,0,Good,97,Moderate
+1453,Russian Federation,Novaya Lyalya,51,Moderate,1,Good,30,Good,0,Good,51,Moderate
+1454,Thailand,Ratchaburi,98,Moderate,2,Good,7,Good,8,Good,98,Moderate
+1455,Greece,Nea Alikarnassos,78,Moderate,1,Good,41,Good,1,Good,78,Moderate
+1456,Germany,Waldkirchen,70,Moderate,1,Good,50,Good,0,Good,70,Moderate
+1457,Democratic Republic of the Congo,Bolobo,59,Moderate,2,Good,20,Good,0,Good,59,Moderate
+1458,Bangladesh,Khagrachari,57,Moderate,1,Good,37,Good,0,Good,57,Moderate
+1459,United States of America,Foothill Farms,51,Moderate,1,Good,26,Good,8,Good,51,Moderate
+1460,Turkey,Afyonkarahisar,75,Moderate,1,Good,36,Good,0,Good,75,Moderate
+1461,,Antibes,56,Moderate,2,Good,19,Good,8,Good,56,Moderate
+1462,United States of America,Egypt Lake Leto,72,Moderate,1,Good,16,Good,13,Good,72,Moderate
+1463,Switzerland,Meilen,53,Moderate,1,Good,31,Good,2,Good,53,Moderate
+1464,Iran (Islamic Republic of),Damghan,91,Moderate,1,Good,62,Moderate,0,Good,91,Moderate
+1465,India,Mavelikara,62,Moderate,1,Good,28,Good,0,Good,62,Moderate
+1466,Cameroon,Maroua,65,Moderate,2,Good,17,Good,0,Good,65,Moderate
+1467,France,Argenteuil,62,Moderate,1,Good,19,Good,6,Good,62,Moderate
+1468,United States of America,Waukesha,53,Moderate,2,Good,13,Good,14,Good,53,Moderate
+1469,Iran (Islamic Republic of),Saqqez,54,Moderate,1,Good,46,Good,0,Good,54,Moderate
+1470,Russian Federation,Tarko Sale,57,Moderate,1,Good,33,Good,0,Good,57,Moderate
+1471,United States of America,Berkley,85,Moderate,2,Good,18,Good,18,Good,85,Moderate
+1472,United States of America,New Castle,65,Moderate,2,Good,25,Good,11,Good,65,Moderate
+1473,United States of America,Vicksburg,52,Moderate,1,Good,39,Good,1,Good,52,Moderate
+1474,United States of America,Pedley,99,Moderate,3,Good,4,Good,23,Good,99,Moderate
+1475,Turkey,Gursu,70,Moderate,1,Good,34,Good,1,Good,70,Moderate
+1476,Mexico,Ometepec,62,Moderate,2,Good,9,Good,6,Good,62,Moderate
+1477,Mali,Banamba,89,Moderate,1,Good,22,Good,1,Good,89,Moderate
+1478,Japan,Komatsu,55,Moderate,1,Good,49,Good,2,Good,55,Moderate
+1479,Italy,Castelfranco Emilia,79,Moderate,1,Good,29,Good,7,Good,79,Moderate
+1480,Brazil,Vinhedo,72,Moderate,1,Good,30,Good,1,Good,72,Moderate
+1481,India,Gunupur,65,Moderate,1,Good,36,Good,1,Good,65,Moderate
+1482,Slovenia,Novo Mesto,75,Moderate,1,Good,48,Good,0,Good,75,Moderate
+1483,United States of America,Westerville,71,Moderate,1,Good,44,Good,2,Good,71,Moderate
+1484,Brazil,Campos Gerais,51,Moderate,1,Good,5,Good,4,Good,51,Moderate
+1485,Mali,Djenne,67,Moderate,1,Good,18,Good,1,Good,67,Moderate
+1486,Brazil,Alvinopolis,63,Moderate,2,Good,2,Good,4,Good,63,Moderate
+1487,Germany,Coswig,67,Moderate,1,Good,40,Good,1,Good,67,Moderate
+1488,Slovakia,Zilina,57,Moderate,1,Good,32,Good,2,Good,57,Moderate
+1489,Colombia,Viterbo,55,Moderate,1,Good,24,Good,0,Good,55,Moderate
+1490,Serbia,Senta,54,Moderate,1,Good,33,Good,1,Good,54,Moderate
+1491,Russian Federation,Mesker Yurt,56,Moderate,1,Good,44,Good,2,Good,56,Moderate
+1492,India,Chengannur,86,Moderate,2,Good,20,Good,4,Good,86,Moderate
+1493,United States of America,Suamico,58,Moderate,2,Good,25,Good,7,Good,58,Moderate
+1494,United States of America,Jericho,76,Moderate,2,Good,13,Good,26,Good,76,Moderate
+1495,Colombia,Caicedonia,71,Moderate,1,Good,25,Good,1,Good,71,Moderate
+1496,United States of America,Endicott,68,Moderate,2,Good,26,Good,5,Good,68,Moderate
+1497,India,Manapparai,52,Moderate,1,Good,32,Good,0,Good,52,Moderate
+1498,Iraq,Tall Kayf,71,Moderate,1,Good,48,Good,1,Good,71,Moderate
+1499,Hungary,Tiszakecske,67,Moderate,1,Good,31,Good,1,Good,67,Moderate
+1500,Sri Lanka,Eravur,59,Moderate,1,Good,36,Good,0,Good,59,Moderate
+1501,Libya,Yafran,69,Moderate,1,Good,69,Moderate,1,Good,66,Moderate
+1502,India,Ranir Bazar,70,Moderate,3,Good,36,Good,3,Good,70,Moderate
+1503,Belize,Belmopan,59,Moderate,1,Good,24,Good,0,Good,59,Moderate
+1504,United States of America,Alameda,67,Moderate,1,Good,22,Good,18,Good,67,Moderate
+1505,United States of America,Garfield,72,Moderate,2,Good,19,Good,18,Good,72,Moderate
+1506,India,Pullampadi,56,Moderate,0,Good,28,Good,0,Good,56,Moderate
+1507,Tunisia,Manubah,95,Moderate,1,Good,95,Moderate,1,Good,40,Good
+1508,United States of America,Mustang,57,Moderate,1,Good,46,Good,1,Good,57,Moderate
+1509,United States of America,Cayce,71,Moderate,2,Good,25,Good,9,Good,71,Moderate
+1510,Romania,Turnu Magurele,62,Moderate,1,Good,38,Good,2,Good,62,Moderate
+1511,Côte d'Ivoire,Agnibilekrou,52,Moderate,1,Good,17,Good,0,Good,52,Moderate
+1512,United States of America,Bonita,75,Moderate,2,Good,16,Good,18,Good,75,Moderate
+1513,Italy,Aci Castello,64,Moderate,1,Good,38,Good,1,Good,64,Moderate
+1514,France,Dinan,51,Moderate,1,Good,21,Good,5,Good,51,Moderate
+1515,Italy,Imola,76,Moderate,1,Good,37,Good,2,Good,76,Moderate
+1516,Brazil,Lagoa Do Itaenga,53,Moderate,1,Good,13,Good,5,Good,53,Moderate
+1517,France,Villeneuve Les Avignon,66,Moderate,1,Good,30,Good,3,Good,66,Moderate
+1518,Thailand,Kantang,56,Moderate,1,Good,27,Good,0,Good,56,Moderate
+1519,Thailand,Phra Pradaeng,70,Moderate,1,Good,24,Good,1,Good,70,Moderate
+1520,Indonesia,Negara,67,Moderate,3,Good,21,Good,3,Good,67,Moderate
+1521,Republic of North Macedonia,Stip,66,Moderate,1,Good,40,Good,0,Good,66,Moderate
+1522,Brazil,Serra Negra,94,Moderate,3,Good,3,Good,8,Good,94,Moderate
+1523,Niger,Matameye,75,Moderate,3,Good,26,Good,2,Good,75,Moderate
+1524,Italy,Fermo,53,Moderate,2,Good,36,Good,8,Good,53,Moderate
+1525,Sudan,Sinjah,57,Moderate,1,Good,14,Good,0,Good,57,Moderate
+1526,Colombia,Ovejas,60,Moderate,2,Good,1,Good,8,Good,60,Moderate
+1527,Mexico,Romita,57,Moderate,1,Good,14,Good,4,Good,57,Moderate
+1528,Mexico,Tijuana,59,Moderate,2,Good,20,Good,17,Good,59,Moderate
+1529,Belgium,Bastogne,51,Moderate,1,Good,24,Good,4,Good,51,Moderate
+1530,India,Ilkal,59,Moderate,0,Good,24,Good,0,Good,59,Moderate
+1531,Italy,Bressanone,54,Moderate,1,Good,43,Good,0,Good,54,Moderate
+1532,Hungary,Szigethalom,52,Moderate,1,Good,27,Good,2,Good,52,Moderate
+1533,Germany,Schwaigern,66,Moderate,1,Good,37,Good,2,Good,66,Moderate
+1534,United States of America,Maryville,55,Moderate,2,Good,19,Good,11,Good,55,Moderate
+1535,Honduras,La Lima,92,Moderate,2,Good,3,Good,3,Good,92,Moderate
+1536,Nigeria,Malumfashi,94,Moderate,3,Good,36,Good,0,Good,94,Moderate
+1537,United States of America,Magna,60,Moderate,1,Good,16,Good,11,Good,60,Moderate
+1538,United States of America,South Saint Paul,52,Moderate,1,Good,29,Good,1,Good,52,Moderate
+1539,Poland,Brzeziny,66,Moderate,1,Good,28,Good,3,Good,66,Moderate
+1540,Spain,Montornes Del Valles,52,Moderate,1,Good,33,Good,6,Good,52,Moderate
+1541,Colombia,Chivolo,68,Moderate,2,Good,9,Good,6,Good,68,Moderate
+1542,China,Longyan,69,Moderate,2,Good,45,Good,3,Good,69,Moderate
+1543,Italy,Pioltello,71,Moderate,2,Good,43,Good,4,Good,71,Moderate
+1544,India,Idukki,51,Moderate,0,Good,23,Good,0,Good,51,Moderate
+1545,Germany,Saarbrucken,67,Moderate,1,Good,54,Moderate,0,Good,67,Moderate
+1546,France,Vieux Conde,59,Moderate,1,Good,33,Good,3,Good,59,Moderate
+1547,Colombia,Sincelejo,62,Moderate,2,Good,1,Good,8,Good,62,Moderate
+1548,United States of America,Macomb,58,Moderate,1,Good,45,Good,1,Good,58,Moderate
+1549,Syrian Arab Republic,Duma,76,Moderate,1,Good,76,Moderate,0,Good,56,Moderate
+1550,Bangladesh,Ramganj,79,Moderate,2,Good,17,Good,5,Good,79,Moderate
+1551,Germany,Loningen,58,Moderate,1,Good,24,Good,6,Good,58,Moderate
+1552,India,Tiruvannamalai,68,Moderate,1,Good,35,Good,0,Good,68,Moderate
+1553,Italy,Erba,65,Moderate,1,Good,35,Good,3,Good,65,Moderate
+1554,United States of America,Indio,61,Moderate,1,Good,32,Good,4,Good,61,Moderate
+1555,Mexico,Madera,73,Moderate,1,Good,18,Good,1,Good,73,Moderate
+1556,Mexico,Coquimatlan,70,Moderate,2,Good,11,Good,4,Good,70,Moderate
+1557,Germany,Hungen,64,Moderate,1,Good,40,Good,2,Good,64,Moderate
+1558,Colombia,Antioquia,85,Moderate,2,Good,3,Good,6,Good,85,Moderate
+1559,Russian Federation,Nazran,61,Moderate,1,Good,45,Good,0,Good,61,Moderate
+1560,United States of America,Millville,77,Moderate,1,Good,54,Moderate,2,Good,77,Moderate
+1561,Colombia,Soacha,71,Moderate,2,Good,16,Good,3,Good,71,Moderate
+1562,Greece,Paiania,70,Moderate,1,Good,45,Good,6,Good,70,Moderate
+1563,United States of America,Fortuna Foothills,61,Moderate,1,Good,21,Good,7,Good,61,Moderate
+1564,Turkey,Kumluca,70,Moderate,1,Good,70,Moderate,0,Good,44,Good
+1565,United States of America,Greensboro,60,Moderate,2,Good,22,Good,9,Good,60,Moderate
+1566,Poland,Zawiercie,54,Moderate,1,Good,44,Good,1,Good,54,Moderate
+1567,Hungary,Esztergom,63,Moderate,1,Good,63,Moderate,0,Good,57,Moderate
+1568,United States of America,Highland Park,89,Moderate,2,Good,17,Good,19,Good,89,Moderate
+1569,Hungary,Sopron,71,Moderate,1,Good,34,Good,2,Good,71,Moderate
+1570,United States of America,North Amityville,60,Moderate,1,Good,46,Good,5,Good,60,Moderate
+1571,Thailand,Wiang Sa,82,Moderate,2,Good,4,Good,3,Good,82,Moderate
+1572,Mexico,Jojutla,99,Moderate,3,Good,4,Good,14,Good,99,Moderate
+1573,India,Feroke,70,Moderate,0,Good,24,Good,0,Good,70,Moderate
+1574,France,Nogent Sur Oise,54,Moderate,1,Good,24,Good,3,Good,54,Moderate
+1575,Botswana,Kanye,59,Moderate,1,Good,20,Good,1,Good,59,Moderate
+1576,,Yokosuka,69,Moderate,1,Good,69,Moderate,2,Good,45,Good
+1577,United States of America,Piqua,74,Moderate,1,Good,42,Good,4,Good,74,Moderate
+1578,Germany,Mayen,59,Moderate,1,Good,37,Good,3,Good,59,Moderate
+1579,Iran (Islamic Republic of),Arak,78,Moderate,1,Good,46,Good,0,Good,78,Moderate
+1580,United States of America,Freehold,51,Moderate,1,Good,41,Good,3,Good,51,Moderate
+1581,Germany,Schrobenhausen,51,Moderate,1,Good,27,Good,3,Good,51,Moderate
+1582,India,Murshidabad,86,Moderate,2,Good,46,Good,3,Good,86,Moderate
+1583,Zambia,Mumbwa,76,Moderate,2,Good,17,Good,1,Good,76,Moderate
+1584,Germany,Grafing,67,Moderate,1,Good,67,Moderate,0,Good,67,Moderate
+1585,India,Hosakote,53,Moderate,1,Good,24,Good,2,Good,53,Moderate
+1586,Germany,Buchen,53,Moderate,1,Good,33,Good,3,Good,53,Moderate
+1587,India,Nirmali,85,Moderate,3,Good,85,Moderate,0,Good,59,Moderate
+1588,Haiti,Leogane,86,Moderate,2,Good,23,Good,4,Good,86,Moderate
+1589,Italy,Turin,61,Moderate,1,Good,27,Good,5,Good,61,Moderate
+1590,Indonesia,Kembaran,54,Moderate,1,Good,29,Good,1,Good,54,Moderate
+1591,Viet Nam,Nha Trang,65,Moderate,2,Good,30,Good,0,Good,65,Moderate
+1592,United States of America,Phillipsburg,54,Moderate,1,Good,28,Good,8,Good,54,Moderate
+1593,Japan,Sakado,51,Moderate,1,Good,51,Moderate,0,Good,19,Good
+1594,Brazil,Varginha,59,Moderate,2,Good,1,Good,5,Good,59,Moderate
+1595,Japan,Iwanai,58,Moderate,1,Good,32,Good,3,Good,58,Moderate
+1596,Ethiopia,Ginir,69,Moderate,0,Good,20,Good,0,Good,69,Moderate
+1597,Italy,Grugliasco,77,Moderate,1,Good,55,Moderate,0,Good,77,Moderate
+1598,Indonesia,Jambi,81,Moderate,2,Good,41,Good,0,Good,81,Moderate
+1599,United States of America,Minden,63,Moderate,1,Good,20,Good,3,Good,63,Moderate
+1600,Kenya,Kerugoya,62,Moderate,2,Good,20,Good,1,Good,62,Moderate
+1601,Japan,Kashima,59,Moderate,1,Good,59,Moderate,0,Good,23,Good
+1602,United States of America,South Laurel,54,Moderate,1,Good,32,Good,5,Good,54,Moderate
+1603,Spain,Azuqueca De Henares,59,Moderate,1,Good,26,Good,2,Good,59,Moderate
+1604,Poland,Brzeszcze,96,Moderate,2,Good,31,Good,6,Good,96,Moderate
+1605,Zambia,Chililabombwe,57,Moderate,1,Good,20,Good,0,Good,57,Moderate
+1606,Japan,Gotemba,75,Moderate,2,Good,28,Good,6,Good,75,Moderate
+1607,United States of America,Herrin,63,Moderate,2,Good,27,Good,13,Good,63,Moderate
+1608,Hungary,Pilisvorosvar,74,Moderate,1,Good,42,Good,2,Good,74,Moderate
+1609,United States of America,North Haven,67,Moderate,1,Good,46,Good,5,Good,67,Moderate
+1610,Russian Federation,Yelnya,67,Moderate,1,Good,23,Good,2,Good,67,Moderate
+1611,Republic of North Macedonia,Gostivar,52,Moderate,1,Good,41,Good,0,Good,52,Moderate
+1612,Germany,Kempen,51,Moderate,1,Good,38,Good,1,Good,51,Moderate
+1613,United States of America,Ewing,54,Moderate,2,Good,27,Good,10,Good,54,Moderate
+1614,Austria,Krems,60,Moderate,1,Good,40,Good,1,Good,60,Moderate
+1615,Germany,Kaufbeuren,56,Moderate,1,Good,26,Good,5,Good,56,Moderate
+1616,Italy,Marano Di Napoli,52,Moderate,1,Good,52,Moderate,1,Good,36,Good
+1617,United Republic of Tanzania,Muriti,59,Moderate,1,Good,18,Good,0,Good,59,Moderate
+1618,China,Jilin,62,Moderate,3,Good,62,Moderate,2,Good,54,Moderate
+1619,Italy,Bernalda,59,Moderate,1,Good,38,Good,3,Good,59,Moderate
+1620,Brazil,Cerquilho,75,Moderate,2,Good,6,Good,6,Good,75,Moderate
+1621,Philippines,Buluangan,73,Moderate,1,Good,27,Good,2,Good,73,Moderate
+1622,Iran (Islamic Republic of),Salmas,82,Moderate,1,Good,41,Good,0,Good,82,Moderate
+1623,El Salvador,Metapan,81,Moderate,2,Good,6,Good,8,Good,81,Moderate
+1624,Uganda,Masaka,65,Moderate,2,Good,16,Good,0,Good,65,Moderate
+1625,,Sept Iles,51,Moderate,1,Good,20,Good,2,Good,51,Moderate
+1626,Ecuador,Manta,56,Moderate,1,Good,23,Good,0,Good,56,Moderate
+1627,United States of America,North Platte,58,Moderate,1,Good,28,Good,2,Good,58,Moderate
+1628,United States of America,Macedonia,53,Moderate,1,Good,39,Good,2,Good,53,Moderate
+1629,Chile,Antofagasta,56,Moderate,1,Good,14,Good,2,Good,56,Moderate
+1630,Brazil,Santos,66,Moderate,1,Good,29,Good,3,Good,66,Moderate
+1631,India,Khowai,63,Moderate,3,Good,36,Good,2,Good,63,Moderate
+1632,Russian Federation,Novyy Urengoy,73,Moderate,1,Good,23,Good,0,Good,73,Moderate
+1633,Italy,Villorba,93,Moderate,1,Good,33,Good,5,Good,93,Moderate
+1634,Thailand,Rong Kwang,53,Moderate,1,Good,24,Good,0,Good,53,Moderate
+1635,China,Lishan,192,Unhealthy,4,Good,192,Unhealthy,6,Good,124,Unhealthy for Sensitive Groups
+1636,India,Rahon,172,Unhealthy,6,Good,19,Good,22,Good,172,Unhealthy
+1637,China,Mingshui,167,Unhealthy,6,Good,120,Unhealthy for Sensitive Groups,17,Good,167,Unhealthy
+1638,India,Porbandar,167,Unhealthy,0,Good,23,Good,0,Good,167,Unhealthy
+1639,Mexico,Cuautepec,160,Unhealthy,2,Good,16,Good,5,Good,160,Unhealthy
+1640,Turkmenistan,Seydi,163,Unhealthy,1,Good,42,Good,0,Good,163,Unhealthy
+1641,Ethiopia,Korem,156,Unhealthy,1,Good,28,Good,0,Good,156,Unhealthy
+1642,Pakistan,Renala Khurd,166,Unhealthy,2,Good,133,Unhealthy for Sensitive Groups,1,Good,166,Unhealthy
+1643,China,Yishui,155,Unhealthy,2,Good,155,Unhealthy,1,Good,83,Moderate
+1644,China,Luzhou,155,Unhealthy,2,Good,44,Good,6,Good,155,Unhealthy
+1645,Pakistan,Akora,182,Unhealthy,5,Good,51,Moderate,8,Good,182,Unhealthy
+1646,Mexico,Capulhuac,175,Unhealthy,4,Good,28,Good,9,Good,175,Unhealthy
+1647,Rwanda,Gisenyi,157,Unhealthy,4,Good,17,Good,2,Good,157,Unhealthy
+1648,Senegal,Richard Toll,150,Unhealthy,1,Good,24,Good,1,Good,150,Unhealthy
+1649,Pakistan,Gojra,175,Unhealthy,5,Good,71,Moderate,8,Good,175,Unhealthy
+1650,India,Barka Kana,153,Unhealthy,3,Good,103,Unhealthy for Sensitive Groups,1,Good,153,Unhealthy
+1651,Indonesia,Jatiroto,163,Unhealthy,6,Good,10,Good,13,Good,163,Unhealthy
+1652,India,Vartej,153,Unhealthy,0,Good,30,Good,0,Good,153,Unhealthy
+1653,India,Daund,159,Unhealthy,2,Good,33,Good,6,Good,159,Unhealthy
+1654,Uzbekistan,Gazli,173,Unhealthy,1,Good,46,Good,0,Good,173,Unhealthy
+1655,India,Begun,156,Unhealthy,0,Good,42,Good,0,Good,156,Unhealthy
+1656,India,Lakheri,179,Unhealthy,1,Good,43,Good,0,Good,179,Unhealthy
+1657,India,Okha,151,Unhealthy,0,Good,27,Good,0,Good,151,Unhealthy
+1658,Venezuela (Bolivarian Republic of),Coro,151,Unhealthy,1,Good,22,Good,0,Good,151,Unhealthy
+1659,Pakistan,Mirpur Khas,156,Unhealthy,1,Good,30,Good,2,Good,156,Unhealthy
+1660,Indonesia,Cibinong,173,Unhealthy,4,Good,173,Unhealthy,3,Good,150,Unhealthy
+1661,India,Sarkhej,159,Unhealthy,1,Good,40,Good,0,Good,159,Unhealthy
+1662,Pakistan,Mirwah,163,Unhealthy,1,Good,43,Good,0,Good,163,Unhealthy
+1663,United Republic of Tanzania,Kabanga,171,Unhealthy,6,Good,10,Good,3,Good,171,Unhealthy
+1664,Pakistan,Haripur,157,Unhealthy,2,Good,157,Unhealthy,1,Good,121,Unhealthy for Sensitive Groups
+1665,China,Rizhao,151,Unhealthy,4,Good,43,Good,4,Good,151,Unhealthy
+1666,India,Bansi,152,Unhealthy,3,Good,152,Unhealthy,1,Good,146,Unhealthy for Sensitive Groups
+1667,India,Belaguntha,159,Unhealthy,1,Good,48,Good,0,Good,159,Unhealthy
+1668,India,Titron,160,Unhealthy,3,Good,130,Unhealthy for Sensitive Groups,1,Good,160,Unhealthy
+1669,India,Dhamnod,159,Unhealthy,2,Good,18,Good,5,Good,159,Unhealthy
+1670,India,Rajnagar,158,Unhealthy,3,Good,124,Unhealthy for Sensitive Groups,0,Good,158,Unhealthy
+1671,India,Gormi,188,Unhealthy,1,Good,46,Good,0,Good,188,Unhealthy
+1672,China,Jining,158,Unhealthy,6,Good,105,Unhealthy for Sensitive Groups,15,Good,158,Unhealthy
+1673,Pakistan,Bhit Shah,157,Unhealthy,1,Good,24,Good,2,Good,157,Unhealthy
+1674,Libya,Hun,175,Unhealthy,1,Good,41,Good,0,Good,175,Unhealthy
+1675,South Africa,Eshowe,150,Unhealthy,6,Good,29,Good,5,Good,150,Unhealthy
+1676,India,Dahegam,154,Unhealthy,1,Good,38,Good,1,Good,154,Unhealthy
+1677,India,Kannauj,164,Unhealthy,4,Good,45,Good,8,Good,164,Unhealthy
+1678,China,Ximei,167,Unhealthy,3,Good,167,Unhealthy,3,Good,97,Moderate
+1679,India,Karamsad,151,Unhealthy,1,Good,42,Good,0,Good,151,Unhealthy
+1680,Mali,Nioro,182,Unhealthy,1,Good,37,Good,0,Good,182,Unhealthy
+1681,India,Kuju,199,Unhealthy,1,Good,56,Moderate,1,Good,199,Unhealthy
+1682,Brazil,Vassouras,152,Unhealthy,5,Good,12,Good,15,Good,152,Unhealthy
+1683,India,Obra,160,Unhealthy,3,Good,134,Unhealthy for Sensitive Groups,1,Good,160,Unhealthy
+1684,India,Hindoria,163,Unhealthy,3,Good,72,Moderate,2,Good,163,Unhealthy
+1685,India,Muzaffarpur,159,Unhealthy,4,Good,128,Unhealthy for Sensitive Groups,1,Good,159,Unhealthy
+1686,China,Dehui,156,Unhealthy,4,Good,45,Good,8,Good,156,Unhealthy
+1687,Pakistan,Islamabad,178,Unhealthy,5,Good,42,Good,11,Good,178,Unhealthy
+1688,India,Bodh Gaya,188,Unhealthy,2,Good,119,Unhealthy for Sensitive Groups,1,Good,188,Unhealthy
+1689,Pakistan,Raiwind,186,Unhealthy,3,Good,179,Unhealthy,2,Good,186,Unhealthy
+1690,Uzbekistan,Buka,152,Unhealthy,1,Good,46,Good,0,Good,152,Unhealthy
+1691,China,Zhaoyang,198,Unhealthy,4,Good,198,Unhealthy,5,Good,128,Unhealthy for Sensitive Groups
+1692,India,Mathura,171,Unhealthy,4,Good,168,Unhealthy,1,Good,171,Unhealthy
+1693,India,Sailana,156,Unhealthy,1,Good,41,Good,0,Good,156,Unhealthy
+1694,Indonesia,Ciawi,195,Unhealthy,4,Good,195,Unhealthy,3,Good,155,Unhealthy
+1695,Democratic Republic of the Congo,Lusambo,200,Unhealthy,11,Good,16,Good,7,Good,200,Unhealthy
+1696,Egypt,Asyut,151,Unhealthy,1,Good,65,Moderate,1,Good,151,Unhealthy
+1697,India,Balarampur,172,Unhealthy,1,Good,83,Moderate,1,Good,172,Unhealthy
+1698,Senegal,Dakar,166,Unhealthy,1,Good,21,Good,2,Good,166,Unhealthy
+1699,China,Huoqiu,178,Unhealthy,4,Good,178,Unhealthy,3,Good,132,Unhealthy for Sensitive Groups
+1700,Pakistan,Liaqatabad,174,Unhealthy,3,Good,147,Unhealthy for Sensitive Groups,0,Good,174,Unhealthy
+1701,Pakistan,Lachi,166,Unhealthy,2,Good,103,Unhealthy for Sensitive Groups,0,Good,166,Unhealthy
+1702,Indonesia,Nganjuk,172,Unhealthy,6,Good,6,Good,19,Good,172,Unhealthy
+1703,Pakistan,Kot Diji,179,Unhealthy,1,Good,46,Good,0,Good,179,Unhealthy
+1704,India,Haora,197,Unhealthy,9,Good,10,Good,20,Good,197,Unhealthy
+1705,Mexico,Teapa,171,Unhealthy,7,Good,3,Good,11,Good,171,Unhealthy
+1706,India,Atarra,194,Unhealthy,1,Good,44,Good,0,Good,194,Unhealthy
+1707,Libya,Gat,169,Unhealthy,1,Good,24,Good,0,Good,169,Unhealthy
+1708,India,Khailar,170,Unhealthy,1,Good,38,Good,0,Good,170,Unhealthy
+1709,China,Shancheng,159,Unhealthy,2,Good,159,Unhealthy,2,Good,78,Moderate
+1710,India,Nasrullaganj,150,Unhealthy,1,Good,32,Good,0,Good,150,Unhealthy
+1711,Pakistan,Hala,157,Unhealthy,1,Good,24,Good,2,Good,157,Unhealthy
+1712,India,Kichha,156,Unhealthy,3,Good,156,Unhealthy,0,Good,155,Unhealthy
+1713,India,Hamirpur,195,Unhealthy,2,Good,104,Unhealthy for Sensitive Groups,1,Good,195,Unhealthy
+1714,India,Moram,160,Unhealthy,2,Good,33,Good,3,Good,160,Unhealthy
+1715,Pakistan,Johi,162,Unhealthy,1,Good,37,Good,0,Good,162,Unhealthy
+1716,Malaysia,Serendah,162,Unhealthy,6,Good,9,Good,23,Good,162,Unhealthy
+1717,India,Kaptanganj,161,Unhealthy,5,Good,30,Good,10,Good,161,Unhealthy
+1718,India,Madhoganj,162,Unhealthy,4,Good,44,Good,8,Good,162,Unhealthy
+1719,Democratic Republic of the Congo,Kindu,160,Unhealthy,6,Good,43,Good,1,Good,160,Unhealthy
+1720,India,Kareli,169,Unhealthy,1,Good,36,Good,0,Good,169,Unhealthy
+1721,China,Aksu,154,Unhealthy,1,Good,46,Good,0,Good,154,Unhealthy
+1722,India,Sangod,156,Unhealthy,1,Good,45,Good,0,Good,156,Unhealthy
+1723,India,Ratlam,157,Unhealthy,1,Good,31,Good,3,Good,157,Unhealthy
+1724,China,Jiexiu,151,Unhealthy,4,Good,21,Good,22,Good,151,Unhealthy
+1725,Brazil,Miguel Pereira,154,Unhealthy,5,Good,10,Good,18,Good,154,Unhealthy
+1726,India,Jahangirabad,178,Unhealthy,4,Good,175,Unhealthy,2,Good,178,Unhealthy
+1727,India,Arambagh,170,Unhealthy,2,Good,82,Moderate,2,Good,170,Unhealthy
+1728,Pakistan,Khangah Dogran,178,Unhealthy,5,Good,47,Good,10,Good,178,Unhealthy
+1729,India,Kulti,196,Unhealthy,2,Good,70,Moderate,2,Good,196,Unhealthy
+1730,Brazil,Matozinhos,155,Unhealthy,6,Good,0,Good,6,Good,155,Unhealthy
+1731,India,Jagdispur,167,Unhealthy,4,Good,71,Moderate,5,Good,167,Unhealthy
+1732,Mexico,Coyotepec,166,Unhealthy,3,Good,11,Good,14,Good,166,Unhealthy
+1733,Egypt,Deshna,158,Unhealthy,2,Good,49,Good,6,Good,158,Unhealthy
+1734,China,Hanting,165,Unhealthy,7,Good,73,Moderate,16,Good,165,Unhealthy
+1735,India,Kasrawad,161,Unhealthy,2,Good,18,Good,5,Good,161,Unhealthy
+1736,India,Susner,162,Unhealthy,1,Good,37,Good,0,Good,162,Unhealthy
+1737,India,Behat,176,Unhealthy,3,Good,176,Unhealthy,1,Good,107,Unhealthy for Sensitive Groups
+1738,Bangladesh,Phultala,158,Unhealthy,4,Good,64,Moderate,4,Good,158,Unhealthy
+1739,Pakistan,Lakki Marwat,181,Unhealthy,3,Good,104,Unhealthy for Sensitive Groups,2,Good,181,Unhealthy
+1740,India,Sarangpur,155,Unhealthy,1,Good,41,Good,0,Good,155,Unhealthy
+1741,Pakistan,Sarhari,165,Unhealthy,1,Good,41,Good,0,Good,165,Unhealthy
+1742,Uzbekistan,Termiz,172,Unhealthy,1,Good,49,Good,0,Good,172,Unhealthy
+1743,China,Yudong,171,Unhealthy,9,Good,24,Good,24,Good,171,Unhealthy
+1744,China,Xinzhi,152,Unhealthy,4,Good,25,Good,20,Good,152,Unhealthy
+1745,China,Huangyan,178,Unhealthy,3,Good,178,Unhealthy,2,Good,118,Unhealthy for Sensitive Groups
+1746,India,Hadgaon,161,Unhealthy,2,Good,34,Good,3,Good,161,Unhealthy
+1747,Philippines,Santa Ignacia,151,Unhealthy,2,Good,25,Good,6,Good,151,Unhealthy
+1748,India,Chatra,186,Unhealthy,2,Good,87,Moderate,0,Good,186,Unhealthy
+1749,China,Lukang,150,Unhealthy,4,Good,18,Good,44,Good,150,Unhealthy
+1750,India,Baduria,178,Unhealthy,6,Good,91,Moderate,7,Good,178,Unhealthy
+1751,China,Jijiang,162,Unhealthy,10,Good,79,Moderate,25,Good,162,Unhealthy
+1752,South Africa,Ekangala,166,Unhealthy,6,Good,13,Good,15,Good,166,Unhealthy
+1753,India,Tarana,155,Unhealthy,1,Good,39,Good,0,Good,155,Unhealthy
+1754,Saudi Arabia,Abha,170,Unhealthy,1,Good,74,Moderate,1,Good,170,Unhealthy
+1755,Bangladesh,Bhandaria,156,Unhealthy,1,Good,45,Good,1,Good,156,Unhealthy
+1756,Brazil,Caieiras,165,Unhealthy,6,Good,1,Good,19,Good,165,Unhealthy
+1757,Indonesia,Talang,161,Unhealthy,7,Good,18,Good,15,Good,161,Unhealthy
+1758,India,Chandausi,174,Unhealthy,4,Good,174,Unhealthy,1,Good,159,Unhealthy
+1759,Indonesia,Babat,159,Unhealthy,3,Good,135,Unhealthy for Sensitive Groups,1,Good,159,Unhealthy
+1760,India,Dasna,165,Unhealthy,4,Good,144,Unhealthy for Sensitive Groups,2,Good,165,Unhealthy
+1761,India,Misrikh,178,Unhealthy,4,Good,178,Unhealthy,2,Good,170,Unhealthy
+1762,Pakistan,Qadirpur Ran,161,Unhealthy,3,Good,152,Unhealthy,1,Good,161,Unhealthy
+1763,India,Dumjor,179,Unhealthy,3,Good,102,Unhealthy for Sensitive Groups,4,Good,179,Unhealthy
+1764,China,Liyang,163,Unhealthy,4,Good,46,Good,14,Good,163,Unhealthy
+1765,China,Fengxian,151,Unhealthy,6,Good,101,Unhealthy for Sensitive Groups,15,Good,151,Unhealthy
+1766,India,Simga,156,Unhealthy,3,Good,40,Good,4,Good,156,Unhealthy
+1767,Pakistan,Sanghar,175,Unhealthy,1,Good,44,Good,0,Good,175,Unhealthy
+1768,Mexico,Rio Bravo,158,Unhealthy,3,Good,14,Good,6,Good,158,Unhealthy
+1769,Pakistan,Dera Ghazi Khan,174,Unhealthy,3,Good,150,Unhealthy,1,Good,174,Unhealthy
+1770,Senegal,Pout,184,Unhealthy,2,Good,18,Good,4,Good,184,Unhealthy
+1771,Mexico,Nanacamilpa,197,Unhealthy,2,Good,8,Good,12,Good,197,Unhealthy
+1772,Indonesia,Krian,161,Unhealthy,3,Good,137,Unhealthy for Sensitive Groups,1,Good,161,Unhealthy
+1773,India,Allahabad,189,Unhealthy,1,Good,83,Moderate,0,Good,189,Unhealthy
+1774,Mexico,Juchitepec,163,Unhealthy,2,Good,8,Good,14,Good,163,Unhealthy
+1775,United States of America,Brownsville,151,Unhealthy,2,Good,18,Good,5,Good,151,Unhealthy
+1776,India,Aska,155,Unhealthy,3,Good,85,Moderate,1,Good,155,Unhealthy
+1777,China,Zhaotong,156,Unhealthy,6,Good,1,Good,18,Good,156,Unhealthy
+1778,India,Sarai Mir,154,Unhealthy,3,Good,154,Unhealthy,1,Good,150,Unhealthy
+1779,Pakistan,Dera Din Panah,176,Unhealthy,2,Good,113,Unhealthy for Sensitive Groups,0,Good,176,Unhealthy
+1780,India,Firozpur,165,Unhealthy,3,Good,111,Unhealthy for Sensitive Groups,4,Good,165,Unhealthy
+1781,India,Koraput,157,Unhealthy,1,Good,44,Good,0,Good,157,Unhealthy
+1782,India,Dhupgari,154,Unhealthy,5,Good,15,Good,11,Good,154,Unhealthy
+1783,China,Yancheng,155,Unhealthy,3,Good,155,Unhealthy,2,Good,151,Unhealthy
+1784,United States of America,Edinburg,156,Unhealthy,3,Good,15,Good,6,Good,156,Unhealthy
+1785,Mexico,Coacalco,180,Unhealthy,5,Good,5,Good,19,Good,180,Unhealthy
+1786,Mexico,Zumpango,175,Unhealthy,3,Good,12,Good,13,Good,175,Unhealthy
+1787,Pakistan,Khurianwala,171,Unhealthy,3,Good,171,Unhealthy,1,Good,163,Unhealthy
+1788,Pakistan,Daro,165,Unhealthy,1,Good,44,Good,0,Good,165,Unhealthy
+1789,India,Jamadoba,174,Unhealthy,1,Good,59,Moderate,1,Good,174,Unhealthy
+1790,India,Satwas,156,Unhealthy,1,Good,36,Good,0,Good,156,Unhealthy
+1791,Iran (Islamic Republic of),Iranshahr,157,Unhealthy,1,Good,42,Good,0,Good,157,Unhealthy
+1792,Pakistan,Phalia,170,Unhealthy,5,Good,36,Good,12,Good,170,Unhealthy
+1793,India,Sironj,154,Unhealthy,1,Good,38,Good,0,Good,154,Unhealthy
+1794,China,Lingyuan,153,Unhealthy,3,Good,107,Unhealthy for Sensitive Groups,1,Good,153,Unhealthy
+1795,India,Mursan,175,Unhealthy,4,Good,175,Unhealthy,2,Good,169,Unhealthy
+1796,India,Bhawanipatna,159,Unhealthy,2,Good,66,Moderate,0,Good,159,Unhealthy
+1797,India,Malia,157,Unhealthy,0,Good,29,Good,0,Good,157,Unhealthy
+1798,China,Aojiang,171,Unhealthy,4,Good,171,Unhealthy,3,Good,113,Unhealthy for Sensitive Groups
+1799,Ethiopia,Bati,178,Unhealthy,1,Good,37,Good,0,Good,178,Unhealthy
+1800,Pakistan,Sambrial,175,Unhealthy,3,Good,175,Unhealthy,1,Good,153,Unhealthy
+1801,India,Porsa,189,Unhealthy,1,Good,46,Good,0,Good,189,Unhealthy
+1802,Pakistan,Minchinabad,167,Unhealthy,4,Good,88,Moderate,6,Good,167,Unhealthy
+1803,India,Gulabpura,164,Unhealthy,1,Good,27,Good,4,Good,164,Unhealthy
+1804,India,Barela,154,Unhealthy,1,Good,39,Good,0,Good,154,Unhealthy
+1805,Pakistan,Fazalpur,199,Unhealthy,3,Good,173,Unhealthy,1,Good,199,Unhealthy
+1806,South Africa,Nigel,174,Unhealthy,10,Good,13,Good,13,Good,174,Unhealthy
+1807,Mexico,Jiutepec,153,Unhealthy,2,Good,36,Good,4,Good,153,Unhealthy
+1808,Malaysia,Rawang,163,Unhealthy,6,Good,8,Good,25,Good,163,Unhealthy
+1809,India,Nangal,152,Unhealthy,3,Good,143,Unhealthy for Sensitive Groups,1,Good,152,Unhealthy
+1810,India,Kathor,153,Unhealthy,0,Good,25,Good,0,Good,153,Unhealthy
+1811,India,Wardha,164,Unhealthy,0,Good,29,Good,0,Good,164,Unhealthy
+1812,China,Shenzhen,154,Unhealthy,3,Good,2,Good,28,Good,154,Unhealthy
+1813,India,Amta,160,Unhealthy,4,Good,102,Unhealthy for Sensitive Groups,4,Good,160,Unhealthy
+1814,China,Lujiang,169,Unhealthy,7,Good,9,Good,31,Good,169,Unhealthy
+1815,India,Chhatarpur,168,Unhealthy,3,Good,74,Moderate,3,Good,168,Unhealthy
+1816,India,Daurala,160,Unhealthy,3,Good,118,Unhealthy for Sensitive Groups,1,Good,160,Unhealthy
+1817,South Africa,Robertson,160,Unhealthy,9,Good,5,Good,5,Good,160,Unhealthy
+1818,India,Atraulia,188,Unhealthy,4,Good,188,Unhealthy,1,Good,182,Unhealthy
+1819,India,Satna,193,Unhealthy,1,Good,47,Good,0,Good,193,Unhealthy
+1820,India,Anupshahr,177,Unhealthy,4,Good,173,Unhealthy,1,Good,177,Unhealthy
+1821,India,Gua,162,Unhealthy,2,Good,72,Moderate,0,Good,162,Unhealthy
+1822,India,Bidar,150,Unhealthy,1,Good,41,Good,0,Good,150,Unhealthy
+1823,Kenya,Mumias,150,Unhealthy,11,Good,26,Good,6,Good,150,Unhealthy
+1824,Mexico,Tlaxcoapan,151,Unhealthy,1,Good,32,Good,2,Good,151,Unhealthy
+1825,Iraq,Dahuk,129,Unhealthy for Sensitive Groups,1,Good,47,Good,1,Good,129,Unhealthy for Sensitive Groups
+1826,India,Dabhoi,139,Unhealthy for Sensitive Groups,1,Good,39,Good,0,Good,139,Unhealthy for Sensitive Groups
+1827,China,Dawukou,149,Unhealthy for Sensitive Groups,1,Good,42,Good,1,Good,149,Unhealthy for Sensitive Groups
+1828,United States of America,Altadena,125,Unhealthy for Sensitive Groups,4,Good,7,Good,35,Good,125,Unhealthy for Sensitive Groups
+1829,Tajikistan,Chkalovsk,111,Unhealthy for Sensitive Groups,1,Good,44,Good,0,Good,111,Unhealthy for Sensitive Groups
+1830,France,Saint Priest,109,Unhealthy for Sensitive Groups,2,Good,23,Good,5,Good,109,Unhealthy for Sensitive Groups
+1831,Greece,Edessa,109,Unhealthy for Sensitive Groups,1,Good,43,Good,1,Good,109,Unhealthy for Sensitive Groups
+1832,Tunisia,Duz,124,Unhealthy for Sensitive Groups,1,Good,44,Good,0,Good,124,Unhealthy for Sensitive Groups
+1833,India,Puri,139,Unhealthy for Sensitive Groups,2,Good,54,Moderate,0,Good,139,Unhealthy for Sensitive Groups
+1834,India,Muddebihal,129,Unhealthy for Sensitive Groups,1,Good,35,Good,1,Good,129,Unhealthy for Sensitive Groups
+1835,China,Yuxia,141,Unhealthy for Sensitive Groups,3,Good,141,Unhealthy for Sensitive Groups,5,Good,136,Unhealthy for Sensitive Groups
+1836,Kenya,Nairobi,107,Unhealthy for Sensitive Groups,2,Good,15,Good,2,Good,107,Unhealthy for Sensitive Groups
+1837,India,Dhing,124,Unhealthy for Sensitive Groups,4,Good,20,Good,8,Good,124,Unhealthy for Sensitive Groups
+1838,Switzerland,Affoltern,111,Unhealthy for Sensitive Groups,1,Good,26,Good,3,Good,111,Unhealthy for Sensitive Groups
+1839,Philippines,Ramos,141,Unhealthy for Sensitive Groups,1,Good,32,Good,1,Good,141,Unhealthy for Sensitive Groups
+1840,Iran (Islamic Republic of),Ahvaz,147,Unhealthy for Sensitive Groups,2,Good,107,Unhealthy for Sensitive Groups,1,Good,147,Unhealthy for Sensitive Groups
+1841,India,Bhimavaram,124,Unhealthy for Sensitive Groups,1,Good,36,Good,1,Good,124,Unhealthy for Sensitive Groups
+1842,Ethiopia,Bichena,148,Unhealthy for Sensitive Groups,2,Good,22,Good,1,Good,148,Unhealthy for Sensitive Groups
+1843,Guatemala,Patzun,114,Unhealthy for Sensitive Groups,4,Good,4,Good,13,Good,114,Unhealthy for Sensitive Groups
+1844,Russian Federation,Aginskoye,111,Unhealthy for Sensitive Groups,5,Good,40,Good,0,Good,111,Unhealthy for Sensitive Groups
+1845,Russian Federation,Yasnyy,114,Unhealthy for Sensitive Groups,1,Good,33,Good,0,Good,114,Unhealthy for Sensitive Groups
+1846,China,Paiho,126,Unhealthy for Sensitive Groups,3,Good,60,Moderate,10,Good,126,Unhealthy for Sensitive Groups
+1847,Indonesia,Tayu,100,Unhealthy for Sensitive Groups,2,Good,100,Unhealthy for Sensitive Groups,1,Good,89,Moderate
+1848,Switzerland,Wetzikon,113,Unhealthy for Sensitive Groups,1,Good,28,Good,2,Good,113,Unhealthy for Sensitive Groups
+1849,Bangladesh,Bhairab Bazar,132,Unhealthy for Sensitive Groups,3,Good,44,Good,4,Good,132,Unhealthy for Sensitive Groups
+1850,India,Paradwip,132,Unhealthy for Sensitive Groups,3,Good,74,Moderate,1,Good,132,Unhealthy for Sensitive Groups
+1851,China,Dongsheng,138,Unhealthy for Sensitive Groups,1,Good,52,Moderate,0,Good,138,Unhealthy for Sensitive Groups
+1852,Gambia,Farafenni,111,Unhealthy for Sensitive Groups,1,Good,24,Good,1,Good,111,Unhealthy for Sensitive Groups
+1853,India,Bharuch,132,Unhealthy for Sensitive Groups,1,Good,33,Good,0,Good,132,Unhealthy for Sensitive Groups
+1854,India,Kurali,143,Unhealthy for Sensitive Groups,2,Good,143,Unhealthy for Sensitive Groups,1,Good,115,Unhealthy for Sensitive Groups
+1855,India,Jalgaon,102,Unhealthy for Sensitive Groups,1,Good,39,Good,0,Good,102,Unhealthy for Sensitive Groups
+1856,Egypt,Matay,110,Unhealthy for Sensitive Groups,2,Good,71,Moderate,3,Good,110,Unhealthy for Sensitive Groups
+1857,India,Rajgurunagar,138,Unhealthy for Sensitive Groups,2,Good,33,Good,2,Good,138,Unhealthy for Sensitive Groups
+1858,Uganda,Lugazi,105,Unhealthy for Sensitive Groups,3,Good,18,Good,1,Good,105,Unhealthy for Sensitive Groups
+1859,India,Diglur,126,Unhealthy for Sensitive Groups,1,Good,36,Good,0,Good,126,Unhealthy for Sensitive Groups
+1860,China,Nangong,145,Unhealthy for Sensitive Groups,4,Good,49,Good,21,Good,145,Unhealthy for Sensitive Groups
+1861,France,Mougins,100,Unhealthy for Sensitive Groups,2,Good,20,Good,9,Good,100,Unhealthy for Sensitive Groups
+1862,France,Amberieu En Bugey,129,Unhealthy for Sensitive Groups,2,Good,24,Good,3,Good,129,Unhealthy for Sensitive Groups
+1863,Brazil,Mairinque,127,Unhealthy for Sensitive Groups,3,Good,6,Good,11,Good,127,Unhealthy for Sensitive Groups
+1864,Nicaragua,Puerto Cabezas,102,Unhealthy for Sensitive Groups,0,Good,22,Good,0,Good,102,Unhealthy for Sensitive Groups
+1865,Guatemala,Nuevo San Carlos,111,Unhealthy for Sensitive Groups,3,Good,13,Good,11,Good,111,Unhealthy for Sensitive Groups
+1866,Pakistan,Bat Khela,117,Unhealthy for Sensitive Groups,1,Good,117,Unhealthy for Sensitive Groups,1,Good,78,Moderate
+1867,,Vung Tau,115,Unhealthy for Sensitive Groups,2,Good,47,Good,1,Good,115,Unhealthy for Sensitive Groups
+1868,Kyrgyzstan,Ozgon,101,Unhealthy for Sensitive Groups,1,Good,60,Moderate,0,Good,101,Unhealthy for Sensitive Groups
+1869,Japan,Sobue,136,Unhealthy for Sensitive Groups,3,Good,7,Good,26,Good,136,Unhealthy for Sensitive Groups
+1870,Japan,Komaki,126,Unhealthy for Sensitive Groups,3,Good,6,Good,23,Good,126,Unhealthy for Sensitive Groups
+1871,Japan,Hashima,125,Unhealthy for Sensitive Groups,3,Good,10,Good,23,Good,125,Unhealthy for Sensitive Groups
+1872,Cameroon,Foumbot,122,Unhealthy for Sensitive Groups,4,Good,12,Good,2,Good,122,Unhealthy for Sensitive Groups
+1873,China,Zhoucun,123,Unhealthy for Sensitive Groups,2,Good,123,Unhealthy for Sensitive Groups,4,Good,94,Moderate
+1874,Uzbekistan,Matcha,128,Unhealthy for Sensitive Groups,1,Good,71,Moderate,0,Good,128,Unhealthy for Sensitive Groups
+1875,China,Huangzhou,101,Unhealthy for Sensitive Groups,4,Good,101,Unhealthy for Sensitive Groups,5,Good,99,Moderate
+1876,Ethiopia,Kemise,108,Unhealthy for Sensitive Groups,1,Good,33,Good,0,Good,108,Unhealthy for Sensitive Groups
+1877,India,Naini Tal,123,Unhealthy for Sensitive Groups,2,Good,116,Unhealthy for Sensitive Groups,0,Good,123,Unhealthy for Sensitive Groups
+1878,Philippines,Cabanatuan,105,Unhealthy for Sensitive Groups,1,Good,30,Good,1,Good,105,Unhealthy for Sensitive Groups
+1879,Trinidad and Tobago,Marabella,148,Unhealthy for Sensitive Groups,1,Good,21,Good,4,Good,148,Unhealthy for Sensitive Groups
+1880,India,Shahkot,149,Unhealthy for Sensitive Groups,2,Good,137,Unhealthy for Sensitive Groups,1,Good,149,Unhealthy for Sensitive Groups
+1881,China,Anjiang,147,Unhealthy for Sensitive Groups,3,Good,147,Unhealthy for Sensitive Groups,1,Good,93,Moderate
+1882,Uzbekistan,Angren,120,Unhealthy for Sensitive Groups,1,Good,37,Good,0,Good,120,Unhealthy for Sensitive Groups
+1883,India,Batala,113,Unhealthy for Sensitive Groups,4,Good,111,Unhealthy for Sensitive Groups,4,Good,113,Unhealthy for Sensitive Groups
+1884,Mexico,Amecameca,137,Unhealthy for Sensitive Groups,2,Good,3,Good,14,Good,137,Unhealthy for Sensitive Groups
+1885,Indonesia,Karang Tengah,105,Unhealthy for Sensitive Groups,2,Good,59,Moderate,1,Good,105,Unhealthy for Sensitive Groups
+1886,India,Nandurbar,140,Unhealthy for Sensitive Groups,0,Good,29,Good,0,Good,140,Unhealthy for Sensitive Groups
+1887,United States of America,Colleyville,135,Unhealthy for Sensitive Groups,1,Good,22,Good,3,Good,135,Unhealthy for Sensitive Groups
+1888,India,Khambhat,119,Unhealthy for Sensitive Groups,1,Good,31,Good,2,Good,119,Unhealthy for Sensitive Groups
+1889,Senegal,Fatick,135,Unhealthy for Sensitive Groups,1,Good,28,Good,3,Good,135,Unhealthy for Sensitive Groups
+1890,Dominican Republic,Quisqueya,100,Unhealthy for Sensitive Groups,1,Good,18,Good,4,Good,100,Unhealthy for Sensitive Groups
+1891,China,Laiwu,140,Unhealthy for Sensitive Groups,2,Good,140,Unhealthy for Sensitive Groups,2,Good,81,Moderate
+1892,Tajikistan,Obigarm,136,Unhealthy for Sensitive Groups,1,Good,26,Good,0,Good,136,Unhealthy for Sensitive Groups
+1893,Brazil,Mateus Leme,124,Unhealthy for Sensitive Groups,4,Good,0,Good,11,Good,124,Unhealthy for Sensitive Groups
+1894,Brazil,Sapucaia,103,Unhealthy for Sensitive Groups,4,Good,7,Good,11,Good,103,Unhealthy for Sensitive Groups
+1895,Colombia,Sabanagrande,117,Unhealthy for Sensitive Groups,1,Good,16,Good,4,Good,117,Unhealthy for Sensitive Groups
+1896,Dominican Republic,La Mata,118,Unhealthy for Sensitive Groups,1,Good,31,Good,3,Good,118,Unhealthy for Sensitive Groups
+1897,India,Nandikotkur,109,Unhealthy for Sensitive Groups,2,Good,45,Good,3,Good,109,Unhealthy for Sensitive Groups
+1898,Venezuela (Bolivarian Republic of),Caucaguita,141,Unhealthy for Sensitive Groups,1,Good,12,Good,8,Good,141,Unhealthy for Sensitive Groups
+1899,Philippines,Tanay,120,Unhealthy for Sensitive Groups,2,Good,28,Good,6,Good,120,Unhealthy for Sensitive Groups
+1900,China,Fuxin,101,Unhealthy for Sensitive Groups,2,Good,101,Unhealthy for Sensitive Groups,1,Good,100,Unhealthy for Sensitive Groups
+1901,India,Noamundi,129,Unhealthy for Sensitive Groups,2,Good,40,Good,2,Good,129,Unhealthy for Sensitive Groups
+1902,India,Bilaspur,111,Unhealthy for Sensitive Groups,2,Good,110,Unhealthy for Sensitive Groups,0,Good,111,Unhealthy for Sensitive Groups
+1903,Iran (Islamic Republic of),Chalus,135,Unhealthy for Sensitive Groups,2,Good,39,Good,4,Good,135,Unhealthy for Sensitive Groups
+1904,United States of America,Millburn,103,Unhealthy for Sensitive Groups,3,Good,12,Good,27,Good,103,Unhealthy for Sensitive Groups
+1905,Kazakhstan,Zhanatas,113,Unhealthy for Sensitive Groups,1,Good,34,Good,0,Good,113,Unhealthy for Sensitive Groups
+1906,Israel,Kafar Manda,116,Unhealthy for Sensitive Groups,3,Good,41,Good,13,Good,116,Unhealthy for Sensitive Groups
+1907,Ethiopia,Dire Dawa,111,Unhealthy for Sensitive Groups,1,Good,23,Good,1,Good,111,Unhealthy for Sensitive Groups
+1908,Ghana,Akropong,110,Unhealthy for Sensitive Groups,3,Good,14,Good,2,Good,110,Unhealthy for Sensitive Groups
+1909,Greece,Farsala,106,Unhealthy for Sensitive Groups,1,Good,42,Good,0,Good,106,Unhealthy for Sensitive Groups
+1910,India,Paithan,120,Unhealthy for Sensitive Groups,1,Good,34,Good,0,Good,120,Unhealthy for Sensitive Groups
+1911,Indonesia,Bojonegoro,104,Unhealthy for Sensitive Groups,2,Good,49,Good,0,Good,104,Unhealthy for Sensitive Groups
+1912,United States of America,Weslaco,148,Unhealthy for Sensitive Groups,3,Good,15,Good,7,Good,148,Unhealthy for Sensitive Groups
+1913,India,Kannad,132,Unhealthy for Sensitive Groups,1,Good,34,Good,0,Good,132,Unhealthy for Sensitive Groups
+1914,Philippines,Iba,111,Unhealthy for Sensitive Groups,1,Good,24,Good,2,Good,111,Unhealthy for Sensitive Groups
+1915,Nigeria,Sapele,101,Unhealthy for Sensitive Groups,4,Good,21,Good,3,Good,101,Unhealthy for Sensitive Groups
+1916,India,Peddapalli,140,Unhealthy for Sensitive Groups,1,Good,38,Good,0,Good,140,Unhealthy for Sensitive Groups
+1917,India,Jagtial,139,Unhealthy for Sensitive Groups,1,Good,31,Good,0,Good,139,Unhealthy for Sensitive Groups
+1918,India,Ojhar,127,Unhealthy for Sensitive Groups,0,Good,27,Good,0,Good,127,Unhealthy for Sensitive Groups
+1919,China,Ningyang,138,Unhealthy for Sensitive Groups,3,Good,138,Unhealthy for Sensitive Groups,5,Good,82,Moderate
+1920,India,Rishikesh,131,Unhealthy for Sensitive Groups,2,Good,85,Moderate,0,Good,131,Unhealthy for Sensitive Groups
+1921,India,Umarkhed,110,Unhealthy for Sensitive Groups,1,Good,35,Good,0,Good,110,Unhealthy for Sensitive Groups
+1922,Brazil,Maua,147,Unhealthy for Sensitive Groups,4,Good,3,Good,16,Good,147,Unhealthy for Sensitive Groups
+1923,China,Yingzhong,131,Unhealthy for Sensitive Groups,3,Good,131,Unhealthy for Sensitive Groups,1,Good,90,Moderate
+1924,Nepal,Malangwa,111,Unhealthy for Sensitive Groups,3,Good,43,Good,3,Good,111,Unhealthy for Sensitive Groups
+1925,Israel,Beit Jann,100,Unhealthy for Sensitive Groups,3,Good,60,Moderate,7,Good,100,Unhealthy for Sensitive Groups
+1926,Pakistan,Quetta,125,Unhealthy for Sensitive Groups,0,Good,42,Good,0,Good,125,Unhealthy for Sensitive Groups
+1927,,Nagua,112,Unhealthy for Sensitive Groups,1,Good,39,Good,0,Good,112,Unhealthy for Sensitive Groups
+1928,South Africa,Mogwase,129,Unhealthy for Sensitive Groups,3,Good,41,Good,2,Good,129,Unhealthy for Sensitive Groups
+1929,,Puerto Plata,131,Unhealthy for Sensitive Groups,1,Good,18,Good,2,Good,131,Unhealthy for Sensitive Groups
+1930,El Salvador,San Salvador,107,Unhealthy for Sensitive Groups,3,Good,20,Good,10,Good,107,Unhealthy for Sensitive Groups
+1931,India,Shupiyan,107,Unhealthy for Sensitive Groups,1,Good,48,Good,0,Good,107,Unhealthy for Sensitive Groups
+1932,South Africa,Hoopstad,108,Unhealthy for Sensitive Groups,2,Good,21,Good,6,Good,108,Unhealthy for Sensitive Groups
+1933,Pakistan,Khairpur Nathan Shah,142,Unhealthy for Sensitive Groups,1,Good,35,Good,4,Good,142,Unhealthy for Sensitive Groups
+1934,Democratic Republic of the Congo,Goma,129,Unhealthy for Sensitive Groups,2,Good,24,Good,1,Good,129,Unhealthy for Sensitive Groups
+1935,Mexico,Cuautlancingo,122,Unhealthy for Sensitive Groups,2,Good,12,Good,7,Good,122,Unhealthy for Sensitive Groups
+1936,India,Dhule,139,Unhealthy for Sensitive Groups,0,Good,31,Good,0,Good,139,Unhealthy for Sensitive Groups
+1937,Angola,Caala,131,Unhealthy for Sensitive Groups,6,Good,27,Good,2,Good,131,Unhealthy for Sensitive Groups
+1938,Pakistan,Rawalpindi,129,Unhealthy for Sensitive Groups,2,Good,129,Unhealthy for Sensitive Groups,1,Good,92,Moderate
+1939,China,Songling,140,Unhealthy for Sensitive Groups,3,Good,97,Moderate,7,Good,140,Unhealthy for Sensitive Groups
+1940,Haiti,Jacmel,128,Unhealthy for Sensitive Groups,2,Good,14,Good,5,Good,128,Unhealthy for Sensitive Groups
+1941,Colombia,Galapa,149,Unhealthy for Sensitive Groups,2,Good,10,Good,6,Good,149,Unhealthy for Sensitive Groups
+1942,Mexico,Piedras Negras,104,Unhealthy for Sensitive Groups,1,Good,27,Good,3,Good,104,Unhealthy for Sensitive Groups
+1943,Nigeria,Effium,121,Unhealthy for Sensitive Groups,4,Good,26,Good,2,Good,121,Unhealthy for Sensitive Groups
+1944,Philippines,Quezon,113,Unhealthy for Sensitive Groups,1,Good,27,Good,2,Good,113,Unhealthy for Sensitive Groups
+1945,Pakistan,Kamra,135,Unhealthy for Sensitive Groups,2,Good,135,Unhealthy for Sensitive Groups,1,Good,86,Moderate
+1946,China,Matou,111,Unhealthy for Sensitive Groups,2,Good,42,Good,8,Good,111,Unhealthy for Sensitive Groups
+1947,Mongolia,Hovd,100,Unhealthy for Sensitive Groups,0,Good,34,Good,0,Good,100,Unhealthy for Sensitive Groups
+1948,Guatemala,Villa Canales,102,Unhealthy for Sensitive Groups,4,Good,5,Good,10,Good,102,Unhealthy for Sensitive Groups
+1949,United States of America,Montebello,125,Unhealthy for Sensitive Groups,4,Good,4,Good,36,Good,125,Unhealthy for Sensitive Groups
+1950,United States of America,Placentia,134,Unhealthy for Sensitive Groups,4,Good,16,Good,22,Good,134,Unhealthy for Sensitive Groups
+1951,India,Asansol,124,Unhealthy for Sensitive Groups,3,Good,124,Unhealthy for Sensitive Groups,1,Good,122,Unhealthy for Sensitive Groups
+1952,United States of America,Dobbs Ferry,110,Unhealthy for Sensitive Groups,4,Good,4,Good,35,Good,110,Unhealthy for Sensitive Groups
+1953,India,Banki,131,Unhealthy for Sensitive Groups,2,Good,47,Good,3,Good,131,Unhealthy for Sensitive Groups
+1954,Italy,Busca,131,Unhealthy for Sensitive Groups,1,Good,28,Good,2,Good,131,Unhealthy for Sensitive Groups
+1955,India,Shiliguri,132,Unhealthy for Sensitive Groups,4,Good,29,Good,6,Good,132,Unhealthy for Sensitive Groups
+1956,Colombia,Amaga,125,Unhealthy for Sensitive Groups,4,Good,0,Good,8,Good,125,Unhealthy for Sensitive Groups
+1957,Somalia,Qandala,120,Unhealthy for Sensitive Groups,0,Good,20,Good,0,Good,120,Unhealthy for Sensitive Groups
+1958,India,Nirmal,135,Unhealthy for Sensitive Groups,1,Good,39,Good,0,Good,135,Unhealthy for Sensitive Groups
+1959,Nigeria,Offa,106,Unhealthy for Sensitive Groups,4,Good,25,Good,2,Good,106,Unhealthy for Sensitive Groups
+1960,Pakistan,Chaman,134,Unhealthy for Sensitive Groups,0,Good,44,Good,0,Good,134,Unhealthy for Sensitive Groups
+1961,China,Kangshan,201,Very Unhealthy,3,Good,201,Very Unhealthy,4,Good,142,Unhealthy for Sensitive Groups
+1962,Mexico,Apan,224,Very Unhealthy,2,Good,8,Good,9,Good,224,Very Unhealthy
+1963,China,Chongqing,283,Very Unhealthy,19,Good,0,Good,58,Moderate,283,Very Unhealthy
+1964,South Africa,Midrand,211,Very Unhealthy,15,Good,12,Good,19,Good,211,Very Unhealthy
+1965,Iran (Islamic Republic of),Qom,214,Very Unhealthy,4,Good,214,Very Unhealthy,7,Good,175,Unhealthy
+1966,China,Peikang,201,Very Unhealthy,3,Good,201,Very Unhealthy,4,Good,130,Unhealthy for Sensitive Groups
+1967,Pakistan,Vihari,224,Very Unhealthy,5,Good,18,Good,19,Good,224,Very Unhealthy
+1968,China,Yangshe,207,Very Unhealthy,11,Good,3,Good,49,Good,207,Very Unhealthy
+1969,India,Seondha,222,Very Unhealthy,1,Good,62,Moderate,0,Good,222,Very Unhealthy
+1970,Pakistan,Toba Tek Singh,295,Very Unhealthy,1,Good,55,Moderate,1,Good,295,Very Unhealthy
+1971,Mexico,Coatlinchan,222,Very Unhealthy,4,Good,3,Good,20,Good,222,Very Unhealthy
+1972,India,Araria,208,Very Unhealthy,2,Good,98,Moderate,1,Good,208,Very Unhealthy
+1973,Indonesia,Rangkasbitung,225,Very Unhealthy,11,Good,9,Good,63,Moderate,225,Very Unhealthy
+1974,China,Xianyang,202,Very Unhealthy,4,Good,202,Very Unhealthy,5,Good,132,Unhealthy for Sensitive Groups
+1975,India,Phulpur,226,Very Unhealthy,1,Good,48,Good,1,Good,226,Very Unhealthy
+1976,India,Kopaganj,224,Very Unhealthy,3,Good,138,Unhealthy for Sensitive Groups,2,Good,224,Very Unhealthy
+1977,India,Sikar,242,Very Unhealthy,2,Good,32,Good,6,Good,242,Very Unhealthy
+1978,China,Talin,202,Very Unhealthy,3,Good,202,Very Unhealthy,6,Good,143,Unhealthy for Sensitive Groups
+1979,India,Maksi,205,Very Unhealthy,2,Good,31,Good,3,Good,205,Very Unhealthy
+1980,Brazil,Duque De Caxias,268,Very Unhealthy,12,Good,9,Good,37,Good,268,Very Unhealthy
+1981,China,Nanlong,257,Very Unhealthy,16,Good,4,Good,47,Good,257,Very Unhealthy
+1982,South Africa,Brits,212,Very Unhealthy,14,Good,21,Good,17,Good,212,Very Unhealthy
+1983,Nepal,Kalaiya,229,Very Unhealthy,3,Good,132,Unhealthy for Sensitive Groups,0,Good,229,Very Unhealthy
+1984,Malaysia,Miri,209,Very Unhealthy,67,Moderate,209,Very Unhealthy,2,Good,157,Unhealthy
+1985,India,Kamalganj,360,Hazardous,1,Good,49,Good,1,Good,301,Hazardous
+1986,Chile,Lampa,358,Hazardous,28,Good,0,Good,36,Good,358,Hazardous
+1987,India,Khatauli,500,Hazardous,2,Good,140,Unhealthy for Sensitive Groups,3,Good,442,Hazardous
+1988,Pakistan,Hasan Abdal,472,Hazardous,1,Good,46,Good,0,Good,374,Hazardous
+1989,India,Kot Putli,323,Hazardous,1,Good,39,Good,0,Good,298,Very Unhealthy
+1990,India,Kandhla,500,Hazardous,3,Good,53,Moderate,8,Good,500,Hazardous
+1991,India,Gunnaur,500,Hazardous,1,Good,73,Moderate,1,Good,500,Hazardous
+1992,India,Nangloi Jat,334,Hazardous,3,Good,113,Unhealthy for Sensitive Groups,3,Good,326,Hazardous
+1993,India,Dhuri,500,Hazardous,1,Good,50,Good,1,Good,471,Hazardous
+1994,India,Khairabad,500,Hazardous,1,Good,56,Moderate,1,Good,403,Hazardous
+1995,India,Nagar,310,Hazardous,1,Good,46,Good,0,Good,310,Hazardous
+1996,India,Palia Kalan,500,Hazardous,2,Good,152,Unhealthy,1,Good,456,Hazardous
+1997,India,Mahendragarh,500,Hazardous,1,Good,42,Good,0,Good,435,Hazardous
+1998,Pakistan,Yazman,500,Hazardous,1,Good,43,Good,0,Good,428,Hazardous
+1999,India,Puranpur,500,Hazardous,2,Good,128,Unhealthy for Sensitive Groups,1,Good,481,Hazardous
+2000,India,Bawana,305,Hazardous,3,Good,120,Unhealthy for Sensitive Groups,3,Good,305,Hazardous

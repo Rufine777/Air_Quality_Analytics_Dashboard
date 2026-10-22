@@ -22,7 +22,21 @@ st.divider()
 
 st.header("Modules")
 
-col1, col2 = st.columns(2)
+col3, col1 = st.columns(2)
+col2, col4 = st.columns(2)
+
+with col3:
+    with st.container(border=True):
+        st.subheader("📊 Page 1: Pollutant Readings")
+        st.markdown(
+            """
+            * **Owner:** Aadith Anil
+            * **Dataset:** ~2,000-row stratified sample of the Global Air Pollution dataset measuring AQI, CO, Ozone, NO2, and PM2.5.
+            * **Focus:** Country/city-level pollutant concentration tracking and AQI classifications.
+            * **Features:** Full CRUD operations, 2 Plotly visualizations, summary statistics, and exportable reports.
+            """
+        )
+        st.page_link("pages/page1.py", label="Open Pollutant Readings Dashboard", icon="📊")
 
 with col1:
     with st.container(border=True):
@@ -46,17 +60,6 @@ with col2:
         )
         st.page_link("pages/page3.py", label="Open dashboard")
 
-col3, col4 = st.columns(2)
-
-with col3:
-    with st.container(border=True):
-        st.subheader("Pollutant Readings")
-        st.markdown(
-            "**Owner:** Aadith Anil  \n"
-            "**Status:** In progress  \n"
-            "**Dataset:** Global Air Pollution dataset (AQI, CO, Ozone, NO2, PM2.5).  \n"
-            "**Focus:** City-level pollutant concentration tracking and AQI classification."
-        )
 
 with col4:
     with st.container(border=True):
